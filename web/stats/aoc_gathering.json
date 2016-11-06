@@ -1,0 +1,154 @@
+{
+	"data": [
+		{
+			"type": "Food",
+			"source": "Foraging",
+			"speed": "0.310 F/s",
+			"note": "Forage bushes are usually used at the game as second or third food option, before farms. Very often a Mill is build close to it, fastening the gathering. However, bushes are very vulnerable to overcrowding, decreasing the productivity."
+		},
+		{
+			"type": "Food",
+			"source": "Sheep/Turkey/Cow",
+			"speed": "0.330 F/s",
+			"note": "Sheeps (or turkeys if you're playing on a mesoamerican map) have a interesting attribute: they can be positioned underneath the Town Center, nullifying the walk time. Usually only two sheeps are placed in the Town Center per time (yes, this requires some micromanagement and experience). Probably, the only downside is that you have to search for them."
+		}, 
+		{
+			"type": "Food",
+			"source": "Sheep/Turkey/Cow with Britons",
+			"speed": "0.408 F/s",
+			"note": "Sheep are specially important for Britons. Finding about 12-14 sheep on land nomad can be enough for them to very quickly reach the Castle Age."
+		},
+		{
+			"type": "Food",
+			"source": "Farming",
+			"speed": "0.310 F/s",
+			"note": "The real farming speed also depends on the walking distance and villager speed and carrying capacity (wheelbarrow and handcart). They require wood and a mill. Also, farms can be upgraded with the Horse Collar, Heavy Plow and Crop Rotation, to increase a maximum amount of food. A player needs to have caution when <a href=\"http://www.cysion.be/aocbox/?p=1318\">placing</a> them to have the optimal results!"
+		},
+		{
+			"type": "Food",
+			"source": "Farming with Mayans",
+			"speed": "0.304 F/s",
+			"note": "Mayan eco bonus works against them. \"Mayan farmers effectively work 15% slower, however, because a lot of the farming is actually 'running around on the farm', the real effect is roughly 5% slower.\"(cysion)<br /> \"Unupgraded farmers: Mayans 1228 F, Mongols 1242, 1246 (two tests for mongs). With only wheelbarrow: Mayans 1355, Celts 1426 With handcart and heavy plow: Mayans 1535 Byz 1586. So, tests indicate (from this position), Mayans work<br />1 - 1.5% slower unupgraded<br /> 5% slower with wheel<br />3% slower with handcart + heavy plow\"(John Mendl)"
+		},
+		{
+			"type": "Food",
+			"source": "Farming with Aztecs",
+			"speed": "0.358 F/s",
+			"note": "This is based on Spirit of the Law's test (<a href='https://www.youtube.com/watch?v=GRutI6IMjkY'>link</a>). This speed improvement probably due to the +5 carrying capacity. After research wheelbarrow this value goes up to 0.389 F/s."
+		},
+		{
+			"type": "Food",
+			"source": "Boars",
+			"speed": "0.41 F/s",
+			"note": "These animals fight back when attacked, althought they rush the villagers who shot at them blindly. This way they can be lured to the Town Center to nullify the walking time, pretty much like sheeps, except that you cannot actively control them. Most random maps have 2 of them close to your city, which are very useful. Usually the Loom technology is researched prior to hunting them, to decrease the risk of losing a precious villager that early in the game. (Althought there are some players that to do this without Loom)."
+		},
+		{
+			"type": "Food",
+			"source": "Boars with Mongols",
+			"speed": "0.610 F/s",
+			"note": ""
+		},
+		{
+			"type": "Food",
+			"source": "Deer",
+			"speed": "0.41 F/s",
+			"note": "Deer, unlike Boars, flee when attacked, or when a unit comes near them. Because of this attribute, it's quite difficult to lure them closer to the Town Center, althought a Scout can do the trick. But, usually, players build a Mill close to the pocket. There are usually 2 pockets of Deer per player in a random game"
+		},
+		{
+			"type": "Food",
+			"source": "Deer with Mongols",
+			"speed": "0.610 F/s",
+			"note": ""
+		},
+		{
+			"type": "Food",
+			"source": "Fishing with villagers",
+			"speed": "0.43 F/s",
+			"note": "The type of fish (deep or shore) makes no difference in speed. Fishing shore fish with villagers is faster than with Fishing Ships, but has the obvious disadvantage of only being able to fish near the shore. Also, before the researching of wheelbarrow they can't carry more than 10, whilst ships can carry 15 units. Also, they usually require a mill nearby, because the Town Center is usually far away."
+		},
+		{
+			"type": "Food",
+			"source": "Fishing deep fish",
+			"speed": "0.49 F/s",
+			"note": "Ship fishing is a good alternate in maps that has lakes and seas. Sea economy expand very quickly, when compared to villager based economies. They can expand even in Dark Age, whilst villager economies show great expansion only at the Castle Age beyond."
+		},
+		{
+			"type": "Food",
+			"source": "Fishing deep fish with japanese",
+			"speed": "0.514 - 0.588 F/s",
+			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial. These correspond to 0.514 F/s in Dark age, 0.539 F/s in Feudal Age, 0.564 F/s in Castle age and 0.588 F/s in Imperial Age. Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
+		},
+		{
+			"type": "Food",
+			"source": "Fishing shore fish",
+			"speed": "0.280 F/s",
+			"note": "Fishing shore fish with fishing ships should be avoided and only using it if deep fish is very far."
+		},
+		{
+			"type": "Food",
+			"source": "Fishing shore fish with japanese",
+			"speed": "0.294 - 0.336 F/s",
+			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial. These correspond to 0.294 F/s in Dark age, 0.308 F/s in Feudal Age, 0.322 F/s in Castle age and 0.336 F/s in Imperial Age. Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
+		},
+		{
+			"type": "Food",
+			"source": "Fish traps",
+			"speed": "0.206 F/s",
+			"note": "Rarely used, usually only when fish has run out. Gives quite good wood to food ratio"
+		},
+		{
+			"type": "Food",
+			"source": "Fish traps with japanese",
+			"speed": "0.216 - 0.247 F/s",
+			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial. These correspond to 0.216 F/s in Dark age, 0.227 F/s in Feudal Age, 0.236 F/s in Castle age and 0.247 F/s in Imperial Age. Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
+		},
+		{
+			"type": "Wood",
+			"source": "Chopping",
+			"speed": "0.388 W/s",
+			"note": "Wood is harvested from trees. Obviously, not every forest is close to a Town Center, so a Lumber Mill (or another Town Center) is an almost obligatory requisite for an efficient wood gathering. Wood harvesting can be upgraded up to three times with the Double Bit Axe, Bow Saw and Two Man Saw upgrades."
+		},
+		{
+			"type": "Wood",
+			"source": "Chopping with Celts",
+			"speed": "0.444 W/s",
+			"note": "Celtic lumberjacks start with a 15% bonus efficiency."
+		},
+		{
+			"type": "Gold",
+			"source": "Mining",
+			"speed": "0.379 G/s",
+			"note": "Gold is possibly the most important resource in the game, because without gold, only three military units types are available (Spear line, Skirmisher line and Scout line, which are cheerfully called as 'trash'). Gold mining is the primary gold source; and the initial mine clump, has seven mines. Relics can be found in the map, and each grant a permanent trinkle of gold."
+		},
+		{
+			"type": "Gold",
+			"source": "Mining with Turks",
+			"speed": "0.435 G/s",
+			"note": "Turks get 15 % gold mining bonus (gold mining work rate x 1.15)"
+		},
+		{
+			"type": "Gold",
+			"source": "Relic",
+			"speed": "0.5 G/s",
+			"note": "Relics generate 1 gold every 2 seconds"
+		},
+		{
+			"type": "Gold",
+			"source": "Relic with Aztecs",
+			"speed": "0.67 G/s",
+			"note": "Aztecs get a 33% gold generation bonus."
+		},
+		{
+			"type": "Stone",
+			"source": "Mining",
+			"speed": "0.359 S/s",
+			"note": "Stone can only be harvested from stone mines. It also has the highest place in the market. Stone isn't used for units, but some technologies require it. It's greatest use is obviously for creating buildings. Town Centers, Outposts, Castles, Towers, Walls, Gates and Wonders all require large amounts of stone. Its mining rate can be upgraded with Stone Mining and Stone Shaft Mining."
+		},
+		{
+			"type": "Stone",
+			"source": "Mining with Koreans",
+			"speed": "0.431 S/s",
+			"note": "Korean stone miners get a 20% work rate bonus (1.2 x work rate)"
+		}
+	]
+}

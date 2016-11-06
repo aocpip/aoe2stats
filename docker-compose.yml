@@ -1,0 +1,22 @@
+version: '2'
+services: 
+    nginx: 
+        build: ./nginx
+        ports: 
+            - "80:80"
+        volumes:
+            - ./web:/src
+        links:
+            - fpm
+    fpm:
+        image: php:fpm
+        volumes:
+            - ./web:/src
+    dev:
+        build: .
+        volumes:
+            - ./web:/src
+            - /src/node_modules
+
+        
+        
