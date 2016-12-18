@@ -92,15 +92,15 @@
 		},
 		{
 			"type": "Food",
-			"source": "Fish traps",
-			"speed": "0.206 F/s",
-			"note": "Rarely used, usually only when fish has run out. Gives quite good wood to food ratio"
+			"source": "Fish traps with japanese",
+			"speed": "0.325 - 0.365 F/s",
+			"note": "Usually used fish has run out. Gives quite good wood to food ratio. Japanese get faster fishing ship by 5% in each age. Experimental results - 0.325 F/s in Dark, 0.338 F/s in Feudal, 0.351 F/s in Castle and 0.365 F/s in Imperial age. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>."
 		},
 		{
 			"type": "Food",
-			"source": "Fish traps with japanese",
-			"speed": "0.216 - 0.247 F/s",
-			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial. These correspond to 0.216 F/s in Dark age, 0.227 F/s in Feudal Age, 0.236 F/s in Castle age and 0.247 F/s in Imperial Age. Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
+			"source": "Fish traps",
+			"speed": "0.311 F/s",
+			"note": "Usually used fish has run out. Gives quite good wood to food ratio. In realistic tests 0.311. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>."
 		},
 		{
 			"type": "Wood",

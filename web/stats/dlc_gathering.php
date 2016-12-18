@@ -4,12 +4,12 @@ $changes_json = <<<JSON
 {
 	 "Fish traps with japanese": {
 			"speed": "0.325 - 0.365 F/s",
-			"note": "Usually used fish has run out. Gives quite good wood to food ratio. In forgotten the work rate was increased from 0.75 -> 1.25. So theoretically that would mean if it's directly proportional to the old value 1.25*0.206/0.75 = 0.343 F/s. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>. Japanese get faster fishing ship by 5% in each age. Experimental results - 0.325 F/s in Dark, 0.338 F/s in Feudal, 0.351 F/s in Castle and 0.365 F/s in Imperial age."
+			"note": "Usually used fish has run out. Gives quite good wood to food ratio. Japanese get faster fishing ship by 5% in each age. Experimental results - 0.325 F/s in Dark, 0.338 F/s in Feudal, 0.351 F/s in Castle and 0.365 F/s in Imperial age. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>. The new \"Gillnets\" technology in Castle Age increases this by 25%."
 		},
 	 "Fish traps": {
 		"speed": "0.311 F/s",
-		"note": "Usually used fish has run out. Gives quite good wood to food ratio. In forgotten the work rate was increased from 0.75 -> 1.25. So theoretically that would mean if it's directly proportional to the old value 1.25*0.206/0.75 = 0.343 F/s. In realistic tests 0.311. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>."
-	},
+		"note": "Usually used fish has run out. Gives quite good wood to food ratio. In realistic tests 0.311. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>. The new \"Gillnets\" technology in Castle Age increases this by 25%."
+		},
 	"Sheep/Turkey/Cow": {
 			"source": "Livestock",
 			"note": "Includes sheep, turkey, cow and goat. Livestock have a interesting attribute: they can be positioned underneath the Town Center, nullifying the walk time. Usually only two livestock are placed in the Town Center per time (yes, this requires some micromanagement and experience). Probably, the only downside is that you have to search for them."
@@ -68,7 +68,7 @@ $new_gather_json = <<<JSON
 		"type": "Food",
 		"source": "Farming with berbers",
 		"speed": "0.315 F/s",
-		"note": "This was test by Spirit of the Law (<a href='https://www.youtube.com/watch?v=GRutI6IMjkY'>link</a>). Berbers get only a slight improvement 1-3% on farming, so their faster walking villagers doesn't affect the farming speed much."
+		"note": "This was tested by Spirit of the Law (<a href='https://www.youtube.com/watch?v=GRutI6IMjkY'>link</a>). Berbers get only a slight improvement 1-3% on farming, so their faster walking villagers doesn't affect the farming speed much."
 	}
 ]
 JSON;
