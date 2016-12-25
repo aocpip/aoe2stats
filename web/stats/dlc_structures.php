@@ -342,9 +342,9 @@ $new_structures_json = <<<JSON
       "los": "20",
       "hp": "2200",
       "ra": "7",
-      "at": "6",
+      "at": "6/arrow",
       "ar": "3/10",
-      "GA": "Malay unique tech. Fires arrows. LOS actually 10, but thanks to malay bonus it's 20. +9 attack vs ships. Also classified as stone defense.",
+      "GA": "Malay unique tech. Fires arrows. LOS actually 10, but thanks to malay bonus it's 20. +9 attack vs ships. Also classified as stone defense. 4 arrows, 10 arrows maximum",
       "civb": {},
       "t" : "stone defense"
     }
