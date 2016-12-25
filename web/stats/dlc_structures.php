@@ -29,14 +29,16 @@ $changes_json = <<<JSON
 	"Dock": {
 		"civb": {
 			"Vikings and allies": "Cost 128W (-15% cost)",
-			"Malians": "Cost 128W (-15% bonus)"
+			"Malians": "Cost 128W (-15% bonus)",
+			"Malays and allies": "2x LOS"
 		}
 	},
 	"House": {
 		"cost": "25W",
 		"civb": {
 			"Incas": "Support 10 population",
-			"Malians": "Cost 21W (-15% bonus)"
+			"Malians": "Cost 21W (-15% bonus)",
+			"Khmer": "Villagers can be garrisoned inside"
 		}
 	},
 
@@ -239,7 +241,8 @@ $changes_json = <<<JSON
 	"Fish Trap": {
 		"bt": "0:40",
 		"civb": {
-			"Malians": "Cost 85W (-15% bonus)"
+			"Malians": "Cost 85W (-15% bonus)",
+      		"Malay": "Cost 67W (-33% cheaper) and provide unlimited food (7e13)"
 		}
 	}
 }
@@ -327,6 +330,23 @@ $new_structures_json = <<<JSON
       "GA": "Takes 20 population<br />Generates 0.7W 0.7F 0.45G 0.45S per second",
       "civb": {},
       "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Harbor",
+      "ver": "r",
+      "age": "2",
+      "cost": "150W",
+      "bt": "0:35",
+      "fr": "2.5",
+      "los": "20",
+      "hp": "2200",
+      "ra": "7",
+      "at": "6",
+      "ar": "3/10",
+      "GA": "Malay unique tech. Fires arrows. LOS actually 10, but thanks to malay bonus it's 20. +9 attack vs ships. Also classified as stone defense.",
+      "civb": {},
+      "t" : "stone defense"
     }
 ]
 JSON;

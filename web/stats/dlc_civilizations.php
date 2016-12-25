@@ -180,6 +180,46 @@ $new_civs_json = <<<JSON
 		"tb": "Genitour available in Archery Range",
 		"bs": "<ul> <li>Villagers movement speed *1.1 (10% faster)</li> <li>Ships movement speed *1.1 (10% faster)</li> <li>Stable units cost *0.8 (20% cheaper) starting Castle Age</li></ul>",
 		"tt": "berbers"
+	},
+	{
+		"name": "Burmese",
+		"ver": "a", 
+		"ct": "Monk and Elephant",
+		"uu": "Arambai",
+		"ut": "Howday(Castle),<br /> Manipur Cavalry(Imperial)",
+		"tb": "Genitour available in Archery Range",
+		"bs": "<ul> <li>Free Lumbercamp upgrades</li> <li>Infantry +1 attack per Age</li> <li>Monastery techs cost *0.5 (50% cheaper)</li></ul>",
+		"tt": "burmese"
+	},
+	{
+		"name": "Khmer",
+		"ver": "a", 
+		"ct": "Siege and Elephant",
+		"uu": "Ballista Elephant",
+		"ut": "Tusk Swords(Castle),<br /> Double Crossbow(Imperial)",
+		"tb": "Scorpions +1 range",
+		"bs": "<ul> <li>No buildings required to advance through Ages or unlock other buildings</li> <li>Battle Elephants speed *1.15 (15% faster)</li> <li>Villagers can garrison in Houses</li></ul>",
+		"tt": "khmer"
+	},
+	{
+		"name": "Malay",
+		"ver": "a", 
+		"ct": "Naval",
+		"uu": "Karambit Warrior",
+		"ut": "Thalassocracy(Castle),<br /> Forced Levy(Imperial)",
+		"tb": "Docks 2x LOS",
+		"bs": "<ul> <li>Advancing to ages 2x faster</li> <li>Fishing Ships and Fish Traps cost *0.667</li> <li>Fish Traps provide unlimited food (7e+13)</li> <li>Battle Elephants cost *0.8 (20% cheaper)</li></ul>",
+		"tt": "malay"
+	},
+	{
+		"name": "Vietnamese",
+		"ver": "a", 
+		"ct": "Archer",
+		"uu": "Rattan Archer, Imperial Skirmisher(archery range)",
+		"ut": "Chatras(Castle),<br /> Paper Money(Imperial)",
+		"tb": "Access to Imperial Skirmisher update",
+		"bs": "<ul> <li>Reveal enemy positions at game start</li> <li>Archery Range units +10% HP in Feudal, +15% in Castle, +20% in Imperial Age</li> <li>Free Conscription</li></ul>",
+		"tt": "vietnamese"
 	}
 ]
 JSON;

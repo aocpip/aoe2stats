@@ -65,7 +65,8 @@ $changes_json = <<<JSON
 			"attack bonus": "+1 eagles, +1 buildings, +15 war elephants, +15 cavalry, +9 camels, +9 vs ships"
 		},
     "civb": {
-      "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)"
+      "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)",
+      "Burmese": "+1 AT/Age"
     }
 	},
 	"Pikeman": {
@@ -73,7 +74,8 @@ $changes_json = <<<JSON
 			"attack bonus": "+1 eagles, +1 buildings, +25 war elephants, +22 cavalry, +16 camels, +16 ships"
 		},
     "civb": {
-      "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)"
+      "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)",
+      "Burmese": "+1 AT/Age"
     }
 	},
 	"Halberdier": {
@@ -81,13 +83,15 @@ $changes_json = <<<JSON
 			"attack bonus": "+1 eagles, +1 buildings, +28 war elephants, +32 cavalry, +17 camels, +17 vs ships"
 		},
     "civb": {
-      "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)"
+      "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)",
+      "Burmese": "+1 AT/Age"
     }
 	},
   "Militia": {
     "civb": {
       "Portuguese": "Cost 60F 17G (-15% gold cost)",
-      "Malians": "+1 PA/age -> (2 in Feudal, 3 in Castle and 4 in Imperial Age)"
+      "Malians": "+1 PA/age -> (2 in Feudal, 3 in Castle and 4 in Imperial Age)",
+      "Burmese": "+1 AT/Age"
     }
   },
 	"Man-at-arms": {
@@ -96,7 +100,8 @@ $changes_json = <<<JSON
 		},
     "civb": {
       "Portuguese": "Cost 60F 17G (-15% gold cost)",
-      "Malians": "+1 PA/age -> (2 in Feudal, 3 in Castle and 4 in Imperial Age)"
+      "Malians": "+1 PA/age -> (2 in Feudal, 3 in Castle and 4 in Imperial Age)",
+      "Burmese": "+1 AT/Age"
     }
 	},
 	"Long Swordsman": {
@@ -104,7 +109,8 @@ $changes_json = <<<JSON
 		"civb": {
 			"Vikings": "69 HP in Castle, 72 HP in Imperial Age",
       "Portuguese": "Cost 60F 17G (-15% gold cost)",
-      "Malians": "+1 PA/age -> (3 in Castle and 4 in Imperial Age)"
+      "Malians": "+1 PA/age -> (3 in Castle and 4 in Imperial Age)",
+      "Burmese": "+1 AT/Age"
 		},
 		"extra": {
 			"attack bonus": "+6 eagles, +3 buildings"
@@ -117,7 +123,8 @@ $changes_json = <<<JSON
 		},
     "civb": {
       "Portuguese": "Cost 60F 17G (-15% gold cost)",
-      "Malians": "+1 PA/age -> (4 in Imperial Age)"
+      "Malians": "+1 PA/age -> (4 in Imperial Age)",
+      "Burmese": "+1 AT/Age"
     }
 	},
 	"Champion": {
@@ -126,28 +133,32 @@ $changes_json = <<<JSON
 		},
     "civb": {
       "Portuguese": "Cost 60F 17G (-15% gold cost)",
-      "Malians": "+1 PA/age -> (4 in Imperial Age)"
+      "Malians": "+1 PA/age -> (4 in Imperial Age)",
+      "Burmese": "+1 AT/Age"
     }
 	},
   "Archer": {
     "civb": {
       "Magyars and allies": "+2 LOS",
       "Portuguese": "Cost 25W 38G (-15% gold cost)",
-      "Ethiopians": "1.7 RT (15% faster)"
+      "Ethiopians": "1.7 RT (15% faster)",
+      "Vietnamese": "33 HP in Feudal (10%), 35 HP in Castle (15%) and 36 HP in Imperial Age (20%)"  
     }
   },
   "Crossbowman": {
     "civb": {
       "Magyars and allies": "+2 LOS",
       "Portuguese": "Cost 25W 38G (-15% gold cost)",
-      "Ethiopians": "1.7 RT (15% faster)"
+      "Ethiopians": "1.7 RT (15% faster)",
+      "Vietnamese": "40 HP in Castle (15%) and 42 HP in Imperial Age (20%)"
     }
   },
   "Arbalest": {
     "civb": {
       "Magyars and allies": "+2 LOS",
       "Portuguese": "Cost 25W 38G (-15% gold cost)",
-      "Ethiopians": "1.7 RT (15% faster)"
+      "Ethiopians": "1.7 RT (15% faster)",
+      "Vietnamese": "48 HP in Imperial Age (20%)"
     }
   },
 	"Cavalry Archer": {
@@ -155,14 +166,16 @@ $changes_json = <<<JSON
 		"civb": {
 			"Huns": "Costs 36W 54G in Castle age (-10% bonus), 32W 48G in Imperial(-20% bonus)",
       "Portuguese": "Cost 40W 48G (-15% gold cost)",
-      "Franks": "60 HP (+20%)"
+      "Franks": "60 HP (+20%)",
+      "Vietnamese": "58 HP in Castle (15%) and 60 HP in Imperial Age (20%)"
 		}
 	},
 	"Heavy Cavalry Archer": {
 		"cost": "40W 60G",
 		"civb": {
 			"Huns": "32W 48G in Imperial(-20% bonus)",
-      "Franks": "72 HP (+20%)"
+      "Franks": "72 HP (+20%)",
+      "Vietnamese": "72 HP in Imperial Age (20%)"
 		}
 	},
   "Knight": {
@@ -252,12 +265,14 @@ $changes_json = <<<JSON
       "ar": "0/7",
 		"civb": {
 			"Slavs": "Cost 64W 64G (-15% bonus)",
-      "Portuguese": "Cost 75W 64G (-15% gold cost)"
+      "Portuguese": "Cost 75W 64G (-15% gold cost)",
+      "Khmer ally": "+1 range = 2-9 RA" 
 		}
 	},
 	"Heavy Scorpion": {
 		"civb": {
-			"Slavs": "Cost 64W 64G (-15% bonus)"
+			"Slavs": "Cost 64W 64G (-15% bonus)",
+      "Khmer ally": "+1 range = 2-9 RA"
 		}
 	},
 	"Petard": {
@@ -452,14 +467,16 @@ $changes_json = <<<JSON
 			"Indians": "Cost 45F in Dark, 43F in Feudal, 40F in Castle, 38F in Imperial Age; <br />fishermen work 15% faster carry +15",
 			"Magyars": "Kill wolves in one strike",
 			"Slavs": "Farmers work 15% faster",
-      "Berbers": "0.88 base movement rate (MR), 0.97 MR with wheelbarrow, 1.07 MR with handcart"
+      "Berbers": "0.88 base movement rate (MR), 0.97 MR with wheelbarrow, 1.07 MR with handcart",
+      "Khmer": "Can be garrisoned in Houses"
 		}
 	},
 	"Fishing Ship": {
 		"civb": {
 			"Italians": "+2 LOS",
       "Berbers": "1.386 movement rate (10% faster)",
-      "Portuguese": "66 HP (10% bonus)"
+      "Portuguese": "66 HP (10% bonus)",
+      "Malay": "Cost 50W (-33% cheaper)"
 		}
 	},
 	"Hand Cannoneer": {
@@ -1445,8 +1462,8 @@ $new_units_json = <<<JSON
       },
       "civb": {
         "Aztec with Berber ally": "0:19.55 BT (15% bonus)",
-        "Britons and Berber allies": "0:19.17 BT (1.2* archery range work rate -> 25/1.2)",
-        "Aztec with Briton and Berber ally": "0:16.3 BT (25*0.85/1.2)",
+        "Britons and Berber allies": "0:19.17 BT (1.2* archery range work rate -> 23/1.2)",
+        "Aztec with Briton and Berber ally": "0:16.3 BT (23*0.85/1.2)",
         "Byzantine with Berber ally": "Genitour classified as cavalry archer, not as skirm, so no bonus",
         "Mongols with Berber ally": "RT 2.4 (-20% reload time)",
         "Huns with Berber ally": "Costs 28W 40F in Imperial(-20% bonus)"
@@ -1501,7 +1518,90 @@ $new_units_json = <<<JSON
         },
       "note": "Available to huns after researching Marauders unique tech.",
       "t": "tarkan tarkan1 cavalry melee"
-    }
+    },
+    {
+      "type": "Archery Range",
+      "name": "Imperial Skirmisher",
+      "ver": "r",
+      "age": "3",
+      "cost": "35W 25F",
+      "bt": "0:22",
+      "fr": "3",
+      "ad": "0.1",
+      "mr": "0.96",
+      "los": "7",
+      "hp": "35",
+      "ra": "1-5",
+      "at": "3",
+      "ar": "0/4",
+      "extra": {
+        "attack bonus": "+4 archers/hand cannon/skirms, +2 vs cavalry archers, +3 vs spearman",
+        "accuracy": "90%"
+      },
+      "civb": {
+        "Aztec with Vietnamese ally": "0:18.7 BT (15% bonus)",
+        "Britons and Vietnamese allies": "0:18.34 BT (1.2* archery range work rate -> 22/1.2)",
+        "Aztec with Briton and Vietnamese ally": "0:15.6 BT (22*0.85/1.2)",
+        "Byzantine with Vietnamese ally": "Cost -25% = 26W 19F",
+        "Saracens and Vietnamese allies": "+2 attack against buildings",
+        "Vietnamese": "42 HP (+20% bonus)"
+      },
+      "note": "Vietnamese team bonus unique unit. Stronger than Elite Skirmisher.",
+      "t": "skirm sk2 archery pierce"
+    },
+    {
+      "type": "Stable",
+      "name": "Battle Elephant",
+      "ver": "r",
+      "age": "2",
+      "cost": "120F 70G",
+      "bt": "0:28",
+      "fr": "2",
+      "ad": "0",
+      "mr": "0.85",
+      "los": "4",
+      "hp": "250",
+      "ra": "-",
+      "at": "12",
+      "ar": "1/2",
+      "extra": {
+        "attack bonus": "+7 all buildings, +7 stone defense",
+        "blast radius": "0.5"
+      },
+      "civb": {
+        "Khmer": "MR*1.15 = 0.92 (15% faster)",
+        "Malay": "Cost * 0.8 = 96F 56G (20% cheaper)"
+      },
+      "note": "Slow and heavy cavalry. Classified as cavalry and all bonuses applied against war elephants apply against them as well.",
+      "t": "baele0 war elephant cavalry melee"
+   },
+    {
+      "type": "Stable",
+      "name": "Elite Battle Elephant",
+      "ver": "r",
+      "age": "2",
+      "cost": "120F 70G",
+      "bt": "0:28",
+      "fr": "2",
+      "ad": "0",
+      "mr": "0.85",
+      "los": "5",
+      "hp": "300",
+      "ra": "-",
+      "at": "16",
+      "ar": "1/3",
+      "extra": {
+        "attack bonus": "+10 all buildings, +10 stone defense",
+        "search radius": "4",
+        "blast radius": "0.5"
+      },
+      "civb": {
+        "Khmer": "MR*1.15 = 0.92 (15% faster)",
+        "Malay": "Cost * 0.8 = 96F 56G (20% cheaper)"
+      },
+      "note": "Stronger than Battle Elephant. Classified as cavalry and all bonuses applied against war elephants apply against them as well.",
+      "t": "baele1 war elephant cavalry melee"
+   }
 ]
 JSON;
 

@@ -56,7 +56,10 @@ $changes_json = <<<JSON
 		}
 	},
 	"Fervor": {
-		"for": "+15% bonus for monks (fixed from old AoC, where only monks carrying relics were affected)"
+		"for": "+15% bonus for monks (fixed from old AoC, where only monks carrying relics were affected)",
+		"civb": {
+			"Burmese": "Cost *0.5 = 70G"
+		}
 	},
 	"Murder Holes": {
 		"cost": "200F 100S",
@@ -85,19 +88,25 @@ $changes_json = <<<JSON
 	"Feudal Age": {
 		"civb": {
 			"Italians": "Cost 425F",
-      		"Ethiopians": "Receive 100F 100G when finished"
+      		"Ethiopians": "Receive 100F 100G when finished",
+			"Khmer": "No buildings required to advance",
+			"Malay": "1:05 BT (2x faster)"
 		}
 	},
 	"Castle Age": {
 		"civb": {
 			"Italians": "Cost 680F 170G",
-      		"Ethiopians": "Receive 100F 100G when finished"
+      		"Ethiopians": "Receive 100F 100G when finished",
+			"Khmer": "No buildings required to advance",
+			"Malay": "1:20 BT (2x faster)"
 		}
 	},
 	"Imperial Age": {
 		"civb": {
 			"Italians": "Cost 850F 720G",
-      		"Ethiopians": "Receive 100F 100G when finished"
+      		"Ethiopians": "Receive 100F 100G when finished",
+			"Khmer": "No buildings required to advance",
+			"Malay": "1:35 BT (2x faster)"
 		}
 	},
 	"War Galley": {
@@ -226,6 +235,66 @@ $changes_json = <<<JSON
 	"Gold Shaft Mining": {
 		"civb": {
 			"Malians": "Free"
+		}
+	},
+	"Double-Bit Axe": {
+		"civb": {
+			"Burmese": "Free"
+		}
+	},
+	"Bow Saw": {
+		"civb": {
+			"Burmese": "Free"
+		}
+	},
+	"Two-Man Saw": {
+		"civb": {
+			"Burmese": "Free"
+		}
+	},
+	"Redemption": {
+		"civb": {
+			"Burmese": "Cost *0.5 = 237.5G"
+		}
+	},
+	"Atonement": {
+		"civb": {
+			"Burmese": "Cost *0.5 = 162.5G"
+		}
+	},
+	"Herbal Medicine": {
+		"civb": {
+			"Burmese": "Cost *0.5 = 175G"
+		}
+	},
+	"Sanctity": {
+		"civb": {
+			"Burmese": "Cost *0.5 = 60G"
+		}
+	},
+	"Faith": {
+		"civb": {
+			"Burmese": "Cost *0.5 = 375F 500G"
+		}
+	},
+	"Illumination": {
+		"civb": {
+			"Burmese": "Cost *0.5 = 60G"
+		}
+	},
+	"Block Printing": {
+		"civb": {
+			"Burmese": "Cost *0.5 = 100G"
+		}
+	},
+	"Theocracy": {
+		"civb": {
+			"Burmese": "Cost *0.5 = 100G"
+		}
+	},
+	"Conscription": {
+		"civb": {
+			"Vietnamese": "Free"
 		}
 	}
 }
@@ -757,6 +826,149 @@ $new_technologies_json = <<<JSON
 		"civb": {
 			"Chinese": "Cost 128W 128F in Castle, 120W 120F in Imperial Age"
 		}, 
+		"t": ""
+	},
+	{
+		"type": "Unique technologies",
+		"name": "Howdah",
+		"ver": "r", 
+		"age": "2",
+		"cost": "300W 200F",
+		"for": "Battle Elephants +1/+2 armor",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique technologies",
+		"name": "Manipur Cavalry",
+		"ver": "r", 
+		"age": "3",
+		"cost": "650F 400G",
+		"for": "Cavalry and Arambai deal +6 bonus attack vs buildings",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique units",
+		"name": "Elite Arambai",
+		"ver": "r", 
+		"age": "3",
+		"cost": "1100F 675G",
+		"for": "Arambai",
+		"time": "1:05", 
+		"t": ""
+	},
+	{
+		"type": "Unique technologies",
+		"name": "Tusk Swords",
+		"ver": "r", 
+		"age": "2",
+		"cost": "200W 300G",
+		"for": "Battle Elephants +3 attack",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique technologies",
+		"name": "Double Crossbow",
+		"ver": "r", 
+		"age": "3",
+		"cost": "700F 400G",
+		"for": "Ballista Elephants and Scorpions fire two projectiles.",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique units",
+		"name": "Elite Ballista Elephant",
+		"ver": "r", 
+		"age": "3",
+		"cost": "1000F 500G",
+		"for": "Ballista Elephant",
+		"time": "1:10", 
+		"t": ""
+	},
+	{
+		"type": "Unique technologies",
+		"name": "Thalassocracy",
+		"ver": "r", 
+		"age": "2",
+		"cost": "300F 300G",
+		"for": "Upgrades your Docks to Harbors, which fire arrows.",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique technologies",
+		"name": "Forced Levy",
+		"ver": "r", 
+		"age": "3",
+		"cost": "1000F 600G",
+		"for": "Militia-line units no longer cost Gold",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique units",
+		"name": "Elite Karambit Warrior",
+		"ver": "r", 
+		"age": "3",
+		"cost": "900F 600G",
+		"for": "Karambit Warrior",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique technologies",
+		"name": "Chatras",
+		"ver": "r", 
+		"age": "2",
+		"cost": "250F 250G",
+		"for": "Battle Elephants receive +30 HP",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique technologies",
+		"name": "Paper Money",
+		"ver": "r", 
+		"age": "3",
+		"cost": "800F 200G",
+		"for": "You and all your allies receive +500 Gold",
+		"time": "0:40", 
+		"t": ""
+	},
+	{
+		"type": "Unique units",
+		"name": "Elite Rattan Archer",
+		"ver": "r", 
+		"age": "3",
+		"cost": "1000F 750G",
+		"for": "Rattan Archer",
+		"time": "0:45", 
+		"t": ""
+	}, 
+	{
+		"type": "Archery Range",
+		"name": "Imperial Skirmisher",
+		"ver": "r", 
+		"age": "3",
+		"cost": "300F 450G",
+		"for": "Elite Skirmisher",
+		"time": "0:50",
+		"civb": {
+			"Chinese with Vietnamese ally": "240F 360G"
+		}, 
+		"t": ""
+	}, 
+	{
+		"type": "Stable",
+		"name": "Elite Battle Elephant",
+		"ver": "r", 
+		"age": "3",
+		"cost": "800F 500G",
+		"for": "Battle Elephant",
+		"time": "1:20",
 		"t": ""
 	}
 ]

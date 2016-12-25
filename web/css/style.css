@@ -338,6 +338,10 @@ td.child tr > td:first-child {
 	background-image: url('../images/aocversion/aoa_16.png');
 }
 
+.icon_rajas {
+	background-image: url('../images/aocversion/aor_16.png');
+}
+
 div.availability span {
 	display: inline-block;
 	margin: 2px;

@@ -8,14 +8,16 @@ var LOGOS = {
 	'c': '<span class="version_icon icon_conquerors"><span>AoC</span></span>',
 	'f': '<span class="version_icon icon_forgotten"><span>AoF</span></span>',
 	'a': '<span class="version_icon icon_african"><span>AoAK</span></span>',
+	'r': '<span class="version_icon icon_rajas"><span>AoR</span></span>'
 }
 
 var VERSION_FILTERS = {
-	'x': 'dlc aof aoak',
+	'x': 'dlc aof aoak aor',
 	'k': 'aok',
 	'c': 'aoc',
 	'f': 'aof dlc',
-	'a': 'aoak dlc'
+	'a': 'aoak dlc',
+	'r': 'aor ror rotr dlc'
 }
 
 var ACRONYMS = {

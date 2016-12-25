@@ -20,7 +20,7 @@ gulp.task('default', function() {
   // concat all vendor css
   gulp.src([nodeDir + 'bootstrap/dist/css/bootstrap.min.css',
                 nodeDir + 'font-awesome/css/font-awesome.min.css',
-                nodeDir + 'drmonty-datatables/css/jquery.dataTables.min.css',
+                //nodeDir + 'drmonty-datatables/css/jquery.dataTables.min.css',
                 nodeDir + 'drmonty-datatables/css/dataTables.bootstrap.min.css',
 				nodeDir + 'drmonty-datatables-responsive/css/responsive.bootstrap.css',
 				nodeDir + 'drmonty-datatables-fixedheader/css/fixedHeader.bootstrap.css',
