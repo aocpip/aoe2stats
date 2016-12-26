@@ -20,6 +20,10 @@ var VERSION_FILTERS = {
 	'r': 'aor ror rotr dlc'
 }
 
+var SLOW_SEARCH_TIMEOUT = 750;
+var FAST_SEARCH_TIMEOUT = 250;
+var SEARCH_TIMEOUT_THRESHOLD = 3;
+
 var ACRONYMS = {
 	'T': 'Type',
 	'V': 'DLC version',
@@ -1067,12 +1071,17 @@ $(document).ready(function() {
 	$('#global-search').keypress(function(e) {
       if (e.keyCode == '13') {
          e.preventDefault();
-         //your code here
        }
     });
 
+	var searchTimeout;
     $("#global-search").keyup(function() {
-		update_search();
+		clearTimeout(searchTimeout);
+		var searchLength = $("#global-search").val().length;
+		var timeout = (searchLength >= SEARCH_TIMEOUT_THRESHOLD || searchLength == 0) ? FAST_SEARCH_TIMEOUT : SLOW_SEARCH_TIMEOUT;
+		searchTimeout = setTimeout(function() {
+    		update_search();
+  		}, timeout);
 	});
 	
 	$('[data-toggle="tooltip"]').tooltipster({
