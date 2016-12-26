@@ -21,7 +21,7 @@ include_once "inc/header.php";
 			        <div class="form-group aocversion">
 						<select id="aocversion">
 							<option value="aoc">The Conquerors</option>
-							<option value="dlc">HD DLC (AoFE, AoAK)</option>
+							<option value="dlc">HD DLC (AoFE, AoAK, AoR)</option>
 						</select>
 			        </div>
 		        </form>
