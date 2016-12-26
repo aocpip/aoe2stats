@@ -2466,7 +2466,7 @@
       "civb": {
         "Vikings": "Base cost 100W 50G, but -20% cost bonus -> 80W 40G"
         },
-      "note": "Viking unique unit. Fires multiple arrows. volley of 4 arrows (7-1-1-1) castle needed. Because of the multiple arrows, the delay between starts of attacks is roughly 3.34. ",
+      "note": "Viking unique unit. Fires multiple arrows. volley of 4 arrows (7-1-1-1). Castle needed. Because of the multiple arrows, the delay between starts of attacks is roughly 3.34.",
       "t": "longb0 pierce ship unique"
     },
     {
@@ -2567,7 +2567,8 @@
         "Goths": "+5 attack vs boar, hunters carry +15 food",
         "Persians": "0:22.73 BT in Feudal, 0:21.74 BT in Castle, 0:20.83 in Imperial Age",
         "Spanish": "constructors work 30% faster",
-        "Koreans": "+3 LOS"
+        "Koreans": "+3 LOS",
+        "Turks": "gold miners work 15% faster"
         },
       "note": "Gathers wood, food, stone, gold. Builds and repairs buildings. Also repairs ships, siege weapons.",
       "t": "vill tc"
@@ -2595,7 +2596,7 @@
         "Sanctity": "45 HP"
       },
       "civb": {
-        "Aztec": "43.35 BT (15% bonus)",
+        "Aztecs": "43.35 BT (15% bonus)",
         "Teutons": "heal range 8",
         "Byzantines and allies": "50% faster healing"
       },
@@ -2637,12 +2638,12 @@
       "at": "-",
       "ar": "0/0",
       "extra": {
-        "Caravan": "1.5 MR"
+        "Caravan": "*1.5 MR"
       },
       "civb": {
         "Spanish": "+33% gold"
         },
-      "note": "Caravan - 1.5 MRUsed to trade with other players by land. Carries goods from your Market to another player's Market and brings back gold. The farther the Market, the higher your profit. To trade, click the Trade Cart, then right-click an allied or neutral Market.",
+      "note": "Used to trade with other players by land. Carries goods from your Market to another player's Market and brings back gold. The farther the Market, the higher your profit. To trade, click the Trade Cart, then right-click an allied or neutral Market.",
       "t": "tradecart"
     }
   ]

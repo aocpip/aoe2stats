@@ -55,10 +55,16 @@ $changes_json = <<<JSON
     }
 	},
 	"Turtle Ship": {
-		"cost": "180W 180G"
+		"cost": "180W 180G",
+      "civb": {
+        "with Turkish ally": "0:40 BT (-20% team bonus)"
+      }
 	},
 	"Elite Turtle Ship": {
-		"cost": "180W 180G"
+		"cost": "180W 180G",
+      "civb": {
+        "with Turkish ally": "0:40 BT (-20% team bonus)"
+      }
 	},
 	"Spearman": {
 		"extra": {
@@ -129,7 +135,7 @@ $changes_json = <<<JSON
 	},
 	"Champion": {
 		"extra": {
-			"attack bonus": "+10 eagles, +4 buildings"
+			"attack bonus": "+8 eagles, +4 buildings"
 		},
     "civb": {
       "Portuguese": "Cost 60F 17G (-15% gold cost)",
@@ -181,13 +187,13 @@ $changes_json = <<<JSON
   "Knight": {
     "civb": {
       "Portuguese": "Cost 60F 64G (-15% gold cost)",
-      "Berbers": "Cost 48F 60G (-20% cost)"
+      "Berbers": "Costs 51F 64G in Castle age (-15% cost), 48F 60G (-20% cost) in Imperial Age"
     }
   },
   "Cavalier": {
     "civb": {
       "Portuguese": "Cost 60F 64G (-15% gold cost)",
-      "Berbers": "Cost 48F 60G (-20% cost)"
+      "Berbers": "Costs 51F 64G in Castle age (-15% cost), 48F 60G (-20% cost) in Imperial Age"
     }
   },
 	"Camel": {
@@ -195,17 +201,17 @@ $changes_json = <<<JSON
 		"civb": {
       "Indians": "AR +1/+1",
       "Indians and allies": "+6 attack vs buildings",
-      "Berbers": "Cost 44F 48G (-20% cost)"
+      "Berbers": "Costs 47F 51G in Castle age (-15% cost), 44F 48G (-20% cost) in Imperial Age"
 		},
     "extra": {
-      "attack bonus": "+10 against cavalry, +5 ships, +5 camels"
+      "attack bonus": "+9 against cavalry, +5 ships, +5 camels"
     }
 	},
 	"Heavy Camel": {
 		"civb": {
       "Indians": "AR +1/+1",
       "Indians and allies": "+6 attack vs buildings",
-      "Berbers": "Cost 44F 48G (-20% cost)"
+      "Berbers": "Costs 47F 51G in Castle age (-15% cost), 44F 48G (-20% cost) in Imperial Age"
 		},
     "extra": {
       "attack bonus": "+18 against cavalry, +9 ships, +9 camels"
@@ -220,7 +226,8 @@ $changes_json = <<<JSON
   "Elite Mameluke": {
     "civb": {
       "Indian ally": "+5 attack vs buildings"
-    }
+    },
+    "ad": "0.35"
   },
 	"Battering Ram": {
 		"civb": {
@@ -323,16 +330,22 @@ $changes_json = <<<JSON
 		}
 	},
 	"Throwing Axeman": {
+    "hp": "60",
 		"ad": "0.7",
     "mr": "1.0"
 	},
   "Elite Throwing Axeman": {
+    "hp": "70",
     "mr": "1.0"
   },
 	"Tarkan": {
 		"hp": "100",
-		"at": "8"
+		"at": "8",
+    "ar": "1/3"
 	},
+  "Elite Tarkan": {
+    "ar": "1/4"
+  },
 	"War Wagon": {
 		"bt": "0:21",
 		"cost": "110W 60G"
@@ -362,20 +375,26 @@ $changes_json = <<<JSON
     	}
 	},
 	"Elite Mangudai": {
+    "ad": "0.35",
       	"extra": {
         	"attack bonus": "+1 spearmen, +5 rams, +1 siege"
     	}
 	},
   "Monk": {
     "civb": {
-      "Portuguese": "Cost 85G (-15% gold cost)"
+      "Portuguese": "Cost 85G (-15% gold cost)",
+      "Aztecs": "-15% military creation bonus doesn't apply in DLCs"
     }
   },
 	"Missionary": {
       "note": "mounted monk, affected by bloodlines"
 	},
 	"Teutonic Knight": {
-		"hp": "80"
+		"hp": "80",
+    "mr": "0.7"
+	},
+	"Elite Teutonic Knight": {
+    "mr": "0.7"
 	},
 	"Transport Ship": {
 		"age": "0",
@@ -420,7 +439,8 @@ $changes_json = <<<JSON
 		"cost": "85W 43G",
 		"civb": {
         	"Vikings": "Base cost 100W 50G, but -15% cost bonus in Castle -> 85W 43G and -20% bonus in Imperial -> 80W 40G"
-        }
+        },
+      "note": "Viking unique unit. Fires multiple arrows. volley of 4 arrows (7-1-1-1). Because of the multiple arrows, the delay between starts of attacks is roughly 3.34."
 	},
 	"Elite Longboat": {
 		"cost": "80W 40G",
@@ -468,12 +488,14 @@ $changes_json = <<<JSON
 			"Magyars": "Kill wolves in one strike",
 			"Slavs": "Farmers work 15% faster",
       "Berbers": "0.88 base movement rate (MR), 0.97 MR with wheelbarrow, 1.07 MR with handcart",
-      "Khmer": "Can be garrisoned in Houses"
+      "Khmer": "Can be garrisoned in Houses",
+      "Franks": "Foragers work 25% faster (work rate *1.25)",
+      "Turks": "gold miners work 20% faster"
 		}
 	},
 	"Fishing Ship": {
 		"civb": {
-			"Italians": "+2 LOS",
+			"Italians": "Cost 50W (-25W)",
       "Berbers": "1.386 movement rate (10% faster)",
       "Portuguese": "66 HP (10% bonus)",
       "Malay": "Cost 50W (-33% cheaper)"
@@ -481,13 +503,13 @@ $changes_json = <<<JSON
 	},
 	"Hand Cannoneer": {
 		"civb": {
-			"Italians": "Cost 38F 43G (-15% bonus)",
+			"Italians": "Cost 36F 40G (-20% bonus)",
       "Portuguese": "Cost 45F 43G (-15% gold cost)"
 		}
 	},
 	"Bombard Cannon": {
 		"civb": {
-			"Italians": "Cost 191W 191G (-15% bonus)",
+			"Italians": "Cost 180W 180G (-20% bonus)",
       "Portuguese": "Cost 225W 191G (-15% gold cost)"
 		},
     "extra": {
@@ -496,14 +518,14 @@ $changes_json = <<<JSON
 	},
 	"Cannon Galleon": {
 		"civb": {
-			"Italians": "Cost 170W 128G (-15% bonus)",
+			"Italians": "Cost 160W 120G (-20% bonus)",
       "Portuguese": "132 HP (+10% bonus)<br />Cost 200W 128G (-15% gold cost)",
       "Berbers": "1.21 movement rate (10% faster)"
 		}
 	},
 	"Elite Cannon Galleon": {
 		"civb": {
-			"Italians": "Cost 170W 128G (-15% bonus)",
+			"Italians": "Cost 160W 120G (-20% bonus)",
       "Portuguese": "165 HP (+10% bonus) <br /> Cost 200W 128G (-15% gold cost)",
       "Berbers": "1.21 movement rate (10% faster)"
 		}
@@ -511,33 +533,43 @@ $changes_json = <<<JSON
 	"Scout Cavalry1": {
 		"civb": {
 			"Magyars": "Cost 72F",
-      "Berbers": "Cost 64F starting Castle age",
+      "Berbers": "Cost 68F in Castle Age and 64F in Imperial Age (-15/20% respectively",
       "Franks": "54 HP (+20%)"
 		}
 	},
 	"Light Cavalry": {
 		"civb": {
 			"Magyars": "Cost 72F",
-      "Berbers": "Cost 64F",
+      "Berbers": "Cost 68F in Castle Age and 64F in Imperial Age (-15/20% respectively",
       "Franks": "72 HP (+20%)"
 		}
 	},
 	"Hussar": {
 		"civb": {
 			"Magyars": "Cost 72F",
-      "Berbers": "Cost 64F"
+      "Berbers": "Cost 68F in Castle Age and 64F in Imperial Age (-15/20% respectively"
 		}
 	},
   "Trade Cog": {
     "civb": {
       "Portuguese": "Cost 100W 43G (-15% gold cost) <br /> 88 HP (10% bonus)",
-      "Berbers": "1.386 movement rate (10% faster)"
+      "Berbers": "1.386 movement rate (10% faster)",
+        "Spanish": "+25% gold"
     },
       "note": "Movement rate 2.00 with caravan. Carry 30% more gold/distance compared to trade cart."
   },
   "Trade Cart": {
+    "extra": {
+      "DLCs" : "Trade Carts in DLCs have a smaller collision radius (less blockages on trade routes).",
+        "Spanish": "+25% gold"
+    },
     "civb": {
       "Portuguese": "Cost 100W 43G (-15% gold cost)"
+    }
+  },
+  "War Elephant": {
+    "extra": {
+      "blast radius": "0.5"
     }
   }
 }
@@ -709,14 +741,14 @@ $new_units_json = <<<JSON
       "bt": "0:10",
       "fr": "2",
       "ad": "0",
-      "mr": "0.95",
+      "mr": "1.0",
       "los": "4",
       "hp": "60",
       "ra": "1",
       "at": "7",
       "ar": "0/0",
       "extra": {
-        "attack bonus": "+8 cavalry, +4 camels"
+        "attack bonus": "+8 cavalry, +4 camels, +20 elephants"
       },
       "civb": {
         },
@@ -732,14 +764,14 @@ $new_units_json = <<<JSON
       "bt": "0:10",
       "fr": "2",
       "ad": "0",
-      "mr": "0.95",
+      "mr": "1.0",
       "los": "5",
       "hp": "80",
       "ra": "1",
       "at": "8",
       "ar": "1/0",
       "extra": {
-        "attack bonus": "+12 cavalry, +6 camels",
+        "attack bonus": "+12 cavalry, +6 camels, +20 elephants",
         "search radius": "4"
       },
       "civb": {
@@ -856,7 +888,7 @@ $new_units_json = <<<JSON
       "name": "Genoese Crossbowman",
       "ver": "f",
       "age": "2",
-      "cost": "50F 50G",
+      "cost": "45F 45G",
       "bt": "0:22",
       "fr": "3",
       "ad": "0.35",
@@ -883,7 +915,7 @@ $new_units_json = <<<JSON
       "name": "Elite Genoese Crossbowman",
       "age": "2",
       "ver": "f",
-      "cost": "50F 50G",
+      "cost": "45F 45G",
       "bt": "0:19",
       "fr": "2",
       "ad": "0.35",
@@ -911,7 +943,7 @@ $new_units_json = <<<JSON
       "ver": "f",
       "age": "3",
       "cost": "50F 35G",
-      "bt": "0:11",
+      "bt": "0:18",
       "fr": "1.9",
       "ad": "0",
       "mr": "1.2",
@@ -925,8 +957,8 @@ $new_units_json = <<<JSON
         "armor bonus": "+10 infantry armor"
       },
       "civb": {
-        "Aztec": "0:9.35 BT (15% bonus 0.85*bT)",
-        "Aztec with goths ally": "0:7.79 BT (BT*0.85/1.2)",
+        "Aztec": "0:15.3 BT (15% bonus 0.85*BT)",
+        "Aztec with goths ally": "0:12.75 BT (BT*0.85/1.2)",
         "Celts": "1.15 MR (0.9*1.15)",
         "Goths": "Cost starting feudal 33F 23G, +1 attack against buildings",
         "Goths and allies": "0:9.17 BT (20% faster barracks 1.2 work rate)",
@@ -995,7 +1027,7 @@ $new_units_json = <<<JSON
       "bt": "0:23",
       "fr": "1.9",
       "ad": "0",
-      "mr": "1.35",
+      "mr": "1.4",
       "los": "5",
       "hp": "100",
       "ra": "-",
@@ -1018,7 +1050,7 @@ $new_units_json = <<<JSON
       "bt": "0:20",
       "fr": "1.9",
       "ad": "0",
-      "mr": "1.35",
+      "mr": "1.4",
       "los": "5",
       "hp": "130",
       "ra": "-",
@@ -1044,11 +1076,11 @@ $new_units_json = <<<JSON
       "mr": "0.85",
       "los": "9",
       "hp": "60",
-      "ra": "7",
+      "ra": "1-7",
       "at": "16",
       "ar": "2/4",
       "extra": {
-        "attack bonus": "+1 rams, +1 infantry",
+        "attack bonus": "+1 rams",
         "accuracy": "50%"
       },
       "civb": {
@@ -1069,11 +1101,11 @@ $new_units_json = <<<JSON
       "mr": "0.85",
       "los": "9",
       "hp": "70",
-      "ra": "7",
+      "ra": "1-7",
       "at": "20",
       "ar": "2/6",
       "extra": {
-        "attack bonus": "+1 rams, +1 infantry",
+        "attack bonus": "+1 rams",
         "accuracy": "50%"
       },
       "civb": {
@@ -1200,7 +1232,7 @@ $new_units_json = <<<JSON
       "at": "16",
       "ar": "0/0",
       "extra": {
-        "attack bonus": "+2 eagles, +2 vs standard buildings"
+        "attack bonus": "+2 eagles"
       },
       "civb": {},
       "note": "Ethiopian Unique unit. Cheap Infantry unit with high creation speed.",
@@ -1222,7 +1254,7 @@ $new_units_json = <<<JSON
       "at": "18",
       "ar": "0/1",
       "extra": {
-        "attack bonus": "+2 eagles, +3 vs standard buildings"
+        "attack bonus": "+2 eagles, +1 vs standard buildings"
       },
       "civb": {},
       "note": "Ethiopian elite Unique unit. Cheap Infantry unit with high creation speed.",
@@ -1263,7 +1295,7 @@ $new_units_json = <<<JSON
       "los": "6",
       "hp": "45",
       "ra": "6",
-      "at": "14",
+      "at": "13",
       "ar": "0/0",
       "extra": {
         "attack bonus": "+1 eagles"
@@ -1329,7 +1361,7 @@ $new_units_json = <<<JSON
       "name": "Siege Tower",
       "ver": "x",
       "age": "2",
-      "cost": "300W 160G",
+      "cost": "200W 160G",
       "bt": "0:36",
       "fr": "-",
       "ad": "-",
@@ -1345,7 +1377,7 @@ $new_units_json = <<<JSON
       "civb": {
         "Aztec": "0:30.6 BT (15% bonus)",
         "Celts and allies": "0:30 BT (1.2 work rate)",
-        "Portuguese": "Cost 300W 136G (-15% gold bonus)"
+        "Portuguese": "Cost 200W 136G (-15% gold bonus)"
       },
       "note": "Siege weapon used to scale enemy walls; resistant to archer attack. Infantry, villagers and foot archer can garrison inside for transportation (max 10 units).",
       "t": "ram siegetower0 siege weapon"
@@ -1364,7 +1396,7 @@ $new_units_json = <<<JSON
       "hp": "100",
       "ra": "2.49",
       "at": "1",
-      "ar": "0/5",
+      "ar": "0/4",
       "extra": {
         "attack bonus": "+1 buildings, +3 ships, +1 turtle ships",
         "armor bonus": "+6 ships"
@@ -1388,25 +1420,26 @@ $new_units_json = <<<JSON
       "bt": "0:45",
       "fr": "-",
       "ad": "0",
-      "mr": "1.6",
+      "mr": "1.5",
       "los": "6",
-      "hp": "50",
+      "hp": "45",
       "ra": "-",
       "at": "90",
-      "ar": "0/3",
+      "ar": "0/2",
       "extra": {
         "attack bonus": "+180 buildings",
         "armor bonus": "+1 ships",
-        "blast radius": "1.5"
+        "blast radius": "2.5"
       },
       "civb": {
-        "Chinese": "75 HP (+50% HP)",
+        "Aztecs": "0:38.25 BT (-15% bonus)",
+        "Chinese": "68 HP (+50% HP)",
         "Persians": "0:40.9 BT in Feudal, 0:39.1 BT in Castle, 0:37.5 BT in Imperial",
         "Vikings": "Cost 56W 40G (-20% cost bonus)",
         "Portuguese": "Cost 70W 43G (-15% gold cost)<br />55 HP (+10% bonus)",
-        "Berbers": "MR 1.76 (+10% faster)"
+        "Berbers": "MR 1.65 (+10% faster)"
       },
-      "note": "Filled with explosives. Self-destructs when used. Pilot near enemy ships and detonate to wrest control of the sea from an entrenched opponent.",
+      "note": "Filled with explosives. Self-destructs when used. Pilot near enemy ships and detonate to wrest control of the sea from an entrenched opponent. Doesn't do full damage to its complete blast radius (damage increases based on proximity).",
       "t": "demo* melee ship"
     },
     {
@@ -1421,8 +1454,8 @@ $new_units_json = <<<JSON
       "mr": "1.35",
       "los": "5",
       "hp": "50",
-      "ra": "1-3",
-      "at": "4",
+      "ra": "1-4",
+      "at": "3",
       "ar": "0/3",
       "extra": {
         "attack bonus": "+4 archers/hand cannon/skirms",
@@ -1485,7 +1518,7 @@ $new_units_json = <<<JSON
       "hp": "100",
       "ra": "-",
       "at": "8",
-      "ar": "1/2",
+      "ar": "1/3",
       "extra": {
         "attack bonus": "+10 castle, +8 buildings, +12 stone defense, +8 walls and gates"
       },
@@ -1509,7 +1542,7 @@ $new_units_json = <<<JSON
       "hp": "150",
       "ra": "-",
       "at": "11",
-      "ar": "1/3",
+      "ar": "1/4",
       "extra": {
         "attack bonus": "+10 castle, +10 buildings, +12 stone defense, +10 walls and gates"
       },

@@ -44,7 +44,7 @@ $changes_json = <<<JSON
 	"Koreans": {
 		"ut": "Panokseon(Castle), Shinkichon(Imperial)",
 		"tb": "Mangonel line minimum range reduced to 1 (from 3)",
-		"bs": "<ul><li>Villagers have +3 line of sight.</li> <li>Stone miners work 20% faster.</li> <li>Guard Tower and Keep upgrades are free.</li> <li>Towers (except bombard towers) have +1 range in Castle Age, +2 in Imperial Age.</li><li>Fortifications (walls except gates, castles, towers) are built 25% faster</ul>",
+		"bs": "<ul><li>Villagers have +3 line of sight.</li> <li>Stone miners work 20% faster.</li> <li>Guard Tower and Keep upgrades are free.</li> <li>Towers (except bombard towers) have +1 range in Castle Age, +2 in Imperial Age.</li><li>Fortifications (walls, gates, castles, towers) are built 25% faster</ul>",
 		"tt": "koreans"
 	},
 	"Mayans": {
@@ -67,7 +67,8 @@ $changes_json = <<<JSON
 	},
 	"Spanish": {
 		"ut": "Inquisition(Castle),<br /> Supremacy(Imperial)",
-		"tt": "spanish"
+		"tt": "spanish",
+		"tb": "Trade units generate +25% G"
 	},
 	"Teutons": {
 		"ut": "Ironclad(Castle),<br /> Crenellations(Imperial)",
@@ -76,7 +77,8 @@ $changes_json = <<<JSON
 	},
 	"Turks": {
 		"ut": "Sipahi(Castle),<br /> Artillery(Imperial)",
-		"tt": "turks"
+		"tt": "turks",
+		"bs": "<ul> <li>Gunpowder Units have +25% HP</li> <li>Gunpowder technologies cost 50% less</li> <li>Chemistry is free</li> <li>Gold miners work 20% faster</li> <li>Light Cavalry and Hussar upgrades are free</li> </ul>"
 	},
 	"Vikings": {
 		"ut": "Chieftains(Castle),<br /> Berserkergang(Imperial)",
@@ -118,7 +120,7 @@ $new_civs_json = <<<JSON
 		"uu": "Genoese crossbowman,<br /> Condottiero(Barracks)",
 		"ut": "Pavise(Castle),<br /> Silk Road(Imperial)",
 		"tb": "Condottiero available in imperial barracks",
-		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships +2 LOS</li><li>Gunpowder units cost -15%</li> </ul>",
+		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships cost -25W</li><li>Gunpowder units cost -20%</li> </ul>",
 		"tt": "italians"
 	},
 	{
@@ -168,7 +170,7 @@ $new_civs_json = <<<JSON
 		"uu": "Gbeto",
 		"ut": "Tigui(Castle),<br /> Farimba(Imperial)",
 		"tb": "University works 1.8x faster (80% faster)",
-		"bs": "<ul> <li>Barracks units get +1 pierce armor per age</li> <li>buildings, farms wood cost *0.85 (15% cheaper)</li> <li>Gold mining upgrades free</li> </ul>",
+		"bs": "<ul> <li>Barracks units get +1 pierce armor per age</li> <li>buildings wood cost *0.85 (15% cheaper)</li> <li>Gold mining upgrades free</li> </ul>",
 		"tt": "malians"
 	},
 	{
@@ -178,7 +180,7 @@ $new_civs_json = <<<JSON
 		"uu": "Camel Archer, Genitour(archery range)",
 		"ut": "Kasbah(Castle),<br /> Maghrabi Camels(Imperial)",
 		"tb": "Genitour available in Archery Range",
-		"bs": "<ul> <li>Villagers movement speed *1.1 (10% faster)</li> <li>Ships movement speed *1.1 (10% faster)</li> <li>Stable units cost *0.8 (20% cheaper) starting Castle Age</li></ul>",
+		"bs": "<ul> <li>Villagers movement speed *1.1 (10% faster)</li> <li>Ships movement speed *1.1 (10% faster)</li> <li>Stable units cost *0.85 (15% cheaper) in Castle Age and *0.8 (20% cheaper) in Imperial Age</li></ul>",
 		"tt": "berbers"
 	},
 	{

@@ -1,5 +1,5 @@
 <?php
-define("STATS_VERSION", "0.9.1");
+define("STATS_VERSION", "0.9.2");
 ?>
 <!DOCTYPE html>
 <html>

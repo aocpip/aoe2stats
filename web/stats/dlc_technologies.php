@@ -4,7 +4,7 @@ $changes_json = <<<JSON
 {
 	"Loom": {
 		"civb": {
-			"Aztecs": "Not free in Forgotten Empires"
+			"Aztecs": "Not free in DLCs"
 		}
 	},
 	"Cartography": {
@@ -17,11 +17,17 @@ $changes_json = <<<JSON
 	},
 	"Coinage" : {
 		"cost": "200F 100G",
-		"time": "1:10"
+		"time": "1:10",
+		"civb": {
+			"Chinese": "Cost 180F 90G in Feudal, 170F 85G in Castle, 160F 80G in Imperial Age"
+		}
 	},
 	"Banking" : {
 		"cost": "300F 200G",
-		"time": "1:10"
+		"time": "1:10",
+		"civb": {
+			"Chinese": "Cost 255F 170G in Castle, 240F 160G in Imperial Age"
+		}
 	},
 	"Town Patrol" : {
 		"cost": "300F 100G",
@@ -70,8 +76,9 @@ $changes_json = <<<JSON
 	},
 	"Chemistry": {
 		"extra": {
-				"town centers, castles": "+1 pierce damage"
-			},
+			"town centers, castles": "+1 pierce damage",
+			"mangonel line": "+1 pierce damage. In DLCs projectile speed is the same - 3.5 MR"
+		},
 		"civb": {
 			"Malians and allies": "0:55.5 BT (80% faster)"
 		}
@@ -87,7 +94,7 @@ $changes_json = <<<JSON
 	},
 	"Feudal Age": {
 		"civb": {
-			"Italians": "Cost 425F",
+			"Italians": "Cost 425F  (15% cheaper)",
       		"Ethiopians": "Receive 100F 100G when finished",
 			"Khmer": "No buildings required to advance",
 			"Malay": "1:05 BT (2x faster)"
@@ -95,7 +102,7 @@ $changes_json = <<<JSON
 	},
 	"Castle Age": {
 		"civb": {
-			"Italians": "Cost 680F 170G",
+			"Italians": "Cost 680F 170G (15% cheaper)",
       		"Ethiopians": "Receive 100F 100G when finished",
 			"Khmer": "No buildings required to advance",
 			"Malay": "1:20 BT (2x faster)"
@@ -103,7 +110,7 @@ $changes_json = <<<JSON
 	},
 	"Imperial Age": {
 		"civb": {
-			"Italians": "Cost 850F 720G",
+			"Italians": "Cost 850F 720G  (15% cheaper)",
       		"Ethiopians": "Receive 100F 100G when finished",
 			"Khmer": "No buildings required to advance",
 			"Malay": "1:35 BT (2x faster)"
@@ -296,6 +303,19 @@ $changes_json = <<<JSON
 		"civb": {
 			"Vietnamese": "Free"
 		}
+	},
+	"Elite Skirmisher": {
+		"cost": "200W 100G",
+		"civb": {
+			"Chinese": "170W 85G in Castle, 160W 80G in Imperial Age"
+		}
+	},
+	"Husbandry": {
+		"cost": "150F",
+		"time": "0:40",
+		"civb": {
+			"Chinese": "128F in Castle, 120F in Imperial Age"
+		}
 	}
 }
 JSON;
@@ -330,7 +350,7 @@ $new_technologies_json = <<<JSON
 		"name": "Greek Fire",
 		"ver": "f", 
 		"age": "2",
-		"cost": "250F 450G",
+		"cost": "250F 300G",
 		"for": "Byzantines Fire ships +1 range",
 		"time": "0:40", 
 		"t": ""
@@ -418,7 +438,7 @@ $new_technologies_json = <<<JSON
 	{
 		"type": "Barracks",
 		"name": "Eagle Warrior",
-		"ver": "f", 
+		"ver": "x", 
 		"age": "2",
 		"cost": "200F 200G",
 		"for": "Eagle Scout",
@@ -644,9 +664,9 @@ $new_technologies_json = <<<JSON
 		"name": "Sipahi",
 		"ver": "f", 
 		"age": "2",
-		"cost": "500W 350G",
+		"cost": "350F 150G",
 		"for": "Turkish cavalry archers +20HP",
-		"time": "0:40", 
+		"time": "1:00", 
 		"t": ""
 	},
 	{
@@ -675,7 +695,7 @@ $new_technologies_json = <<<JSON
 		"ver": "a", 
 		"age": "3",
 		"cost": "700F 400G",
-		"for": "Portuguese gunpowder units affected by Ballistics<br />Gunpowder projectiles move +2 tiles faster <br />(bombard cannons 4 -> 6, bombard towers 3 -> 5,<br /> hand cannoneer/organ gun 5.5 -> 7.5)",
+		"for": "Portuguese gunpowder units affected by Ballistics<br />Gunpowder projectiles move +0.5 tiles faster <br />(bombard cannons 4 -> 4.5, bombard towers 3 -> 3.5,<br /> hand cannoneer/organ gun 5.5 -> 6.0, (elite) cannon galleon 1.95 -> 2.45)",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -820,11 +840,11 @@ $new_technologies_json = <<<JSON
 		"name": "Arrowslits",
 		"ver": "f", 
 		"age": "2",
-		"cost": "150W 150F",
+		"cost": "250W 250F",
 		"for": "Watch tower +2 pierce attack,<br />Guard Tower +4 pierce attack,<br />Keep +6 pierce damage",
 		"time": "0:25",
 		"civb": {
-			"Chinese": "Cost 128W 128F in Castle, 120W 120F in Imperial Age"
+			"Chinese": "Cost 213W 213F in Castle, 200W 200F in Imperial Age"
 		}, 
 		"t": ""
 	},

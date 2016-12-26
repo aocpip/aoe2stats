@@ -73,8 +73,7 @@ $changes_json = <<<JSON
 	},
 	"Farm": {
 		"civb": {
-			"Incas and allies": "bt 0:07.5 (-50% bonus)",
-			"Malians": "Cost 51W (-15% bonus)"
+			"Incas and allies": "bt 0:07.5 (-50% bonus)"
 		}
 	},
 	"Mill": {
@@ -154,10 +153,10 @@ $changes_json = <<<JSON
 		}
 	},
 	"Fortified Wall": {
-		"bt": "0:11",
+		"bt": "0:10",
 		"civb": {
 			"Incas": "Cost 4S",
-			"Koreans": "build time 0:08.25 (-25% bonus)"
+			"Koreans": "build time 0:07.5 (-25% bonus)"
 		}
 	},
 	"Castle": {
@@ -310,7 +309,8 @@ $new_structures_json = <<<JSON
       "GA": "+1250 HP with Fortified Wall<br />(sometimes gate parallel to the bottom right edge has 0:30 bt)",
       "civb": {
 		"Mayans and allies": "Cost 15S (50% cheaper)",
-		"Incas": "Cost 26S"
+		"Incas": "Cost 26S",
+        "Koreans": "Build time 0:52.5"
       },
       "t" : ""
     },
@@ -319,7 +319,7 @@ $new_structures_json = <<<JSON
       "name": "Feitoria",
       "ver": "a",
       "age": "3",
-      "cost": "250W 250G",
+      "cost": "250G 250S",
       "bt": "2:00",
       "fr": "-",
       "los": "6",
@@ -327,7 +327,7 @@ $new_structures_json = <<<JSON
       "ra": "-",
       "at": "-",
       "ar": "3/10",
-      "GA": "Takes 20 population<br />Generates 0.7W 0.7F 0.45G 0.45S per second",
+      "GA": "Takes 20 population<br />Generates 0.8W 0.8F 0.45G 0.25S per second",
       "civb": {},
       "t" : ""
     },

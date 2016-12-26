@@ -38,6 +38,10 @@ $changes_json = <<<JSON
 	"Farming with Mayans" : {
 		"speed": "0.281 F/s",
 		"note": "This is a more recent test done by Spirit of the Law (<a href='https://www.youtube.com/watch?v=GRutI6IMjkY'>link</a>). The mayan bonus was changed with the dlc extensions. With wheelbarrow this value is 0.315 F/s, which is around the same speed as any other civ without wheelbarrow."
+	},
+	"Mining with Turks": {
+		"speed": "0.455 G/s",
+		"note": "Turks get 20 % gold mining bonus (gold mining work rate x 1.2)"
 	}
 }
 JSON;
