@@ -1429,7 +1429,7 @@
 			"ver": "k",
 			"age": "2",
 			"cost": "300W 175G",
-			"for": "projectile units (except gunpowder)",
+			"for": "Arrow/bolt-firing units/buildings and Bombard Towers aim at the spot an enemy unit is moving towards instead of where it currently is",
 			"time": "1:00",
 			"civb": {
 				"Chinese": "Cost 255W 149G in Castle, 240W 140F in Imperial Age"

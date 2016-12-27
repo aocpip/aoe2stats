@@ -369,16 +369,10 @@ $changes_json = <<<JSON
 		}
 	},
 	"Mangudai": {
-      "ad": "0.35",
-      	"extra": {
-        	"attack bonus": "+1 spearmen, +3 rams, +1 siege"
-    	}
+      "ad": "0.35"
 	},
 	"Elite Mangudai": {
-    "ad": "0.35",
-      	"extra": {
-        	"attack bonus": "+1 spearmen, +5 rams, +1 siege"
-    	}
+    "ad": "0.35"
 	},
   "Monk": {
     "civb": {
@@ -888,7 +882,7 @@ $new_units_json = <<<JSON
       "name": "Genoese Crossbowman",
       "ver": "f",
       "age": "2",
-      "cost": "45F 45G",
+      "cost": "45W 45G",
       "bt": "0:22",
       "fr": "3",
       "ad": "0.35",
