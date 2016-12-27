@@ -525,7 +525,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "300W 300F",
-		"for": "Japan towers shoot more arrows +3 (4 by default, at most 8 if at least 4 units garrisoned)",
+		"for": "Japan towers shoot more arrows +2 (3 by default, at most 7 if at least 4 units garrisoned)",
 		"time": "0:40", 
 		"t": ""
 	},
