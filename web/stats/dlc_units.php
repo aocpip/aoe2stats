@@ -369,10 +369,16 @@ $changes_json = <<<JSON
 		}
 	},
 	"Mangudai": {
-      "ad": "0.35"
+      "ad": "0.35",
+      	"extra": {
+        	"attack bonus": "+1 spearmen, +3 siege weapons"
+    	}
 	},
 	"Elite Mangudai": {
-    "ad": "0.35"
+    "ad": "0.35",
+      	"extra": {
+        	"attack bonus": "+1 spearmen, +5 siege wapons"
+    	}
 	},
   "Monk": {
     "civb": {
@@ -564,7 +570,8 @@ $changes_json = <<<JSON
   "War Elephant": {
     "extra": {
       "blast radius": "0.5"
-    }
+    },
+    "note": "Persian unique unit. Slow, powerful, strong, and well-armored cavalry. Does trample damage in a surrounding area (see blast radius)."
   }
 }
 JSON;
@@ -882,7 +889,7 @@ $new_units_json = <<<JSON
       "name": "Genoese Crossbowman",
       "ver": "f",
       "age": "2",
-      "cost": "45W 45G",
+      "cost": "45F 45G",
       "bt": "0:22",
       "fr": "3",
       "ad": "0.35",
@@ -1559,10 +1566,10 @@ $new_units_json = <<<JSON
       "los": "7",
       "hp": "35",
       "ra": "1-5",
-      "at": "3",
+      "at": "4",
       "ar": "0/4",
       "extra": {
-        "attack bonus": "+4 archers/hand cannon/skirms, +2 vs cavalry archers, +3 vs spearman",
+        "attack bonus": "+5 archers/hand cannon/skirms, +3 vs cavalry archers, +3 vs spearman",
         "accuracy": "90%"
       },
       "civb": {
@@ -1596,6 +1603,7 @@ $new_units_json = <<<JSON
         "blast radius": "0.5"
       },
       "civb": {
+        "Huns ally": "0:23.3 BT (20% faster stable)",
         "Khmer": "MR*1.15 = 0.92 (15% faster)",
         "Malay": "Cost * 0.8 = 96F 56G (20% cheaper)"
       },
@@ -1623,12 +1631,209 @@ $new_units_json = <<<JSON
         "blast radius": "0.5"
       },
       "civb": {
+        "Huns ally": "0:23.3 BT (20% faster stable)",
         "Khmer": "MR*1.15 = 0.92 (15% faster)",
         "Malay": "Cost * 0.8 = 96F 56G (20% cheaper)"
       },
       "note": "Stronger than Battle Elephant. Classified as cavalry and all bonuses applied against war elephants apply against them as well.",
       "t": "baele1 war elephant cavalry melee"
-   }
+   },
+   {
+      "type": "Unique",
+      "name": "Arambai",
+      "ver": "r", 
+      "age": "2",
+      "cost": "50W 60G",
+      "bt": "0:21",
+      "fr": "2",
+      "ad": "0.7",
+      "mr": "1.35",
+      "los": "5",
+      "hp": "60",
+      "ra": "5",
+      "at": "18",
+      "ar": "0/1",
+      "extra": {
+        "attack bonus": "+2 rams",
+        "armor bonus": "+0 cavalry, +0 cavalry archer, +0 archer",
+        "accuracy": "20%"
+      },
+      "civb": {},
+      "note": "Burmese unique unit. Mounted dart thrower. Classified as a conquistador type (only archer armor upgrades apply from blacksmith, not range or attack). All bonuses against archers, cavalry archers, cavalry applies to them as well. ",
+      "t": "aram0 arambai cavarcher archer cavalry pierce"
+    },
+   {
+      "type": "Unique",
+      "name": "Elite Arambai",
+      "ver": "r", 
+      "age": "3",
+      "cost": "50W 60G",
+      "bt": "0:21",
+      "fr": "2",
+      "ad": "0.7",
+      "mr": "1.35",
+      "los": "5",
+      "hp": "65",
+      "ra": "5",
+      "at": "20",
+      "ar": "0/2",
+      "extra": {
+        "attack bonus": "+2 rams",
+        "armor bonus": "+0 cavalry, +2 cavalry archer, +0 archer",
+        "accuracy": "30%"
+      },
+      "civb": {},
+      "note": "Burmese unique unit. Stronger than Arambai. Classified as a conquistador type (only archer armor upgrades apply from blacksmith, not range or attack). All bonuses against archers, cavalry archers, cavalry applies to them as well. ",
+      "t": "aram1 elite arambai cavarcher archer cavalry pierce"
+    },
+    {
+      "type": "Unique",
+      "name": "Ballista Elephant",
+      "ver": "r",
+      "age": "2",
+      "cost": "100F 80G",
+      "bt": "0:25",
+      "fr": "2.5",
+      "ad": "0.28",
+      "mr": "0.8",
+      "los": "7",
+      "hp": "250",
+      "ra": "5",
+      "at": "8",
+      "ar": "0/3",
+      "extra": {
+        "search radius": "6",
+        "attack bonus": "+3 standard buildings, +3 stone defense, +2 all buildings, +8 ships, +100 trees",
+        "armor bonus": "-2 cavalry, -2 war elephants, -2 siege weapons",
+        "blast width": "0.1"
+      },
+      "civb": {
+        },
+      "note": "Khmer unique unit. Heavy cavalry equipped with a Scorpion. Can destroy trees. Classified as cavalry. All bonuses against cavalry, war elephants or siege weapons apply also to Ballista Elephants.",
+      "t": "ballista0 cavalry war elephant siege weapon pierce"
+    },
+    {
+      "type": "Unique",
+      "name": "Elite Ballista Elephant",
+      "ver": "r",
+      "age": "3",
+      "cost": "100F 80G",
+      "bt": "0:25",
+      "fr": "2.5",
+      "ad": "0.28",
+      "mr": "0.8",
+      "los": "7",
+      "hp": "290",
+      "ra": "5",
+      "at": "9",
+      "ar": "0/3",
+      "extra": {
+        "search radius": "6",
+        "attack bonus": "+3 standard buildings, +4 stone defense, +4 all buildings, +8 ships, +100 trees",
+        "armor bonus": "-2 cavalry, -2 war elephants, -2 siege weapons",
+        "blast width": "0.1"
+      },
+      "civb": {
+        },
+      "note": "Khmer unique unit. Stronger than Ballista Elephant. Can destroy trees. Classified as cavalry. All bonuses against cavalry, war elephants or siege weapons apply also to Ballista Elephants.",
+      "t": "ballista1 cavalry war elephant siege weapon pierce"
+    },
+    {
+      "type": "Unique",
+      "name": "Karambit Warrior",
+      "ver": "r",
+      "age": "2",
+      "cost": "25F 10G",
+      "bt": "0:06",
+      "fr": "2",
+      "ad": "0",
+      "mr": "1.2",
+      "los": "3",
+      "hp": "30",
+      "ra": "-",
+      "at": "5",
+      "ar": "0/1",
+      "extra": {
+        "attack bonus": "+2 eagles"
+      },
+      "civb": {},
+      "note": "Malay unique unit. Cheap and weak infantry unit that only takes half a population slot.",
+      "t": "karambitw0 infantry melee"
+    },
+    {
+      "type": "Unique",
+      "name": "Elite Karambit Warrior",
+      "ver": "r",
+      "age": "3",
+      "cost": "25F 10G",
+      "bt": "0:06",
+      "fr": "2",
+      "ad": "0",
+      "mr": "1.2",
+      "los": "3",
+      "hp": "40",
+      "ra": "-",
+      "at": "8",
+      "ar": "1/2",
+      "extra": {
+        "attack bonus": "+2 eagles, +1 standard buildings"
+      },
+      "civb": {},
+      "note": "Malay unique unit. Stronger than Karambit Warrior. Cheap and weak infantry unit that only takes half a population slot.",
+      "t": "karambitw1 infantry melee"
+    },
+    {
+      "type": "Unique",
+      "name": "Rattan Archer",
+      "ver": "r", 
+      "age": "2",
+      "cost": "50W 45G",
+      "bt": "0:16",
+      "fr": "2",
+      "ad": "0.35",
+      "mr": "1.1",
+      "los": "6",
+      "hp": "35",
+      "ra": "4",
+      "at": "6",
+      "ar": "0/4",
+      "extra": {
+        "attack bonus": "+2 spearmen +1 infantry, +0 rams",
+        "accuracy": "80%"
+      },
+      "civb": {
+        "Magyar ally": "+2 LOS",
+        "Saracen ally": "+2 attack against buildings"
+      },
+      "note": "Vietnamese unique unit. Heavily armored Archer.",
+      "t": "rattan0 archer pierce"
+    },
+    {
+      "type": "Unique",
+      "name": "Elite Rattan Archer",
+      "ver": "r", 
+      "age": "3",
+      "cost": "50W 45G",
+      "bt": "0:16",
+      "fr": "2",
+      "ad": "0.35",
+      "mr": "1.1",
+      "los": "6",
+      "hp": "35",
+      "ra": "5",
+      "at": "7",
+      "ar": "0/6",
+      "extra": {
+        "attack bonus": "+2 spearmen +1 infantry, +0 rams",
+        "accuracy": "90%"
+      },
+      "civb": {
+        "Magyar ally": "+2 LOS",
+        "Saracen ally": "+2 attack against buildings"
+      },
+      "note": "Vietnamese unique unit. Stronger than Rattan Archer.",
+      "t": "rattan1 archer pierce"
+    }
 ]
 JSON;
 

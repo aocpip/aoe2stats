@@ -525,7 +525,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "300W 300F",
-		"for": "Japan towers shoot +2 more arrows (3 by default, at most 7 if at least 4 units garrisoned)",
+		"for": "Japan towers shoot more arrows +2 (3 by default, at most 7 if at least 4 units garrisoned)",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -675,7 +675,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "400F 300G",
-		"for": "Viking infantry get +5 attack against cavalry and +2 against camels",
+		"for": "Viking berserks get +5 attack against cavalry and +2 against camels",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -839,9 +839,9 @@ $new_technologies_json = <<<JSON
 		"type": "University",
 		"name": "Arrowslits",
 		"ver": "f", 
-		"age": "3",
+		"age": "2",
 		"cost": "250W 250F",
-		"for": "Watch tower +1 pierce attack,<br />Guard Tower +2 pierce attack,<br />Keep +3 pierce damage<br />Affects all arrows",
+		"for": "Watch tower +2 pierce attack,<br />Guard Tower +4 pierce attack,<br />Keep +6 pierce damage",
 		"time": "0:25",
 		"civb": {
 			"Chinese": "Cost 213W 213F in Castle, 200W 200F in Imperial Age"
@@ -894,8 +894,7 @@ $new_technologies_json = <<<JSON
 		"ver": "r", 
 		"age": "3",
 		"cost": "700F 400G",
-		"for": "Ballista Elephants and Scorpions fire two projectiles. The second projectile has 50% of the attack (including bonuses) for Scorpions<br />
-				For Ballista Elephants, the second projectile has 6 pierce attack, +3 against Elephants, +1 against standard buildings",
+		"for": "Ballista Elephants and Scorpions fire two projectiles.",
 		"time": "0:40", 
 		"t": ""
 	},

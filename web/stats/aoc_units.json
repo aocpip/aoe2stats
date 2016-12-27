@@ -1422,7 +1422,7 @@
         "accuracy": "65%"
       },
       "civb": {},
-      "note": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range.",
+      "note": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range. (Only archer armor upgrades apply from blacksmith, not range or attack).",
       "t": "conq0 gunpowder cavalry pierce"
     },
     {
@@ -1445,7 +1445,7 @@
         "accuracy": "70%"
       },
       "civb": {},
-      "note": "Spanish elite unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range.",
+      "note": "Spanish elite unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range. (Only archer armor upgrades apply from blacksmith, not range or attack).",
       "t": "conq1 gunpowder cavalry pierce"
     },
     {
@@ -1561,7 +1561,7 @@
       "ar": "1/0",
       "extra": {
         "attack bonus": "+2 rams",
-        "accuracy": "50"
+        "accuracy": "50%"
       },
       "civb": {
         "Turks": "base creation time 21 seconds, but the -20% bonus makes it 0:17;<br />Base HP 35, but 25% HP bonus -> 44 HP"
@@ -1586,7 +1586,7 @@
       "ar": "1/0",
       "extra": {
         "attack bonus": "+3 rams",
-        "accuracy": "50"
+        "accuracy": "50%"
       },
       "civb": {
         "Turks": "base creation time 21 seconds, but the -20% bonus makes it 0:17;<br />Base HP 40, but 25% HP bonus -> 50 HP"
@@ -1611,7 +1611,7 @@
       "ar": "0/0",
       "extra": {
         "attack bonus": "+2 spearmen +0 rams",
-        "accuracy": "70"
+        "accuracy": "70%"
       },
       "civb": {
         "Britons": "base 5 RA 7 LOS, with bonus 6 RA 8 LOS in Castle 7 RA 9 LOS in Imperial",
@@ -1637,7 +1637,7 @@
       "ar": "0/1",
       "extra": {
         "attack bonus": "+2 spearmen +0 rams",
-        "accuracy": "80"
+        "accuracy": "80%"
       },
       "civb": {
         "Britons": "base 6 RA 8 LOS, with bonus 8 RA 10 LOS in Imperial",
@@ -2022,7 +2022,7 @@
         "blast radius": "0.5"
       },
       "civb": {},
-      "note": "Persian unique unit. Slow, powerful, strong, and well-armored cavalry.",
+      "note": "Persian unique unit. Slow, powerful, strong, and well-armored cavalry. Does trample damage in a surrounding area (see blast radius).",
       "t": "ware1 cavalry melee"
     },
     {
