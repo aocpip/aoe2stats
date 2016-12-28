@@ -1169,10 +1169,10 @@
       "hp": "2750",
       "ra": "-",
       "at": "-",
-      "ar": "10/10",
-      "GA": "+1250 HP with Fortified Wall<br />(sometimes gate parallel to the bottom right edge has 0:30 bt)",
+      "ar": "6/6",
+      "GA": "+1250 HP with Fortified Wall<br />(Gates parallel to the bottom right edge have 0:30 bt)",
       "civb": {
-        "Mayans and allies": "Cost 15S (50% cheaper)"
+        "Mayans and allies": "Cost 15S (50% cheaper, only for gates parallel to the bottom right edge)"
       },
       "t" : ""
     }

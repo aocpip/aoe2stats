@@ -4,7 +4,7 @@ $changes_json = <<<JSON
 {
 	"Aztecs": {
 		"ut": "Atlatl(Castle),<br /> Garland Wars(Imperial)",
-		"bs": "<ul><li>villagers carry +5</li><li>Military units created 15% faster</li><li>+5 Monk hit points for each Monastery technology</li><li>Start with +50 gold</li></ul>",
+		"bs": "<ul><li>villagers carry +5</li><li>Military units (except Monks) created 15% faster</li><li>+5 Monk hit points for each Monastery technology</li><li>Start with +50 gold</li></ul>",
 		"tt": "aztecs"
 	},
 	"Britons": {
@@ -170,7 +170,7 @@ $new_civs_json = <<<JSON
 		"uu": "Gbeto",
 		"ut": "Tigui(Castle),<br /> Farimba(Imperial)",
 		"tb": "University works 1.8x faster (80% faster)",
-		"bs": "<ul> <li>Barracks units get +1 pierce armor per age</li> <li>buildings wood cost *0.85 (15% cheaper)</li> <li>Gold mining upgrades free</li> </ul>",
+		"bs": "<ul> <li>Barracks units get +1 pierce armor per age</li> <li>buildings (except Farms) wood cost *0.85 (15% cheaper)</li> <li>Gold mining upgrades free</li> </ul>",
 		"tt": "malians"
 	},
 	{
@@ -189,8 +189,8 @@ $new_civs_json = <<<JSON
 		"ct": "Monk and Elephant",
 		"uu": "Arambai",
 		"ut": "Howday(Castle),<br /> Manipur Cavalry(Imperial)",
-		"tb": "Genitour available in Archery Range",
-		"bs": "<ul> <li>Free Lumbercamp upgrades</li> <li>Infantry +1 attack per Age</li> <li>Monastery techs cost *0.5 (50% cheaper)</li></ul>",
+		"tb": "Relics visible on map (3x3 square, all visible)",
+		"bs": "<ul> <li>Free Lumbercamp upgrades</li> <li>Infantry +1 attack per Age (starting in Feudal)</li> <li>Monastery techs cost *0.5 (50% cheaper)</li></ul>",
 		"tt": "burmese"
 	},
 	{
@@ -219,7 +219,7 @@ $new_civs_json = <<<JSON
 		"ct": "Archer",
 		"uu": "Rattan Archer, Imperial Skirmisher(archery range)",
 		"ut": "Chatras(Castle),<br /> Paper Money(Imperial)",
-		"tb": "Access to Imperial Skirmisher update",
+		"tb": "Access to Imperial Skirmisher upgrade",
 		"bs": "<ul> <li>Reveal enemy positions at game start</li> <li>Archery Range units +10% HP in Feudal, +15% in Castle, +20% in Imperial Age</li> <li>Free Conscription</li></ul>",
 		"tt": "vietnamese"
 	}

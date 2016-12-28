@@ -147,10 +147,12 @@ $changes_json = <<<JSON
 	},
 	"Gate1": {
 		"hp": "1375",
-		"GA": "(sometimes gate parallel to the bottom right edge has 0:30 bt)",
+		"GA": "",
 		"civb": {
-			"Incas": "Cost 26S"
-		}
+			"Mayans and allies": "Cost 15S (50% cheaper)",
+			"Incas": "Cost 26S",
+			"Koreans": "Build time 0:52.5"
+		},
 	},
 	"Fortified Wall": {
 		"bt": "0:10",
@@ -305,8 +307,8 @@ $new_structures_json = <<<JSON
       "hp": "2750",
       "ra": "-",
       "at": "-",
-      "ar": "10/10",
-      "GA": "+1250 HP with Fortified Wall<br />(sometimes gate parallel to the bottom right edge has 0:30 bt)",
+      "ar": "6/6",
+      "GA": "+1250 HP with Fortified Wall",
       "civb": {
 		"Mayans and allies": "Cost 15S (50% cheaper)",
 		"Incas": "Cost 26S",
@@ -342,9 +344,9 @@ $new_structures_json = <<<JSON
       "los": "20",
       "hp": "2200",
       "ra": "7",
-      "at": "6/arrow",
+      "at": "6+ 3x 1",
       "ar": "3/10",
-      "GA": "Malay unique tech. Fires arrows. LOS actually 10, but thanks to malay bonus it's 20. +9 attack vs ships. Also classified as stone defense. 4 arrows, 10 arrows maximum",
+      "GA": "Malay unique tech. Fires arrows. LOS actually 10, but thanks to malay bonus it's 20. +13 attack vs ships. Also classified as stone defense. The 3 extra arrows only deal 1 damage each.",
       "civb": {},
       "t" : "stone defense"
     }
