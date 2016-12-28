@@ -152,7 +152,7 @@ $changes_json = <<<JSON
 			"Mayans and allies": "Cost 15S (50% cheaper)",
 			"Incas": "Cost 26S",
 			"Koreans": "Build time 0:52.5"
-		},
+		}
 	},
 	"Fortified Wall": {
 		"bt": "0:10",
