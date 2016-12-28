@@ -147,7 +147,12 @@ $changes_json = <<<JSON
 	},
 	"Gate1": {
 		"hp": "1375",
-		"GA": ""
+		"GA": "",
+		"civb": {
+			"Mayans and allies": "Cost 15S (50% cheaper)",
+			"Incas": "Cost 26S",
+			"Koreans": "Build time 0:52.5"
+		},
 	},
 	"Fortified Wall": {
 		"bt": "0:10",

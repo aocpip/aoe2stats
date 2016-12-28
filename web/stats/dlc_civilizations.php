@@ -189,7 +189,7 @@ $new_civs_json = <<<JSON
 		"ct": "Monk and Elephant",
 		"uu": "Arambai",
 		"ut": "Howday(Castle),<br /> Manipur Cavalry(Imperial)",
-		"tb": "Relics visible on map (3x3 square, all visible",
+		"tb": "Relics visible on map (3x3 square, all visible)",
 		"bs": "<ul> <li>Free Lumbercamp upgrades</li> <li>Infantry +1 attack per Age (starting in Feudal)</li> <li>Monastery techs cost *0.5 (50% cheaper)</li></ul>",
 		"tt": "burmese"
 	},
