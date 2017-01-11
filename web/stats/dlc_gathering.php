@@ -3,12 +3,20 @@
 $changes_json = <<<JSON
 {
 	 "Fish traps with japanese": {
-			"speed": "0.325 - 0.365 F/s",
-			"note": "Usually used fish has run out. Gives quite good wood to food ratio. Japanese get faster fishing ship by 5% in each age. Experimental results - 0.325 F/s in Dark, 0.338 F/s in Feudal, 0.351 F/s in Castle and 0.365 F/s in Imperial age. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>. The new \"Gillnets\" technology in Castle Age increases this by 25%."
+			"speed": "0.375 - 0.506 F/s",
+			"note": "Usually used fish has run out. Gives quite good wood to food ratio. Japanese get faster fishing ship by 5% in each age, and the Gillnets tech further boosts the rate, making them faster than Farms for Japanese. Experimental results - 0.375 F/s in Feudal, 0.391 F/s in Castle, 0.486 F/S with Gillnets, 0.407 F/s in Imperial age and 0.506 F/s with Gillnets in Imperial Age (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRXNLlEPG9Ii3Zuy\">Tests</a>)."
 		},
 	 "Fish traps": {
-		"speed": "0.311 F/s",
-		"note": "Usually used fish has run out. Gives quite good wood to food ratio. In realistic tests 0.311. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>. The new \"Gillnets\" technology in Castle Age increases this by 25%."
+		"speed": "0.342 - 0.425 F/s",
+		"note": "Usually used fish has run out. Gives quite good wood to food ratio. The Gillnets tech further increases gather rate so that they are similar to Farms. In realistic <a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRXNLlEPG9Ii3Zuy\">tests</a> 0.342 (when directly adjacent to the dock) or 0.425 F/s with Gillnets."
+		},
+	"Fishing shore fish": {
+			"speed": "0.280 - 0.348 F/s",
+			"note": "Fishing shore fish with fishing ships should be avoided and only using it if deep fish is very far. In <a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRSkwXtCvEJ5-88m\">tests</a> 0.280 F/s and 0.348 F/s with Gillnets (Fish Traps being the better alternative when investing into Gillnets)."
+		},
+	"Fishing shore fish with japanese":	{
+			"speed": "0.294 - 0.415 F/s",
+			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial, and Gillnets also boost the gathering rate (Though Fish Traps are usually the better alternative when investing into Gillnets). These values correspond to 0.294 F/s in Dark age, 0.308 F/s in Feudal Age, 0.322 F/s in Castle age, 0.398 F/s with Gillnets, 0.336 F/s in Imperial Age and 0.415 F/s with Gillnets in Imperial Age. Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
 		},
 	"Sheep/Turkey/Cow": {
 			"source": "Livestock",
@@ -36,12 +44,12 @@ $changes_json = <<<JSON
 		"note": "Include deer, zebras and ostriches. Mongol hunters receive a bonus to gather food faster from these animals."
 	},
 	"Farming with Mayans" : {
-		"speed": "0.281 F/s",
-		"note": "This is a more recent test done by Spirit of the Law (<a href='https://www.youtube.com/watch?v=GRutI6IMjkY'>link</a>). The mayan bonus was changed with the dlc extensions. With wheelbarrow this value is 0.315 F/s, which is around the same speed as any other civ without wheelbarrow."
+		"speed": "0.30 - 0.37 F/s",
+		"note": "0.30 F/s without upgrades, 0.34 F/s with Wheelbarrow+Heavy Plow, 0.37 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). <br \>To offset their extra resource bonus, Mayan farmers work slower. This effect has become stronger in the expansions, with Mayan farmers working between 8-10% slower than other civilizations."
 	},
 	"Mining with Turks": {
-		"speed": "0.455 G/s",
-		"note": "Turks get 20 % gold mining bonus (gold mining work rate x 1.2)"
+		"speed": "0.455 - 0.601 G/s",
+		"note": "Turks get 20 % gold mining bonus (gold mining work rate x 1.2). 0.523 G/s after Gold mining (x1.15) and 0.601 G/s after Gold Shaft Mining (x1.15)."
 	}
 }
 JSON;
@@ -51,10 +59,22 @@ $changes = json_decode($changes_json, true);
 $new_gather_json = <<<JSON
 [
 	{
+		"type": "Gold",
+		"source": "Relics with Indians after Sultans",
+		"speed": "0.55 - 0.73 G/s",
+		"note": "The unique Tech \"Sultans\" boosts all gold income by 10%. This makes their relics gather 0.55 G/s, or 0.73 G/s with an Aztec ally."
+	},
+	{
+		"type": "Gold",
+		"source": "Mining with Indians after Sultans",
+		"speed": "0.417 - 0.551 G/s",
+		"note": "The unique Tech \"Sultans\" boosts all gold income by 10%. 0.479 G/s after Gold mining (x1.15) and 0.551 G/s after Gold Shaft Mining (x1.15)."
+	},
+	{
 		"type": "Food",
 		"source": "Foraging with Franks",
 		"speed": "0.3875 F/s",
-		"note": "Franks get a 25% faster berrie gathering. This bonus makes it faster than gathering food from sheep."
+		"note": "Franks get 25% faster berry gathering. This bonus makes it faster than gathering food from sheep."
 	},
 	{
 		"type": "Food",
@@ -65,14 +85,14 @@ $new_gather_json = <<<JSON
 	{
 		"type": "Food",
 		"source": "Farming with slavs",
-		"speed": "0.354 F/s",
-		"note": "This is not tested properly only based on relative efficiency and bonus of 1.31 farmer work rate. From the data files farm workers work at 0.53F/s. With 31% bonus 0.6943F/s. The effective gathering rate is also affected by walk times. 10 food is gathered theoretically 18.8 seconds. Effectively in 31.3 seconds. That means 12.5 seconds walking time. With slav bonus 10 food is gathered in 14.4 seconds. Effectively that means 14.4+12.5= 26.9s for 10 food = 0.358 F/s. That would mean ~12.5%. In the tech details they show 15% bonus. According to Spirit of the Law's tests (<a href='https://www.youtube.com/watch?v=GRutI6IMjkY'>link</a>) it's 0.354 F/s, so let's use that!"
+		"speed": "0.39 - 0.41 F/s",
+		"note": "0.39 F/s without upgrades, 0.41 F/s with Wheelbarrow+Heavy Plow, 0.41 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). Slavs get a 15% bonus to their farming rate. After the Wheelbarrow research, the advantage over other civilizations is down to about 5% and almost vanishes when everyone has researched Hand Cart."
 	},
 	{
 		"type": "Food",
 		"source": "Farming with berbers",
-		"speed": "0.315 F/s",
-		"note": "This was tested by Spirit of the Law (<a href='https://www.youtube.com/watch?v=GRutI6IMjkY'>link</a>). Berbers get only a slight improvement 1-3% on farming, so their faster walking villagers doesn't affect the farming speed much."
+		"speed": "0.34 - 0.41 F/s",
+		"note": "0.39 F/s without upgrades, 0.41 F/s with Wheelbarrow+Heavy Plow, 0.41 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). Berber villagers walk 10% faster, which makes them spend more time actually collecting food from a farm and thus boosts their gathering rate by a small 1-3%"
 	}
 ]
 JSON;
