@@ -28,7 +28,7 @@
 			"type": "Food",
 			"source": "Farming with Mayans",
 			"speed": "0.32 - 0.39 F/s",
-			"note": "0.32 F/s without upgrades, 0.35 F/s with Wheelbarrow+Heavy Plow, 0.39 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). <br \>\"Mayan farmers effectively work 15% slower, however, because a lot of the farming is actually 'running around on the farm', the real effect is roughly 5% slower.\"(cysion)"
+			"note": "0.32 F/s without upgrades, 0.35 F/s with Wheelbarrow+Heavy Plow, 0.39 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). <br />\"Mayan farmers effectively work 15% slower, however, because a lot of the farming is actually 'running around on the farm', the real effect is roughly 5% slower.\"(cysion)"
 		},
 		{
 			"type": "Food",
