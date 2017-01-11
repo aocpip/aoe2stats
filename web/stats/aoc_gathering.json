@@ -21,26 +21,26 @@
 		{
 			"type": "Food",
 			"source": "Farming",
-			"speed": "0.310 F/s",
-			"note": "The real farming speed also depends on the walking distance and villager speed and carrying capacity (wheelbarrow and handcart). They require wood and a mill. Also, farms can be upgraded with the Horse Collar, Heavy Plow and Crop Rotation, to increase a maximum amount of food. A player needs to have caution when <a href=\"http://www.cysion.be/aocbox/?p=1318\">placing</a> them to have the optimal results!"
+			"speed": "0.33 - 0.41 F/s",
+			"note": "0.33 F/s without upgrades, 0.38 F/s with Wheelbarrow+Heavy Plow, 0.41 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). The real farming speed also depends on the walking distance and villager speed and carrying capacity (wheelbarrow and handcart). They require wood and a mill. Also, farms can be upgraded with the Horse Collar, Heavy Plow and Crop Rotation, to increase a maximum amount of food. A player needs to have caution when <a href=\"http://www.cysion.be/aocbox/?p=1318\">placing</a> them to have the optimal results!"
 		},
 		{
 			"type": "Food",
 			"source": "Farming with Mayans",
-			"speed": "0.304 F/s",
-			"note": "Mayan eco bonus works against them. \"Mayan farmers effectively work 15% slower, however, because a lot of the farming is actually 'running around on the farm', the real effect is roughly 5% slower.\"(cysion)<br /> \"Unupgraded farmers: Mayans 1228 F, Mongols 1242, 1246 (two tests for mongs). With only wheelbarrow: Mayans 1355, Celts 1426 With handcart and heavy plow: Mayans 1535 Byz 1586. So, tests indicate (from this position), Mayans work<br />1 - 1.5% slower unupgraded<br /> 5% slower with wheel<br />3% slower with handcart + heavy plow\"(John Mendl)"
+			"speed": "0.32 - 0.39 F/s",
+			"note": "0.32 F/s without upgrades, 0.35 F/s with Wheelbarrow+Heavy Plow, 0.39 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). <br \>\"Mayan farmers effectively work 15% slower, however, because a lot of the farming is actually 'running around on the farm', the real effect is roughly 5% slower.\"(cysion)"
 		},
 		{
 			"type": "Food",
 			"source": "Farming with Aztecs",
-			"speed": "0.358 F/s",
-			"note": "This is based on Spirit of the Law's test (<a href='https://www.youtube.com/watch?v=GRutI6IMjkY'>link</a>). This speed improvement probably due to the +5 carrying capacity. After research wheelbarrow this value goes up to 0.389 F/s."
+			"speed": "0.38 - 0.42 F/s",
+			"note": "0.38 F/s without upgrades, 0.40 F/s with Wheelbarrow+Heavy Plow, 0.42 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). This speed improvement is due to the +5 carrying capacity."
 		},
 		{
 			"type": "Food",
 			"source": "Boars",
 			"speed": "0.41 F/s",
-			"note": "These animals fight back when attacked, althought they rush the villagers who shot at them blindly. This way they can be lured to the Town Center to nullify the walking time, pretty much like sheeps, except that you cannot actively control them. Most random maps have 2 of them close to your city, which are very useful. Usually the Loom technology is researched prior to hunting them, to decrease the risk of losing a precious villager that early in the game. (Althought there are some players that to do this without Loom)."
+			"note": "These animals fight back when attacked, althought they rush the villagers who shot at them blindly. This way they can be lured to the Town Center to nullify the walking time, pretty much like sheeps, except that you cannot actively control them. Most random maps have 2 of them close to your city, which are very useful. In some cases, it might be necessary to research Loom before luring to avoid the villager dying to the boar."
 		},
 		{
 			"type": "Food",
@@ -75,14 +75,14 @@
 		{
 			"type": "Food",
 			"source": "Fishing deep fish with japanese",
-			"speed": "0.514 - 0.588 F/s",
-			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial. These correspond to 0.514 F/s in Dark age, 0.539 F/s in Feudal Age, 0.564 F/s in Castle age and 0.588 F/s in Imperial Age. Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
+			"speed": "0.511 - 0.584 F/s",
+			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial. These correspond to 0.511 F/s in Dark age, 0.536 F/s in Feudal Age, 0.559 F/s in Castle age and 0.585 F/s in Imperial Age 0.33 F/s without upgrades, 0.38 F/s with Wheelbarrow+Heavy Plow, 0.41 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRSkwXtCvEJ5-88m\">Tests</a>). Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
 		},
 		{
 			"type": "Food",
 			"source": "Fishing shore fish",
 			"speed": "0.280 F/s",
-			"note": "Fishing shore fish with fishing ships should be avoided and only using it if deep fish is very far."
+			"note": "Fishing shore fish with fishing ships should be avoided and only using it if deep fish is very far (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRSkwXtCvEJ5-88m\">Tests</a>)."
 		},
 		{
 			"type": "Food",
@@ -93,38 +93,38 @@
 		{
 			"type": "Food",
 			"source": "Fish traps with japanese",
-			"speed": "0.325 - 0.365 F/s",
-			"note": "Usually used fish has run out. Gives quite good wood to food ratio. Japanese get faster fishing ship by 5% in each age. Experimental results - 0.325 F/s in Dark, 0.338 F/s in Feudal, 0.351 F/s in Castle and 0.365 F/s in Imperial age. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>."
+			"speed": "0.375 - 0.407 F/s",
+			"note": "Usually used fish has run out. Gives quite good wood to food ratio. Japanese get faster fishing ship by 5% in each age. Experimental results - 0.375 F/s in Feudal, 0.391 F/s in Castle and 0.407 F/s in Imperial age (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRXNLlEPG9Ii3Zuy\">Tests</a>)."
 		},
 		{
 			"type": "Food",
 			"source": "Fish traps",
-			"speed": "0.311 F/s",
-			"note": "Usually used fish has run out. Gives quite good wood to food ratio. In realistic tests 0.311. Thanks to Jineapple for the <a href=\"http://aoczone.net/viewtopic.php?f=186&t=116696&p=460336#p460077\">tests</a>."
+			"speed": "0.342 F/s",
+			"note": "Usually used fish has run out. Gives quite good wood to food ratio. In realistic <a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRXNLlEPG9Ii3Zuy\">tests</a> 0.342 F/s (when directly adjacent to the dock)."
 		},
 		{
 			"type": "Wood",
 			"source": "Chopping",
-			"speed": "0.388 W/s",
-			"note": "Wood is harvested from trees. Obviously, not every forest is close to a Town Center, so a Lumber Mill (or another Town Center) is an almost obligatory requisite for an efficient wood gathering. Wood harvesting can be upgraded up to three times with the Double Bit Axe, Bow Saw and Two Man Saw upgrades."
+			"speed": "0.388 - 0.615 W/s",
+			"note": "0.466 W/s after Double-Bit Axe (x1.2), 0.559 W/s after Bow Saw (x1.2) and 0.615 W/s after Two-Man Saw (x1.1). Wood is harvested from trees. Obviously, not every forest is close to a Town Center, so a Lumber Mill (or another Town Center) is an almost obligatory requisite for an efficient wood gathering."
 		},
 		{
 			"type": "Wood",
 			"source": "Chopping with Celts",
-			"speed": "0.444 W/s",
-			"note": "Celtic lumberjacks start with a 15% bonus efficiency."
+			"speed": "0.444 - 0.643 W/s",
+			"note": "Celtic lumberjacks start with a 15% bonus efficiency. 0.535 W/s after Double-Bit Axe (x1.2) and 0.643 W/s after Bow Saw (x1.2)"
 		},
 		{
 			"type": "Gold",
 			"source": "Mining",
 			"speed": "0.379 G/s",
-			"note": "Gold is possibly the most important resource in the game, because without gold, only three military units types are available (Spear line, Skirmisher line and Scout line, which are cheerfully called as 'trash'). Gold mining is the primary gold source; and the initial mine clump, has seven mines. Relics can be found in the map, and each grant a permanent trinkle of gold."
+			"note": "0.436 G/s after Gold mining (x1.15) and 0.501 G/s after Gold Shaft Mining (x1.15). Gold is possibly the most important resource in the game, because without gold, only three military units types are available (Spear line, Skirmisher line and Scout line, which are cheerfully called as 'trash'). Gold mining is the primary gold source; and the initial mine clump, has seven mines. Relics can be found in the map, and each grant a permanent trinkle of gold."
 		},
 		{
 			"type": "Gold",
 			"source": "Mining with Turks",
 			"speed": "0.435 G/s",
-			"note": "Turks get 15 % gold mining bonus (gold mining work rate x 1.15)"
+			"note": "Turks get 15 % gold mining bonus (gold mining work rate x 1.15). 0.501 G/s after Gold mining (x1.15) and 0.576 G/s after Gold Shaft Mining (x1.15)."
 		},
 		{
 			"type": "Gold",
@@ -141,14 +141,14 @@
 		{
 			"type": "Stone",
 			"source": "Mining",
-			"speed": "0.359 S/s",
-			"note": "Stone can only be harvested from stone mines. It also has the highest place in the market. Stone isn't used for units, but some technologies require it. It's greatest use is obviously for creating buildings. Town Centers, Outposts, Castles, Towers, Walls, Gates and Wonders all require large amounts of stone. Its mining rate can be upgraded with Stone Mining and Stone Shaft Mining."
+			"speed": "0.359 - 0.475 S/s",
+			"note": "0.413 S/s after Stone mining (x1.15) and 0.475 S/s after Stone Shaft Mining (x1.15). Stone can only be harvested from stone mines. It also has the highest place in the market. Stone isn't used for units, but some technologies require it. It's greatest use is obviously for creating buildings. Town Centers, Outposts, Castles, Towers, Walls, Gates and Wonders all require large amounts of stone. Its mining rate can be upgraded with Stone Mining and Stone Shaft Mining."
 		},
 		{
 			"type": "Stone",
 			"source": "Mining with Koreans",
-			"speed": "0.431 S/s",
-			"note": "Korean stone miners get a 20% work rate bonus (1.2 x work rate)"
+			"speed": "0.431 - 0.570 S/s",
+			"note": "Korean stone miners get a 20% work rate bonus (1.2 x work rate). 0.495 S/s after Stone mining (x1.15) and 0.570 S/s after Stone Shaft Mining (x1.15)."
 		}
 	]
 }
