@@ -70,13 +70,13 @@
 			"type": "Food",
 			"source": "Fishing deep fish",
 			"speed": "0.49 F/s",
-			"note": "Ship fishing is a good alternate in maps that has lakes and seas. Sea economy expand very quickly, when compared to villager based economies. They can expand even in Dark Age, whilst villager economies show great expansion only at the Castle Age beyond."
+			"note": "Ship fishing is a good alternate in maps that has lakes and seas. Sea economy expand very quickly, when compared to villager based economies. They can expand even in Dark Age, whilst villager economies show great expansion only from the Castle Age onwards."
 		},
 		{
 			"type": "Food",
 			"source": "Fishing deep fish with japanese",
 			"speed": "0.511 - 0.584 F/s",
-			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial. These correspond to 0.511 F/s in Dark age, 0.536 F/s in Feudal Age, 0.559 F/s in Castle age and 0.585 F/s in Imperial Age 0.33 F/s without upgrades, 0.38 F/s with Wheelbarrow+Heavy Plow, 0.41 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRSkwXtCvEJ5-88m\">Tests</a>). Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
+			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial. These correspond to 0.511 F/s in Dark age, 0.536 F/s in Feudal Age, 0.559 F/s in Castle age and 0.585 F/s in Imperial Age (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRSkwXtCvEJ5-88m\">Tests</a>). Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
 		},
 		{
 			"type": "Food",
@@ -100,7 +100,7 @@
 			"type": "Food",
 			"source": "Fish traps",
 			"speed": "0.342 F/s",
-			"note": "Usually used fish has run out. Gives quite good wood to food ratio. In realistic <a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRXNLlEPG9Ii3Zuy\">tests</a> 0.342 F/s (when directly adjacent to the dock)."
+			"note": "Usually used once fish has run out. Gives quite good wood to food ratio. In realistic <a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRXNLlEPG9Ii3Zuy\">tests</a> 0.342 F/s (when directly adjacent to the dock)."
 		},
 		{
 			"type": "Wood",
@@ -117,13 +117,13 @@
 		{
 			"type": "Gold",
 			"source": "Mining",
-			"speed": "0.379 G/s",
-			"note": "0.436 G/s after Gold mining (x1.15) and 0.501 G/s after Gold Shaft Mining (x1.15). Gold is possibly the most important resource in the game, because without gold, only three military units types are available (Spear line, Skirmisher line and Scout line, which are cheerfully called as 'trash'). Gold mining is the primary gold source; and the initial mine clump, has seven mines. Relics can be found in the map, and each grant a permanent trinkle of gold."
+			"speed": "0.379 - 0.501 G/s",
+			"note": "0.436 G/s after Gold mining (x1.15) and 0.501 G/s after Gold Shaft Mining (x1.15). Gold is possibly the most important resource in the game, because without gold, only three military units types are available (Spear line, Skirmisher line and Scout line, which are cheerfully called as 'trash'). Gold mining is the primary gold source; and the initial mine clump, has seven mines. Relics can be found in the map, and each grant a permanent trickle of gold."
 		},
 		{
 			"type": "Gold",
 			"source": "Mining with Turks",
-			"speed": "0.435 G/s",
+			"speed": "0.435 - 0.576 G/s",
 			"note": "Turks get 15 % gold mining bonus (gold mining work rate x 1.15). 0.501 G/s after Gold mining (x1.15) and 0.576 G/s after Gold Shaft Mining (x1.15)."
 		},
 		{
@@ -142,7 +142,7 @@
 			"type": "Stone",
 			"source": "Mining",
 			"speed": "0.359 - 0.475 S/s",
-			"note": "0.413 S/s after Stone mining (x1.15) and 0.475 S/s after Stone Shaft Mining (x1.15). Stone can only be harvested from stone mines. It also has the highest place in the market. Stone isn't used for units, but some technologies require it. It's greatest use is obviously for creating buildings. Town Centers, Outposts, Castles, Towers, Walls, Gates and Wonders all require large amounts of stone. Its mining rate can be upgraded with Stone Mining and Stone Shaft Mining."
+			"note": "0.413 S/s after Stone mining (x1.15) and 0.475 S/s after Stone Shaft Mining (x1.15). Stone can only be harvested from stone mines. Stone isn't used for units, but some technologies require it. It's greatest use is obviously for creating buildings. Town Centers, Outposts, Castles, Towers, Walls, Gates and Wonders all require large amounts of stone."
 		},
 		{
 			"type": "Stone",
