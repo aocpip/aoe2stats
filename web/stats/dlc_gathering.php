@@ -4,7 +4,7 @@ $changes_json = <<<JSON
 {
 	 "Fish traps with japanese": {
 			"speed": "0.375 - 0.506 F/s",
-			"note": "Usually used fish has run out. Gives quite good wood to food ratio. Japanese get faster fishing ship by 5% in each age, and the Gillnets tech further boosts the rate, making them faster than Farms for Japanese. Experimental results - 0.375 F/s in Feudal, 0.391 F/s in Castle, 0.486 F/S with Gillnets, 0.407 F/s in Imperial age and 0.506 F/s with Gillnets in Imperial Age (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRXNLlEPG9Ii3Zuy\">Tests</a>)."
+			"note": "Usually used fish has run out. Gives quite good wood to food ratio. Japanese get faster working fishing ships by 5% in each age, and the Gillnets tech further boosts the rate, making them faster than Farms for Japanese. Experimental results - 0.375 F/s in Feudal, 0.391 F/s in Castle, 0.486 F/S with Gillnets, 0.407 F/s in Imperial age and 0.506 F/s with Gillnets in Imperial Age (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRXNLlEPG9Ii3Zuy\">Tests</a>)."
 		},
 	 "Fish traps": {
 		"speed": "0.342 - 0.425 F/s",
@@ -16,8 +16,16 @@ $changes_json = <<<JSON
 		},
 	"Fishing shore fish with japanese":	{
 			"speed": "0.294 - 0.415 F/s",
-			"note": "Japanese have a bonus to their fishing ship fishing speeds 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial, and Gillnets also boost the gathering rate (Though Fish Traps are usually the better alternative when investing into Gillnets). These values correspond to 0.294 F/s in Dark age, 0.308 F/s in Feudal Age, 0.322 F/s in Castle age, 0.398 F/s with Gillnets, 0.336 F/s in Imperial Age and 0.415 F/s with Gillnets in Imperial Age. Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
+			"note": "Japanese have a bonus to their fishing ship work speed: 5% in Dark, 10% in Feudal, 15% in Castle and 20% in Imperial and Gillnets also boosts the gathering rate (Though Fish Traps are usually the better alternative when investing into Gillnets). These values correspond to 0.294 F/s in Dark age, 0.308 F/s in Feudal Age, 0.322 F/s in Castle age, 0.398 F/s with Gillnets, 0.336 F/s in Imperial Age and 0.415 F/s with Gillnets in Imperial Age. Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
 		},
+	"Fishing deep fish with japanese": {
+			"speed": "0.511 - 0.726 F/s",
+			"note": "Japanese have a bonus to their fishing ship work speed: 5% in Dark, 10% in Feudal, 15% in Castle, 20% in Imperial and Gillnets also boosts the gathering rate. These correspond to 0.511 F/s in Dark age, 0.536 F/s in Feudal Age, 0.559 F/s in Castle age, 0.692 F/s with Gillnets, 0.585 F/s in Imperial Age and 0.726 F/s with Gillnets in Imperial Age (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qRSkwXtCvEJ5-88m\">Tests</a>). Note these values hold only when the fishing ship doesn't have to move to drop off resources. Real values will be lower based on the distance."
+		},
+	"Fishing deep fish": {
+			"speed": "0.49 - 0.604 F/s",
+			"note": "0.604 F/s with the Gillnets technology. Ship fishing is a good alternate in maps that has lakes and seas. Sea economy expand very quickly, when compared to villager based economies. They can expand even in Dark Age, whilst villager economies show great expansion only from the Castle Age onwards."
+	},
 	"Sheep/Turkey/Cow": {
 			"source": "Livestock",
 			"note": "Includes sheep, turkey, cow and goat. Livestock have a interesting attribute: they can be positioned underneath the Town Center, nullifying the walk time. Usually only two livestock are placed in the Town Center per time (yes, this requires some micromanagement and experience). Probably, the only downside is that you have to search for them."
@@ -29,7 +37,7 @@ $changes_json = <<<JSON
 
 	"Boars": {
 		"source": "Eatable predators",
-		"note": "Includes wild boars and elephants. These animals fight back when attacked, althought they rush the villagers who shot at them blindly. This way they can be lured to the Town Center to nullify the walking time, pretty much like livestock, except that you cannot actively control them. Most random maps have 2 of them close to your city, which are very useful. Usually the Loom technology is researched prior to hunting them, to decrease the risk of losing a precious villager that early in the game. (Althought there are some players that to do this without Loom)."
+		"note": "Includes wild boars and elephants. These animals fight back when attacked, althought they rush the villagers who shot at them blindly. This way they can be lured to the Town Center to nullify the walking time, pretty much like livestock, except that you cannot actively control them. Most random maps have 2 of them close to your city, which are very useful. In some cases, it might be necessary to research Loom before luring to avoid the villager dying to the boar."
 	},
 	"Boars with Mongols": {
 		"source": "Eatable predators with Mongols",
