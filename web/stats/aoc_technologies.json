@@ -9,7 +9,8 @@
 			"for": "Militia",
 			"time": "0:40",
 			"civb": {
-				"Chinese": "90F 36G in Feudal, 85F 34G in Castle, 80F 32G in Imperial Age"
+				"Chinese": "90F 36G in Feudal, 85F 34G in Castle, 80F 32G in Imperial Age",
+				"Goths and allies": "BT 0:33.3 - Barracks work 20% faster"
 			},
 			"t": ""
 		},
@@ -22,7 +23,8 @@
 			"for": "Man-at-arms",
 			"time": "0:45",
 			"civb": {
-				"Chinese": "170F 55G in Castle, 160F 52G in Imperial Age"
+				"Chinese": "170F 55G in Castle, 160F 52G in Imperial Age",
+				"Goths and allies": "BT 0:37.5 - Barracks work 20% faster"
 			},
 			"t": ""
 		},
@@ -35,7 +37,8 @@
 			"for": "Long Swordsman",
 			"time": "1:15",
 			"civb": {
-				"Chinese": "240F 80G in Imperial Age"
+				"Chinese": "240F 80G in Imperial Age",
+				"Goths and allies": "BT 1:02.5 - Barracks work 20% faster"
 			},
 			"t": ""
 		},
@@ -48,7 +51,8 @@
 			"for": "Two-handed Swordsman",
 			"time": "1:40",
 			"civb": {
-				"Chinese": "600F 280G in Imperial Age"
+				"Chinese": "600F 280G in Imperial Age",
+				"Goths and allies": "BT 1:23.3 - Barracks work 20% faster"
 			},
 			"t": ""
 		},
@@ -61,7 +65,8 @@
 			"for": "Spearman",
 			"time": "0:45",
 			"civb": {
-				"Chinese": "183F 77G in Castle, 172F 72G in Imperial Age"
+				"Chinese": "183F 77G in Castle, 172F 72G in Imperial Age",
+				"Goths and allies": "BT 0:37.5 - Barracks work 20% faster"
 			},
 			"t": ""
 		},
@@ -74,7 +79,8 @@
 			"for": "Pikeman",
 			"time": "0:50",
 			"civb": {
-				"Chinese": "240F 480G in Imperial Age"
+				"Chinese": "240F 480G in Imperial Age",
+				"Goths and allies": "BT 0:41.7 - Barracks work 20% faster"
 			},
 			"t": ""
 		},
@@ -86,6 +92,9 @@
 			"cost": "800F 500G",
 			"for": "Eagle Warrior",
 			"time": "0:40",
+			"civb": {
+				"Goths allies": "BT 0:33.3 - Barracks work 20% faster"
+			},
 			"t": ""
 		},
 		{
@@ -97,7 +106,8 @@
 			"for": "infantry +2 LOS, +2 search radius",
 			"time": "0:35",
 			"civb": {
-				"Chinese": "68F in Feudal, 64F in Castle, 60F in Imperial Age"
+				"Chinese": "68F in Feudal, 64F in Castle, 60F in Imperial Age",
+				"Goths and allies": "BT 0:29.2 - Barracks work 20% faster"
 			},
 			"t": ""
 		},
@@ -110,7 +120,8 @@
 			"for": "infantry MR * 1.1",
 			"time": "0:40",
 			"civb": {
-				"Chinese": "180F in Feudal, 170F in Castle, 160F in Imperial Age"
+				"Chinese": "180F in Feudal, 170F in Castle, 160F in Imperial Age",
+				"Goths and allies": "BT 0:33.3 - Barracks work 20% faster"
 			},
 			"t": ""
 		},
@@ -123,7 +134,8 @@
 			"for": "Archer",
 			"time": "0:35",
 			"civb": {
-				"Chinese": "106F 64G in Castle, 100F 60G in Imperial Age"
+				"Chinese": "106F 64G in Castle, 100F 60G in Imperial Age",
+				"Britons and allies": "BT 0:29.2 - Archery Ranges work 20% faster"
 			},
 			"t": ""
 		},
@@ -136,7 +148,8 @@
 			"for": "Crossbowman",
 			"time": "0:50",
 			"civb": {
-				"Chinese": "300F 255G in Castle, 280F 240G in Imperial Age"
+				"Chinese": "300F 255G in Castle, 280F 240G in Imperial Age",
+				"Britons and allies": "BT 0:41.7 - Archery Ranges work 20% faster"
 			},
 			"t": ""
 		},
@@ -149,7 +162,8 @@
 			"for": "Cavalry Archer",
 			"time": "0:50",
 			"civb": {
-				"Chinese": "720F 400G in Imperial Age"
+				"Chinese": "720F 400G in Imperial Age",
+				"Britons and allies": "BT 0:41.7 - Archery Ranges work 20% faster"
 			},
 			"t": ""
 		},
@@ -162,7 +176,8 @@
 			"for": "Skirmisher",
 			"time": "0:50",
 			"civb": {
-				"Chinese": "213W 136G in Castle, 200W 128G in Imperial Age"
+				"Chinese": "213W 136G in Castle, 200W 128G in Imperial Age",
+				"Britons and allies": "BT 0:41.7 - Archery Ranges work 20% faster"
 			},
 			"t": ""
 		},
@@ -186,7 +201,8 @@
 					"(Elite) Plumed Archer": "0.85 * 1.615 RT (-15%)"
 				},
 			"civb": {
-				"Chinese": "255F 213W in Castle, 240F 200W in Imperial Age"
+				"Chinese": "255F 213W in Castle, 240F 200W in Imperial Age",
+				"Britons allies": "BT 0:37.5 - Archery Ranges work 20% faster"
 			},
 			"t": ""
 		},
@@ -198,6 +214,9 @@
 			"cost": "200F 250G",
 			"for": "(Heavy) Cavalry archers and Mangudai +1/+2 AR<br />(Heavy) Cavalry Archer +4 and Mangudai +2 against pikeman",
 			"time": "1:05",
+			"civb": {
+				"Britons allies": "BT 0:54.2 - Archery Ranges work 20% faster"
+			},
 			"t": ""
 		},
 		{
@@ -210,7 +229,8 @@
 			"time": "0:45",
 			"civb": {
 				"Chinese": "128F 43G in Castle, 120F 40G in Imperial Age",
-				"Turks": "Cost free"
+				"Turks": "Cost free",
+				"Huns and allies": "BT 0:37.5 - Stables work 20% faster"
 			},
 			"t": ""
 		},
@@ -223,7 +243,8 @@
 			"for": "Light Cavalry",
 			"time": "0:50",
 			"civb": {
-				"Turks": "Cost free"
+				"Turks": "Cost free",
+				"Huns and allies": "BT 0:41.7 - Stables work 20% faster"
 			},
 			"t": ""
 		},
@@ -236,7 +257,8 @@
 			"for": "Knight",
 			"time": "1:40",
 			"civb": {
-				"Chinese": "255F 255G in Imperial Age"
+				"Chinese": "255F 255G in Imperial Age",
+				"Huns and allies": "BT 1:23.3 - Stables work 20% faster"
 			},
 			"t": ""
 		},
@@ -248,6 +270,9 @@
 			"cost": "1300F 750G",
 			"for": "Cavalier",
 			"time": "2:50",
+			"civb": {
+				"Huns and allies": "BT 2:21.7 - Stables work 20% faster"
+			},
 			"t": ""
 		},
 		{
@@ -259,7 +284,8 @@
 			"for": "Camel",
 			"time": "2:05",
 			"civb": {
-				"Chinese": "260F 288G in Imperial Age"
+				"Chinese": "260F 288G in Imperial Age",
+				"Huns allies": "BT 1:44.2 - Stables work 20% faster"
 			},
 			"t": ""
 		},
@@ -272,7 +298,8 @@
 			"for": "Cavalry, Cavalry Archers, Conquistador +20 hit points",
 			"time": "0:50",
 			"civb": {
-				"Chinese": "138F 90G in Feudal, 128F 85G in Castle, 120F 80G in Imperial Age"
+				"Chinese": "138F 90G in Feudal, 128F 85G in Castle, 120F 80G in Imperial Age",
+				"Huns and allies": "BT 0:41.7 - Stables work 20% faster"
 			},
 			"t": ""
 		},
@@ -285,7 +312,8 @@
 			"for": "Cavalry, Cavalry Archers, Conquistador MR * 1.1",
 			"time": "0:50",
 			"civb": {
-				"Chinese": "213F in Castle, 200F in Imperial Age"
+				"Chinese": "213F in Castle, 200F in Imperial Age",
+				"Huns and allies": "BT 0:41.7 - Stables work 20% faster"
 			},
 			"t": ""
 		},
@@ -298,7 +326,8 @@
 			"for": "Mangonel",
 			"time": "1:15",
 			"civb": {
-				"Chinese": "Cost 640F 400G in Imperial Age"
+				"Chinese": "Cost 640F 400G in Imperial Age",
+				"Celts and allies": "BT 1:02.5 - Siege Workshops work 20% faster"
 			},
 			"t": ""
 		},
@@ -310,6 +339,9 @@
 			"cost": "1450F 1000G",
 			"for": "Onager",
 			"time": "2:30",
+			"civb": {
+				"Celts and allies": "BT 2:05 - Siege Workshops work 20% faster"
+			},
 			"t": ""
 		},
 		{
@@ -321,7 +353,8 @@
 			"for": "Scorpion",
 			"time": "0:50",
 			"civb": {
-				"Chinese": "Cost 800F 880W in Imperial Age"
+				"Chinese": "Cost 800F 880W in Imperial Age",
+				"Celts and allies": "BT 0:41.7 - Siege Workshops work 20% faster"
 			},
 			"t": ""
 		},
@@ -334,7 +367,8 @@
 			"for": "Battering ram",
 			"time": "0:50",
 			"civb": {
-				"Chinese": "Cost 255F in Imperial Age"
+				"Chinese": "Cost 255F in Imperial Age",
+				"Celts and allies": "BT 0:41.7 - Siege Workshops work 20% faster"
 			},
 			"t": ""
 		},
@@ -347,7 +381,8 @@
 			"for": "Capped Ram",
 			"time": "1:15",
 			"civb": {
-				"Chinese": "Cost 800F in Imperial Age"
+				"Chinese": "Cost 800F in Imperial Age",
+				"Celts and allies": "BT 1:02.5 - Siege Workshops work 20% faster"
 			},
 			"t": ""
 		},

@@ -36,7 +36,10 @@ $changes_json = <<<JSON
 		}
 	},
 	"Heavy Camel": {
-		"time": "1:45"
+		"time": "1:45",
+		"civb": {
+			"Huns allies": "BT 1:27.5 - Stables work 20% faster"
+		}
 	},
 	"Pikeman": {
 		"civb": {
@@ -314,7 +317,8 @@ $changes_json = <<<JSON
 		"cost": "150F",
 		"time": "0:40",
 		"civb": {
-			"Chinese": "128F in Castle, 120F in Imperial Age"
+			"Chinese": "128F in Castle, 120F in Imperial Age",
+			"Huns and allies": "BT 0:33.3 - Stables work 20% faster"
 		}
 	}
 }
@@ -432,7 +436,10 @@ $new_technologies_json = <<<JSON
 		"age": "3",
 		"cost": "1200F 600G",
 		"for": "Indian Heavy Camel",
-		"time": "2:05", 
+		"time": "2:05",
+		"civb": {
+			"Huns ally": "BT 1:44.2 - Stables work 20% faster"
+		},
 		"t": ""
 	},
 	{
@@ -442,7 +449,10 @@ $new_technologies_json = <<<JSON
 		"age": "2",
 		"cost": "200F 200G",
 		"for": "Eagle Scout",
-		"time": "0:50", 
+		"time": "0:50",
+		"civb": {
+			"Goths allies": "BT 0:41.7 - Barracks work 20% faster"
+		},
 		"t": ""
 	},
 	{
@@ -485,7 +495,8 @@ $new_technologies_json = <<<JSON
 		"time": "0:45",
 		"civb": {
 			"Chinese": "128F 170W, 120F 160W in Imperial Age",
-			"Italians": "Cost 75F 100W"
+			"Italians": "Cost 75F 100W",
+			"Persians": "Time required 0:39.1 in Castle Age (15% faster docks) and 0:37.5 in Imperial Age (20% faster docks)"
 		}, 
 		"t": ""
 	},
@@ -735,7 +746,7 @@ $new_technologies_json = <<<JSON
 		"ver": "a", 
 		"age": "3",
 		"cost": "1000F 600G",
-		"for": "Ethiopian siege workship units blast radius increased.<br />(+0.45 blast radius)",
+		"for": "Ethiopian siege workshop units blast radius increased.<br />(+0.45 blast radius)",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -818,7 +829,8 @@ $new_technologies_json = <<<JSON
 		"for": "Genitours for Berbers and allies",
 		"time": "1:00",
 		"civb": {
-			"Chinese with Berber ally": "400F 360W in Imperial Age"
+			"Chinese with Berber ally": "400F 360W in Imperial Age",
+			"Britons and allies with Berber ally": "BT 0:50 - Archery Ranges work 20% faster"
 		}, 
 		"t": ""
 	},
@@ -831,7 +843,8 @@ $new_technologies_json = <<<JSON
 		"for": "Infantry +2 attack vs standard buildings",
 		"time": "0:25",
 		"civb": {
-			"Chinese": "135F 45G in Feudal, 128F 43G in Castle, 120F 40G in Imperial Age"
+			"Chinese": "135F 45G in Feudal, 128F 43G in Castle, 120F 40G in Imperial Age",
+			"Goths and allies": "BT 0:20.8 - Barracks work 20% faster"
 		}, 
 		"t": ""
 	},
@@ -977,7 +990,8 @@ $new_technologies_json = <<<JSON
 		"for": "Elite Skirmisher",
 		"time": "0:50",
 		"civb": {
-			"Chinese with Vietnamese ally": "240F 360G"
+			"Chinese with Vietnamese ally": "240F 360G",
+			"Britons and allies with Vietnamese ally": "BT 0:41.7 - Archery Ranges work 20% faster"
 		}, 
 		"t": ""
 	}, 
@@ -989,6 +1003,9 @@ $new_technologies_json = <<<JSON
 		"cost": "800F 500G",
 		"for": "Battle Elephant",
 		"time": "1:20",
+		"civb": {
+			"Huns allies": "BT 1:06.7 - Stables work 20% faster"
+		},
 		"t": ""
 	}
 ]
