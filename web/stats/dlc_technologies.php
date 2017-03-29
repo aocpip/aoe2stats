@@ -207,7 +207,7 @@ $changes_json = <<<JSON
 		"civb": {
 			"Malians and allies": "0:16.7 BT (80% faster)"
 		},
-		"for": "Towers do 2.25 * attack bonus vs ships<br />Castles do +4 damage against ships"
+		"for": "Towers do 2.25 * attack bonus vs ships<br />Castles do +4 damage against ships<br />Harbors do +4 damage against ships"
 	},
 	"Parthian Tactics": {
 		"for": "(Heavy) Cavalry archers, Elephant archers and Mangudai +1/+2 AR<br />(Heavy) Cavalry Archer +4 attack against spearman line <br /> Mangudai and Elephant Archer +2 against spearman line"
@@ -606,7 +606,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "200W 100S",
-		"for": "Persian Castles +9 attack vs rams <br />(effectively +9 against battering, +8 vs capped, +7 vs siege ram)",
+		"for": "Persian Castles +9 attack vs rams <br />(effectively +8 against battering, +7 vs capped, +6 vs siege ram)",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -686,7 +686,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "400F 300G",
-		"for": "Viking berserks get +5 attack against cavalry and +2 against camels",
+		"for": "Viking infantry get +5 attack against cavalry and +2 against camels",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -852,9 +852,9 @@ $new_technologies_json = <<<JSON
 		"type": "University",
 		"name": "Arrowslits",
 		"ver": "f", 
-		"age": "2",
+		"age": "3",
 		"cost": "250W 250F",
-		"for": "Watch tower +2 pierce attack,<br />Guard Tower +4 pierce attack,<br />Keep +6 pierce damage",
+		"for": "Watch tower +1 pierce attack,<br />Guard Tower +2 pierce attack,<br />Keep +3 pierce damage",
 		"time": "0:25",
 		"civb": {
 			"Chinese": "Cost 213W 213F in Castle, 200W 200F in Imperial Age"
@@ -877,7 +877,7 @@ $new_technologies_json = <<<JSON
 		"ver": "r", 
 		"age": "3",
 		"cost": "650F 400G",
-		"for": "Cavalry and Arambai deal +6 bonus attack vs buildings",
+		"for": "Cavalry and Arambai deal +6 bonus attack vs buildings. Half of that can be blocked by the building armor of castles or the masonry research.",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -907,7 +907,7 @@ $new_technologies_json = <<<JSON
 		"ver": "r", 
 		"age": "3",
 		"cost": "700F 400G",
-		"for": "Ballista Elephants and Scorpions fire two projectiles.",
+		"for": "Ballista Elephants and Scorpions fire two projectiles. The second bolt has about 50% of the first bolt's attack.",
 		"time": "0:40", 
 		"t": ""
 	},
