@@ -100,7 +100,7 @@ $changes_json = <<<JSON
 			"Italians": "Cost 425F  (15% cheaper)",
       		"Ethiopians": "Receive 100F 100G when finished",
 			"Khmer": "No buildings required to advance",
-			"Malay": "1:05 BT (2x faster)"
+			"Malay": "1:12 BT (80% faster)"
 		}
 	},
 	"Castle Age": {
@@ -108,7 +108,7 @@ $changes_json = <<<JSON
 			"Italians": "Cost 680F 170G (15% cheaper)",
       		"Ethiopians": "Receive 100F 100G when finished",
 			"Khmer": "No buildings required to advance",
-			"Malay": "1:20 BT (2x faster)"
+			"Malay": "1:29 BT (80% faster)"
 		}
 	},
 	"Imperial Age": {
@@ -116,7 +116,7 @@ $changes_json = <<<JSON
 			"Italians": "Cost 850F 720G  (15% cheaper)",
       		"Ethiopians": "Receive 100F 100G when finished",
 			"Khmer": "No buildings required to advance",
-			"Malay": "1:35 BT (2x faster)"
+			"Malay": "1:46 BT (80% faster)"
 		}
 	},
 	"War Galley": {
@@ -706,7 +706,7 @@ $new_technologies_json = <<<JSON
 		"ver": "a", 
 		"age": "3",
 		"cost": "700F 400G",
-		"for": "Portuguese gunpowder units affected by Ballistics<br />Gunpowder projectiles move +0.5 tiles faster <br />(bombard cannons 4 -> 4.5, bombard towers 3 -> 3.5,<br /> hand cannoneer/organ gun 5.5 -> 6.0, (elite) cannon galleon 1.95 -> 2.45)",
+		"for": "Portuguese gunpowder units affected by Ballistics<br />Some projectiles move +0.5 tiles faster: <br />hand cannoneer/organ gun 5.5 -> 6.0, (elite) cannon galleon 1.95 -> 2.45)",
 		"time": "0:40", 
 		"t": ""
 	},

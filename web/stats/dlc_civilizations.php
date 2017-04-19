@@ -210,7 +210,7 @@ $new_civs_json = <<<JSON
 		"uu": "Karambit Warrior",
 		"ut": "Thalassocracy(Castle),<br /> Forced Levy(Imperial)",
 		"tb": "Docks 2x LOS",
-		"bs": "<ul> <li>Advancing to ages 2x faster</li> <li>Fishing Ships and Fish Traps cost *0.667</li> <li>Fish Traps provide unlimited food (7e+13)</li> <li>Battle Elephants cost *0.8 (20% cheaper)</li></ul>",
+		"bs": "<ul> <li>Advancing to ages 80% faster</li> <li>Fish Traps cost -33%</li> <li>Fish Traps provide unlimited food</li> <li>Battle Elephants cost *0.75 (25% cheaper)</li></ul>",
 		"tt": "malay"
 	},
 	{

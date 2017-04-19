@@ -497,8 +497,7 @@ $changes_json = <<<JSON
 		"civb": {
 			"Italians": "Cost 50W (-25W)",
       "Berbers": "1.386 movement rate (10% faster)",
-      "Portuguese": "66 HP (10% bonus)",
-      "Malay": "Cost 50W (-33% cheaper)"
+      "Portuguese": "66 HP (10% bonus)"
 		}
 	},
 	"Hand Cannoneer": {
@@ -1321,7 +1320,7 @@ $new_units_json = <<<JSON
       "at": "7",
       "ar": "0/1",
       "extra": {
-        "attack bonus": "+4 cavalry archers, +2 rams, +1 infantry",
+        "attack bonus": "+4 cavalry archers, +2 rams",
         "armor bonus": "+1 camel armor",
         "accuracy": "95"
       },
@@ -1347,7 +1346,7 @@ $new_units_json = <<<JSON
       "at": "8",
       "ar": "1/1",
       "extra": {
-        "attack bonus": "+6 cavalry archers, +2 rams, +1 infantry",
+        "attack bonus": "+6 cavalry archers, +2 rams",
         "armor bonus": "+2 camel armor, +2 cavalry archer armor",
         "accuracy": "95"
       },
@@ -1605,7 +1604,7 @@ $new_units_json = <<<JSON
       "civb": {
         "Huns ally": "0:23.3 BT (20% faster stable)",
         "Khmer": "MR*1.15 = 0.92 (15% faster)",
-        "Malay": "Cost * 0.8 = 96F 56G (20% cheaper)"
+        "Malay": "Cost * 0.75 = 90F 53G (25% cheaper)"
       },
       "note": "Slow and heavy cavalry. Classified as cavalry and all bonuses applied against war elephants apply against them as well.",
       "t": "baele0 war elephant cavalry melee"
@@ -1774,7 +1773,7 @@ $new_units_json = <<<JSON
       "hp": "40",
       "ra": "-",
       "at": "8",
-      "ar": "1/2",
+      "ar": "1/1",
       "extra": {
         "attack bonus": "+2 eagles, +1 standard buildings"
       },
@@ -1798,7 +1797,7 @@ $new_units_json = <<<JSON
       "at": "6",
       "ar": "0/4",
       "extra": {
-        "attack bonus": "+2 spearmen +1 infantry, +0 rams",
+        "attack bonus": "+2 spearmen, +0 rams",
         "accuracy": "80%"
       },
       "civb": {
@@ -1824,7 +1823,7 @@ $new_units_json = <<<JSON
       "at": "7",
       "ar": "0/6",
       "extra": {
-        "attack bonus": "+2 spearmen +1 infantry, +0 rams",
+        "attack bonus": "+2 spearmen, +0 rams",
         "accuracy": "90%"
       },
       "civb": {
