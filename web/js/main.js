@@ -1185,7 +1185,7 @@ function clear_comparisons() {
 
 function get_comparison_query() {
 	var comparables = get_comparisons();
-	return comparables.join(",");
+	return comparables.join(".");
 }
 
 function is_compared(id) {

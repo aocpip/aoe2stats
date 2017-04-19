@@ -159,7 +159,7 @@ $gatherings = null;
 $rowIDs = array();
 if(isset($_REQUEST['c'])) {
     $rows_coded = $_REQUEST['c'];
-    $rows_exploded = explode(',', $rows_coded);
+    $rows_exploded = explode('.', $rows_coded);
     $rowIDs = array_splice($rows_exploded, 0, $MAX_COMPARE_COUNT);
 }
 
