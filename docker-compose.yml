@@ -6,14 +6,19 @@ services:
             - "80:80"
         volumes:
             - ./web:/src
-        links:
-            - fpm
+        networks:
+            - backend
     fpm:
         image: php:fpm-alpine
         volumes:
             - ./web:/src
+        networks:
+            - backend
+
     dev:
         build: .
         volumes:
             - ./web:/src
             - /src/node_modules
+networks:
+    backend:
