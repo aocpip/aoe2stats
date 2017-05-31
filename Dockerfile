@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:6.10.3
 
-MAINTAINER galapon <galapon@gmail.com>
+LABEL authors="pip, galapon"
 
 RUN npm install -g gulp-cli
 
