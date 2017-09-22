@@ -174,7 +174,7 @@
 			"name": "Vikings",
 			"ver": "k", 
 			"ct": "Infantry and naval",
-			"uu": "Berserker, Longboat",
+			"uu": "Berserk, Longboat",
 			"ut": "Berserkergang",
 			"tb": "Docks are 25% cheaper",
 			"bs": "<ul> <li>Warships cost 20% less</li> <li>Infantry have +10% HP in Feudal Age, +15% in Castle Age, <br /> +20% in Imperial Age</li> <li>Wheelbarrow and Hand Cart are free</li> </ul>",
