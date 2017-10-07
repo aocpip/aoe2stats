@@ -806,6 +806,7 @@ function initTables(version) {
 		    let items = data.split(",");
 		    let retval = ""
 		    for(item of items){
+			item = item.replace("<br />", "");
 			item = $.trim(item);
 			let bracketindex = item.indexOf("(");
 			let unit = item;
@@ -818,9 +819,9 @@ function initTables(version) {
 			if(comment != ""){
 				retval += " "+comment;
 			}
-			retval += ", ";
+			retval += ", <br>";
 		    }
-		    return retval.substring(0, retval.length - 2);
+		    return retval.substring(0, retval.length - 6);
 		    
 	        } 
             },
