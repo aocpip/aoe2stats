@@ -11,8 +11,10 @@ Includes unit, building, civilization and technology information and statistics.
 - clone the git repository  
 `git clone https://github.com/aocpip/aoe2stats.git`
 - build and start the docker containers  
-```docker-compose build
-docker-compose up -d nginx```
+```
+docker-compose build
+docker-compose up -d nginx
+```
 - visit `http://localhost`
 
 ## Testing
