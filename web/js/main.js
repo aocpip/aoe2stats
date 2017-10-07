@@ -799,8 +799,52 @@ function initTables(version) {
         	},
             { "data": "name", "class": "bold-cell", "responsivePriority": 1},
             { "data": "ct", "class": "dt-center", "responsivePriority": 2 },
-            { "data": "uu", "class": "dt-center", "responsivePriority": 2 },
-            { "data": "ut", "class": "dt-center", "responsivePriority": 2 },
+            { "data": "uu", "class": "dt-center", "responsivePriority": 2, "render":function(data, type, row){
+		    let items = data.split(",");
+		    let retval = ""
+		    for(item of items){
+			item = $.trim(item);
+			let bracketindex = item.indexOf("(");
+			let unit = item;
+			let comment = "";
+			if( bracketindex > -1 ){
+				unit = $.trim(item.substring(0, bracketindex));
+				comment = item.substring(bracketindex, item.length);
+			}
+			retval += "<span class='searchable' onclick=\"dosearch('"+unit+"')\">"+unit+"</span>";
+			if(comment != ""){
+				retval += " "+comment;
+			}
+			retval += ", ";
+		    }
+		    return retval.substring(0, retval.length - 2);
+		    
+	        } 
+            },
+	    { "data": "ut", "class": "dt-center", "responsivePriority": 2, "render":function(data, type, row){
+		    let items = data.split(",");
+		    let retval = ""
+		    for(item of items){
+			    item = item.replace("<br />", "");
+			    item = $.trim(item);
+			    let bracketindex = item.indexOf("(");
+			    let tech = item;
+			    let comment = "";
+			    if( bracketindex > -1 ){
+				    tech = $.trim(item.substring(0, bracketindex));
+				    comment = item.substring(bracketindex, item.length);
+			    }
+			    retval += "<span class='searchable' onclick=\"dosearch('"+tech+"')\">"+tech+"</span>";
+			    if(comment != ""){
+				    retval += " "+comment;
+			    }
+			    retval += ", <br>";
+		    }
+		    return retval.substring(0, retval.length - 6);
+		    
+		} 
+		    
+            },
             { "data": "tb", "class": "dt-center", "responsivePriority": 2 },
             { "data": "tt", "class": "dt-center",
             	"render" : function(data, type, row) {
@@ -922,6 +966,11 @@ function initTables(version) {
 
 var ENABLED_SECTIONS = ['units', 'structures', 'techs', 'civs', 'gathers'];
 var SECTION_COUNT = ENABLED_SECTIONS.length;
+
+function dosearch(str){
+	$("#global-search").val(str);
+	update_search();
+}
 
 function update_search() {
 

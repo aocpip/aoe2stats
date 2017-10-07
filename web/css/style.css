@@ -11,6 +11,11 @@ body {
 	color: #3b3a36;
 }
 
+.searchable{
+	cursor: pointer;
+	color: #337ab7;
+}
+
 .searchbox {
 	float: right;
 	display: inline-block;
