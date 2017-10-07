@@ -1142,7 +1142,7 @@
 			"ver": "k",
 			"age": "2",
 			"cost": "450F 250G",
-			"for": "Goths can create huskarls in barracks",
+			"for": "Goths can create Huskarls in barracks",
 			"time": "1:00",
 			"t": ""
 		},
@@ -1217,7 +1217,7 @@
 			"ver": "k",
 			"age": "3",
 			"cost": "300F 300G",
-			"for": "Persians, War elephant MR * 1.3 = 0.78",
+			"for": "Persians, War Elephant MR * 1.3 = 0.78",
 			"time": "0:50",
 			"t": ""
 		},

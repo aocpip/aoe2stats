@@ -395,7 +395,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "300W 200G",
-		"for": "Huns can make tarkans in stables",
+		"for": "Huns can make Tarkans in stables",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -405,7 +405,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "3",
 		"cost": "400F 200G",
-		"for": "Incan eagles, kamayuks and slingers +1/+2 armor (melee/pierce)",
+		"for": "Incan Eagle Warriors, Kamayuks and Slingers +1/+2 armor (melee/pierce)",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -415,7 +415,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "200F 300G",
-		"for": "Incan skirmishers and slingers no minimum range",
+		"for": "Incan Skirmishers and Slingers no minimum range",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -546,7 +546,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "300W 300F",
-		"for": "Korean turtle ships move 15% faster (MR*1.15 = 0.9 -> 1.035)",
+		"for": "Korean Turtle Ships move 15% faster (MR*1.15 = 0.9 -> 1.035)",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -636,7 +636,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "3",
 		"cost": "1200F 500G",
-		"for": "Slav infantry damage adjecent units. blast radius +0.5, 5 damage (same as cataphracts wih logistica)",
+		"for": "Slav infantry damage adjecent units. Blast radius +0.5, 5 damage (same as Cataphracts wih Logistica)",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -646,7 +646,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "3",
 		"cost": "1000F 600G",
-		"for": "Slavic Boyar",
+		"for": "Boyar",
 		"time": "1:00", 
 		"t": ""
 	},
@@ -736,7 +736,7 @@ $new_technologies_json = <<<JSON
 		"ver": "a", 
 		"age": "2",
 		"cost": "300F 300G",
-		"for": "Ethiopian Shotel warriors creation speed halved<br />(0.5*BT means 8*0.5 -> 4 seconds).",
+		"for": "Ethiopian Shotel Warriors creation speed halved<br />(0.5*BT means 8*0.5 -> 4 seconds).",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -756,7 +756,7 @@ $new_technologies_json = <<<JSON
 		"ver": "a", 
 		"age": "3",
 		"cost": "1200F 550G",
-		"for": "Shotel warrior",
+		"for": "Shotel Warrior",
 		"time": "0:45", 
 		"t": ""
 	},
