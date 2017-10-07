@@ -175,7 +175,8 @@ function formatCiv(d, columns) {
 
 	content += format_add_hidden(d, columns);
 
-	var version = Cookies.get("aocversion");
+	var version = Cookies.get("aocversion") || $("#aocversion").val();
+
 	if(d.tt.length > 0) {
 		content += "<div style='min-height: 320px;height: 100%;'>";
 		content += '<iframe width="100%" height="100%" style="min-height: 320px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="images/techtrees/'+version+'/'+d.tt+'.html"></iframe>';
@@ -195,7 +196,7 @@ function formatGathering(d, columns) {
 
 function openTechtree(event, civ) {
 	event.stopPropagation();
-	var version = Cookies.get("aocversion");
+	var version = Cookies.get("aocversion") || $("#aocversion").val();
 	window.location.href = "techtree.php?v="+version+"&c="+civ;
 }
 
@@ -267,7 +268,9 @@ function updateComparisons() {
 		}
 	}
 
-	var redirect_url =  "compare.php?v="+Cookies.get("aocversion")+"&c="+get_comparison_query();
+	var version = Cookies.get("aocversion") || $("#aocversion").val();
+
+	var redirect_url =  "compare.php?v="+version+"&c="+get_comparison_query();
 	$("#compare").attr("href", redirect_url);
 }
 
@@ -1099,7 +1102,7 @@ $(document).ready(function() {
 		if(typeof Cookies.get("aocversion") === "undefined") {
 			Cookies.set("aocversion", 'aoc');
 		}
-		var aoc_ver = Cookies.get("aocversion");
+		var aoc_ver = Cookies.get("aocversion") || $("#aocversion").val();
 		$("#aocversion").val(aoc_ver);
 		initTables(aoc_ver);
 	//}

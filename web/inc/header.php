@@ -15,7 +15,10 @@ define("STATS_VERSION", "0.9.5");
     <script>    
     if(typeof Cookies.get("version") === "undefined" || Cookies.get("version") != '<?php echo STATS_VERSION;?>') {
         Cookies.set("version", '<?php echo STATS_VERSION;?>');
-        document.location.reload(true);
+        // avoid reload loop if cookies are disabled
+        if(typeof Cookies.get("version") !== "undefined"){
+            document.location.reload(true);
+        }
     }
     </script>
 
