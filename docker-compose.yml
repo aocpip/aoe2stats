@@ -8,6 +8,8 @@ services:
             - ./web:/src
         networks:
             - backend
+        depends_on:
+            - "fpm"
     fpm:
         image: php:fpm-alpine
         volumes:
