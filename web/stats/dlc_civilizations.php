@@ -117,7 +117,7 @@ $new_civs_json = <<<JSON
 		"name": "Italians",
 		"ver": "f", 
 		"ct": "Archer and naval civilization",
-		"uu": "Genoese crossbowman,<br /> Condottiero(Barracks)",
+		"uu": "Genoese Crossbowman,<br /> Condottiero(Barracks)",
 		"ut": "Pavise(Castle),<br /> Silk Road(Imperial)",
 		"tb": "Condottiero available in imperial barracks",
 		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships cost -25W</li><li>Gunpowder units cost -20%</li> </ul>",
