@@ -28,7 +28,7 @@ gulp.task('default', function() {
 				nodeDir + 'tooltipster/dist/css/tooltipster.bundle.css',
 				nodeDir + 'tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min.css'],
             {base: nodeDir})
-        .pipe(cleanCSS())
+        //.pipe(cleanCSS())
 		.pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
 		.pipe(concat('vendor.min.css'))
 		.pipe(gulp.dest('css'))

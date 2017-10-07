@@ -3,6 +3,7 @@ FROM mhart/alpine-node:6.10.3
 LABEL authors="pip, galapon"
 
 RUN npm install -g gulp-cli
+RUN apk add --update php5-cli php5-json
 
 WORKDIR /src
 
