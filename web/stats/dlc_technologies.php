@@ -119,7 +119,8 @@ $changes_json = <<<JSON
 			"Malay": "1:46 BT (80% faster)"
 		}
 	},
-	"War Galley": {
+	"War Galley": {		
+		"for": "Galley, Fire Galley, Demolition Raft - all three ships are upgraded with this technology.",
 		"civb": {
 			"Italians": "Cost 115F 50G"
 		}	
@@ -161,17 +162,17 @@ $changes_json = <<<JSON
 	},
 	"Forging": {
 		"civb": {
-			"Magyars": "Cost free (requires blacksmith)"
+			"Magyars": "Free"
 		}
 	},
 	"Iron Casting": {
 		"civb": {
-			"Magyars": "Cost free (requires blacksmith)"
+			"Magyars": "Free"
 		}
 	},
 	"Blast Furnace": {
 		"civb": {
-			"Magyars": "Cost free (requires blacksmith)"
+			"Magyars": "Free"
 		}
 	},
 	"Elite Plumed Archer": {
@@ -556,7 +557,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "3",
 		"cost": "600F 400G",
-		"for": "Magyar cavalry archers +1 range +1 LOS +1 search radius",
+		"for": "Magyar cavalry archers +1 attack +1 range +1 LOS +1 search radius",
 		"time": "0:40", 
 		"t": ""
 	},

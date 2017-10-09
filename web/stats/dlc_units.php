@@ -10,7 +10,7 @@ $changes_json = <<<JSON
   },
 	"Fire Ship" : {
 		"hp": "120",
-    "ar": "0/7",
+    "ar": "0/6",
     "extra": {
       "attack bonus": "+2 buildings, +3 ships, +2 turtle ships, +1 melee",
       "armor bonus": "+6 ships"
@@ -22,7 +22,7 @@ $changes_json = <<<JSON
 	},
 	"Fast Fire Ship" : {
 		"hp": "140",
-    "ar": "0/9",
+    "ar": "0/8",
     "extra": {
       "attack bonus": "+3 buildings, +4 ships, +3 turtle ships, +1 melee",
       "armor bonus": "+9 ships"
@@ -399,7 +399,7 @@ $changes_json = <<<JSON
 	"Transport Ship": {
 		"age": "0",
 		"civb": {
-			"Vikings": "Cost 113W (-10% bonus) in Feudal, 106W (-15% bonus) in Castle, 100W (-20% bonus) in Imperial age",
+			"Vikings": "Cost 106W (-15% bonus) in Feudal/Castle, 100W (-20% bonus) in Imperial age",
       "Berbers": "1.595 movement rate (10% faster)",
       "Portuguese": "110 HP (10% bonus)"
 		},
@@ -407,7 +407,7 @@ $changes_json = <<<JSON
 	},
 	"Galley": {
 		"civb": {
-			"Vikings": "Cost 81W 27G (-10% bonus) in Feudal, 76W 25G (-15% bonus) in Castle, 72W 24G (-20% bonus) in Imperial age",
+			"Vikings": "Cost 76W 25G (-15% bonus) in Feudal/Castle, 72W 24G (-20% bonus) in Imperial age",
       "Portuguese": "Cost 90W 26G (-15% gold cost)<br />132 HP (10% bonus)",
       "Berbers": "1.573 movement rate (10% faster)"
 		},
@@ -495,7 +495,7 @@ $changes_json = <<<JSON
 	},
 	"Fishing Ship": {
 		"civb": {
-			"Italians": "Cost 50W (-25W)",
+			"Italians": "Cost 60W (-15W)",
       "Berbers": "1.386 movement rate (10% faster)",
       "Portuguese": "66 HP (10% bonus)"
 		}
@@ -531,21 +531,21 @@ $changes_json = <<<JSON
 	},
 	"Scout Cavalry1": {
 		"civb": {
-			"Magyars": "Cost 72F",
+			"Magyars": "Cost 68F",
       "Berbers": "Cost 68F in Castle Age and 64F in Imperial Age (-15/20% respectively",
       "Franks": "54 HP (+20%)"
 		}
 	},
 	"Light Cavalry": {
 		"civb": {
-			"Magyars": "Cost 72F",
+			"Magyars": "Cost 68F",
       "Berbers": "Cost 68F in Castle Age and 64F in Imperial Age (-15/20% respectively",
       "Franks": "72 HP (+20%)"
 		}
 	},
 	"Hussar": {
 		"civb": {
-			"Magyars": "Cost 72F",
+			"Magyars": "Cost 68F",
       "Berbers": "Cost 68F in Castle Age and 64F in Imperial Age (-15/20% respectively"
 		}
 	},
@@ -1435,7 +1435,7 @@ $new_units_json = <<<JSON
         "Aztecs": "0:38.25 BT (-15% bonus)",
         "Chinese": "68 HP (+50% HP)",
         "Persians": "0:40.9 BT in Feudal, 0:39.1 BT in Castle, 0:37.5 BT in Imperial",
-        "Vikings": "Cost 56W 40G (-20% cost bonus)",
+        "Vikings": "Cost 60W 43G in Feudal/Castle (-15% cost bonus), 56W 40G in Imperial (-20% cost bonus)",
         "Portuguese": "Cost 70W 43G (-15% gold cost)<br />55 HP (+10% bonus)",
         "Berbers": "MR 1.65 (+10% faster)"
       },
@@ -1750,7 +1750,7 @@ $new_units_json = <<<JSON
       "los": "3",
       "hp": "30",
       "ra": "-",
-      "at": "5",
+      "at": "6",
       "ar": "0/1",
       "extra": {
         "attack bonus": "+2 eagles"

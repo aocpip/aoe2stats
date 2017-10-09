@@ -83,7 +83,7 @@ $changes_json = <<<JSON
 	"Vikings": {
 		"ut": "Chieftains(Castle),<br /> Berserkergang(Imperial)",
 		"tb": "Docks are -15% cheaper",
-		"bs": "<ul> <li>Warships cost -10% in Feudal, -15% in Castle, -20% in Imperial Age</li> <li>Infantry have +10% HP in Feudal Age, +15% in Castle Age, <br /> +20% in Imperial Age</li> <li>Wheelbarrow and Hand Cart are free</li> </ul>",
+		"bs": "<ul> <li>Warships cost -15% in Feudal/Castle, -20% in Imperial Age</li> <li>Infantry have +10% HP in Feudal Age, +15% in Castle Age, <br /> +20% in Imperial Age</li> <li>Wheelbarrow and Hand Cart are free</li> </ul>",
 		"tt": "vikings"
 	}
 }
@@ -120,7 +120,7 @@ $new_civs_json = <<<JSON
 		"uu": "Genoese Crossbowman,<br /> Condottiero(Barracks)",
 		"ut": "Pavise(Castle),<br /> Silk Road(Imperial)",
 		"tb": "Condottiero available in imperial barracks",
-		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships cost -25W</li><li>Gunpowder units cost -20%</li> </ul>",
+		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships cost -15W</li><li>Gunpowder units cost -20%</li> </ul>",
 		"tt": "italians"
 	},
 	{
@@ -130,7 +130,7 @@ $new_civs_json = <<<JSON
 		"uu": "Magyar Huszar",
 		"ut": "Mercenaries(Castle),<br /> Recurve bow(Imperial)",
 		"tb": "Foot archers (not skirmishers) +2 LOS",
-		"bs": "<ul> <li>Villagers kill wolves in 1 strike</li><li>Melee upgrades (forging, iron casting, blast furnace) in blacksmith free (requires blacksmith)</li><li>Scout line costs -10%</li> </ul>",
+		"bs": "<ul> <li>Villagers kill wolves in 1 strike</li><li>Melee upgrades (forging, iron casting, blast furnace) in blacksmith free</li><li>Scout line costs -15%</li> </ul>",
 		"tt": "magyars"
 	},
 	{
