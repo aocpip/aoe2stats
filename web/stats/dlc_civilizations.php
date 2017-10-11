@@ -68,7 +68,7 @@ $changes_json = <<<JSON
 	"Spanish": {
 		"ut": "Inquisition(Castle),<br /> Supremacy(Imperial)",
 		"tt": "spanish",
-		"tb": "Trade units generate +25% G"
+		"tb": "Trade units generate +25% Gold"
 	},
 	"Teutons": {
 		"ut": "Ironclad(Castle),<br /> Crenellations(Imperial)",

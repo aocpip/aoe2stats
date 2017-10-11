@@ -1469,7 +1469,7 @@
       "civb": {
         "Goths": "+1 against buildings, making it +3; base cost 80F 40G; 0:13.33BT from barracks"
         },
-      "note": "Gothic unique unit. Stronger than Huskarl.",
+      "note": "Gothic unique unit. Infantry with substantial pierce armor; virtually immune to archer fire. Attack bonus vs. buildings, archers.",
       "t": "husk0 melee infantry"
     },
     {
@@ -2093,7 +2093,7 @@
         "base movement rate": "1.2, but because of the celts bonus 1.2*1.15 = 1.38"
       },
       "civb": {},
-      "note": "Celtic unique unit. Stronger than Woad Raider.",
+      "note": "Celtic unique unit. Exceptionally quick infantry. Attack bonus vs. buildings.",
       "t": "woad0 infantry melee"
     },
     {
