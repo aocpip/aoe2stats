@@ -140,7 +140,7 @@ $new_civs_json = <<<JSON
 		"uu": "Boyar",
 		"ut": "Orthodoxy(Castle),<br /> Druzhina(Imperial)",
 		"tb": "Military buildings (barracks, archery ranges, siege workshops and stables) provide +5 population",
-		"bs": "<ul> <li>Farmers work ~15% faster without upgrades</li><li>Tracking free</li><li>Siege units from siege workshop 15% cheaper</li> </ul>",
+		"bs": "<ul> <li>Farmers work ~15% faster</li><li>Tracking free</li><li>Siege units from siege workshop 15% cheaper</li> </ul>",
 		"tt": "slavs"
 	},
 	{
@@ -160,7 +160,7 @@ $new_civs_json = <<<JSON
 		"uu": "Shotel Warrior",
 		"ut": "Royal Heirs(Castle),<br /> Torsion Engines(Imperial)",
 		"tb": "Towers, outposts +3 LOS",
-		"bs": "<ul> <li>Receive 100F 100G upon advancing to next age</li> <li>Pikeman and Halberdier upgrades are free</li> <li>Foot archers reload time *0.85 (-15%)</li> </ul>",
+		"bs": "<ul> <li>Receive 100F 100G upon advancing to next age</li> <li>Pikeman upgrade free</li> <li>Foot archers reload time *0.85 (-15%)</li> </ul>",
 		"tt": "ethiopians"
 	},
 	{
@@ -170,7 +170,7 @@ $new_civs_json = <<<JSON
 		"uu": "Gbeto",
 		"ut": "Tigui(Castle),<br /> Farimba(Imperial)",
 		"tb": "University works 1.8x faster (80% faster)",
-		"bs": "<ul> <li>Barracks units get +1 pierce armor per age</li> <li>buildings (except Farms) wood cost *0.85 (15% cheaper)</li> <li>Gold mining upgrades free</li> </ul>",
+		"bs": "<ul> <li>Barracks units get +1 pierce armor per age</li> <li>buildings (except Farms) wood cost *0.85 (15% cheaper)</li> <li>Free Gold Mining</li> </ul>",
 		"tt": "malians"
 	},
 	{
@@ -210,7 +210,7 @@ $new_civs_json = <<<JSON
 		"uu": "Karambit Warrior",
 		"ut": "Thalassocracy(Castle),<br /> Forced Levy(Imperial)",
 		"tb": "Docks 2x LOS",
-		"bs": "<ul> <li>Advancing to ages 80% faster</li> <li>Fish Traps cost -33%</li> <li>Fish Traps provide unlimited food</li> <li>Battle Elephants cost *0.75 (25% cheaper)</li></ul>",
+		"bs": "<ul> <li>Advancing to ages 80% faster</li> <li>Fish Traps cost -33%</li> <li>Fish Traps provide unlimited food</li> <li>Battle Elephants cost *0.70 (30% cheaper)</li></ul>",
 		"tt": "malay"
 	},
 	{
