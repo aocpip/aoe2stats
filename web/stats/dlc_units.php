@@ -144,7 +144,7 @@ $changes_json = <<<JSON
     }
 	},
   "Archer": {
-	"ad": 0.525
+	"ad": 0.525,
     "civb": {
       "Magyars and allies": "+2 LOS",
       "Portuguese": "Cost 25W 38G (-15% gold cost)",
