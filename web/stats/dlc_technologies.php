@@ -687,7 +687,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "400F 300G",
-		"for": "Viking infantry get +5 attack against cavalry and +2 against camels",
+		"for": "Viking infantry get +5 attack against cavalry and +4 against camels",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -707,7 +707,7 @@ $new_technologies_json = <<<JSON
 		"ver": "a", 
 		"age": "3",
 		"cost": "700F 400G",
-		"for": "Portuguese gunpowder units affected by Ballistics<br />Some projectiles move +0.5 tiles faster: <br />hand cannoneer/organ gun 5.5 -> 6.0, (elite) cannon galleon 1.95 -> 2.45)",
+		"for": "Portuguese gunpowder units affected by Ballistics<br />Projectiles move tiles faster: <br />hand cannoneer/organ gun 5.5 -> 6.0, (elite) cannon galleon 1.95 -> 2.45<br />Bombard Cannon 4 -> 4.2, Bombard Tower 3 -> 3.2",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -867,8 +867,8 @@ $new_technologies_json = <<<JSON
 		"name": "Howdah",
 		"ver": "r", 
 		"age": "2",
-		"cost": "300W 200F",
-		"for": "Battle Elephants +1/+2 armor",
+		"cost": "400F 300W",
+		"for": "Battle Elephants +1/+1 armor",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -958,7 +958,7 @@ $new_technologies_json = <<<JSON
 		"ver": "r", 
 		"age": "2",
 		"cost": "250F 250G",
-		"for": "Battle Elephants receive +30 HP",
+		"for": "Battle Elephants receive +50 HP",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -1001,9 +1001,9 @@ $new_technologies_json = <<<JSON
 		"name": "Elite Battle Elephant",
 		"ver": "r", 
 		"age": "3",
-		"cost": "800F 500G",
+		"cost": "1200F 900G",
 		"for": "Battle Elephant",
-		"time": "1:20",
+		"time": "1:40",
 		"civb": {
 			"Huns allies": "BT 1:06.7 - Stables work 20% faster"
 		},

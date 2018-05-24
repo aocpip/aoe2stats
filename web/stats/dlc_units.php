@@ -68,7 +68,7 @@ $changes_json = <<<JSON
 	},
 	"Spearman": {
 		"extra": {
-			"attack bonus": "+1 eagles, +1 buildings, +15 war elephants, +15 cavalry, +9 camels, +9 vs ships"
+			"attack bonus": "+1 eagles, +1 buildings, +15 war elephants, +15 cavalry, +12 camels, +9 vs ships"
 		},
     "civb": {
       "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)",
@@ -77,7 +77,7 @@ $changes_json = <<<JSON
 	},
 	"Pikeman": {
 		"extra": {
-			"attack bonus": "+1 eagles, +1 buildings, +25 war elephants, +22 cavalry, +16 camels, +16 ships"
+			"attack bonus": "+1 eagles, +1 buildings, +25 war elephants, +22 cavalry, +18 camels, +16 ships"
 		},
     "civb": {
       "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)",
@@ -86,7 +86,7 @@ $changes_json = <<<JSON
 	},
 	"Halberdier": {
 		"extra": {
-			"attack bonus": "+1 eagles, +1 buildings, +28 war elephants, +32 cavalry, +17 camels, +17 vs ships"
+			"attack bonus": "+1 eagles, +1 buildings, +28 war elephants, +32 cavalry, +26 camels, +17 vs ships"
 		},
     "civb": {
       "Malians": "+1 PA/age -> (1 in Feudal, 2 in Castle and 3 in Imperial Age)",
@@ -144,6 +144,7 @@ $changes_json = <<<JSON
     }
 	},
   "Archer": {
+	"ad": 0.525,
     "civb": {
       "Magyars and allies": "+2 LOS",
       "Portuguese": "Cost 25W 38G (-15% gold cost)",
@@ -227,7 +228,7 @@ $changes_json = <<<JSON
     "civb": {
       "Indian ally": "+5 attack vs buildings"
     },
-    "ad": "0.35"
+    "ad": "0.5"
   },
 	"Battering Ram": {
 		"civb": {
@@ -331,7 +332,7 @@ $changes_json = <<<JSON
 	},
 	"Throwing Axeman": {
     "hp": "60",
-		"ad": "0.7",
+		"ad": "1.0",
     "mr": "1.0"
 	},
   "Elite Throwing Axeman": {
@@ -369,13 +370,13 @@ $changes_json = <<<JSON
 		}
 	},
 	"Mangudai": {
-      "ad": "0.35",
+      "ad": "0.5",
       	"extra": {
         	"attack bonus": "+1 spearmen, +3 siege weapons"
     	}
 	},
 	"Elite Mangudai": {
-    "ad": "0.35",
+    "ad": "0.5",
       	"extra": {
         	"attack bonus": "+1 spearmen, +5 siege wapons"
     	}
@@ -467,18 +468,18 @@ $changes_json = <<<JSON
     "ver": "f"
 	},
 	"Eagle Warrior2": {
-		"bt": "0:32",
+		"bt": "0:35",
 		"hp": "55",
-    "mr": "1.2",
+    "mr": "1.15",
 		"ar": "0/3",
       "extra": {
-        "attack bonus": "+8 monks, +3 siege, +3 cavalry, +1 ships, +1 camels"
+        "attack bonus": "+8 monks, +3 siege, +3 cavalry, +1 ships, +2 camels"
       },
 		"t": "eagle eg2 infantry melee"
 	},
   "Elite Eagle Warrior": {
     "extra": {
-      "attack bonus": "+10 monks, +5 siege, +4 cavalry, +2 ships, +2 camels"
+      "attack bonus": "+10 monks, +5 siege, +4 cavalry, +2 ships, +3 camels"
     }
   },
 	"Villager": {
@@ -748,7 +749,7 @@ $new_units_json = <<<JSON
       "at": "7",
       "ar": "0/0",
       "extra": {
-        "attack bonus": "+8 cavalry, +4 camels, +20 elephants"
+        "attack bonus": "+8 cavalry, +6 camels, +20 elephants"
       },
       "civb": {
         },
@@ -771,7 +772,7 @@ $new_units_json = <<<JSON
       "at": "8",
       "ar": "1/0",
       "extra": {
-        "attack bonus": "+12 cavalry, +6 camels, +20 elephants",
+        "attack bonus": "+12 cavalry, +10 camels, +20 elephants",
         "search radius": "4"
       },
       "civb": {
@@ -787,7 +788,7 @@ $new_units_json = <<<JSON
       "cost": "30F 40G",
       "bt": "0:25",
       "fr": "2",
-      "ad": "0.35",
+      "ad": "0.775",
       "mr": "0.96",
       "los": "7",
       "hp": "40",
@@ -814,7 +815,7 @@ $new_units_json = <<<JSON
       "cost": "100F 80G",
       "bt": "0:25",
       "fr": "2.5",
-      "ad": "0.7",
+      "ad": "0.394",
       "mr": "0.8",
       "los": "7",
       "hp": "280",
@@ -839,7 +840,7 @@ $new_units_json = <<<JSON
       "cost": "100F 80G",
       "bt": "0:25",
       "fr": "2.5",
-      "ad": "0.7",
+      "ad": "0.394",
       "mr": "0.8",
       "los": "7",
       "hp": "330",
@@ -891,7 +892,7 @@ $new_units_json = <<<JSON
       "cost": "45F 45G",
       "bt": "0:22",
       "fr": "3",
-      "ad": "0.35",
+      "ad": "0.5",
       "mr": "0.96",
       "los": "8",
       "hp": "45",
@@ -918,7 +919,7 @@ $new_units_json = <<<JSON
       "cost": "45F 45G",
       "bt": "0:19",
       "fr": "2",
-      "ad": "0.35",
+      "ad": "0.5",
       "mr": "0.96",
       "los": "8",
       "hp": "50",
@@ -926,7 +927,7 @@ $new_units_json = <<<JSON
       "at": "6",
       "ar": "1/0",
       "extra": {
-        "attack bonus": "+7 cavalry, +5 ships, +5 camels, +7 war elephants",
+        "attack bonus": "+7 cavalry, +5 ships, +6 camels, +7 war elephants",
         "accuracy": "100",
         "search radius": "7"
       },
@@ -950,11 +951,11 @@ $new_units_json = <<<JSON
       "los": "6",
       "hp": "80",
       "ra": "-",
-      "at": "10",
-      "ar": "1/1",
+      "at": "9",
+      "ar": "1/0",
       "extra": {
         "attack bonus": "+2 standard buildings, +10 gunpowder",
-        "armor bonus": "+10 infantry armor"
+        "armor bonus": "+10 anti-infantry armor (only against damage from gunpowder units)"
       },
       "civb": {
         "Aztec": "0:15.3 BT (15% bonus 0.85*BT)",
@@ -1072,7 +1073,7 @@ $new_units_json = <<<JSON
       "cost": "80W 60G",
       "bt": "0:21",
       "fr": "3.45",
-      "ad": "0.42",
+      "ad": "0.6",
       "mr": "0.85",
       "los": "9",
       "hp": "60",
@@ -1080,7 +1081,7 @@ $new_units_json = <<<JSON
       "at": "16",
       "ar": "2/4",
       "extra": {
-        "attack bonus": "+1 rams",
+        "attack bonus": "+1 rams. The additional bullets do 2 damage to any unit (1 if they hit another unit).",
         "accuracy": "50%"
       },
       "civb": {
@@ -1097,7 +1098,7 @@ $new_units_json = <<<JSON
       "cost": "80W 60G",
       "bt": "0:21",
       "fr": "3.45",
-      "ad": "0.42",
+      "ad": "0.6",
       "mr": "0.85",
       "los": "9",
       "hp": "70",
@@ -1105,7 +1106,7 @@ $new_units_json = <<<JSON
       "at": "20",
       "ar": "2/6",
       "extra": {
-        "attack bonus": "+1 rams",
+        "attack bonus": "+1 rams. The additional bullets do 2 damage to any unit (1 if they hit another unit).",
         "accuracy": "50%"
       },
       "civb": {
@@ -1268,7 +1269,7 @@ $new_units_json = <<<JSON
       "cost": "50F 40G",
       "bt": "0:17",
       "fr": "2",
-      "ad": "0.7",
+      "ad": "1.2",
       "mr": "1.25",
       "los": "6",
       "hp": "30",
@@ -1290,7 +1291,7 @@ $new_units_json = <<<JSON
       "cost": "50F 40G",
       "bt": "0:17",
       "fr": "2",
-      "ad": "0.7",
+      "ad": "1.2",
       "mr": "1.25",
       "los": "6",
       "hp": "45",
@@ -1312,16 +1313,15 @@ $new_units_json = <<<JSON
       "cost": "50W 60G",
       "bt": "0:21",
       "fr": "2",
-      "ad": "0.35",
+      "ad": "0.625",
       "mr": "1.4",
       "los": "5",
-      "hp": "60",
+      "hp": "55",
       "ra": "4",
       "at": "7",
       "ar": "0/1",
       "extra": {
-        "attack bonus": "+4 cavalry archers, +2 rams",
-        "armor bonus": "+1 camel armor",
+        "attack bonus": "+4 cavalry archers",
         "accuracy": "95"
       },
       "civb": {
@@ -1338,16 +1338,15 @@ $new_units_json = <<<JSON
       "cost": "50W 60G",
       "bt": "0:21",
       "fr": "2",
-      "ad": "0.35",
+      "ad": "0.625",
       "mr": "1.4",
       "los": "5",
-      "hp": "65",
+      "hp": "60",
       "ra": "4",
       "at": "8",
       "ar": "1/1",
       "extra": {
-        "attack bonus": "+6 cavalry archers, +2 rams",
-        "armor bonus": "+2 camel armor, +2 cavalry archer armor",
+        "attack bonus": "+6 cavalry archers",
         "accuracy": "95"
       },
       "civb": {
@@ -1450,7 +1449,7 @@ $new_units_json = <<<JSON
       "cost": "35W 50F",
       "bt": "0:25",
       "fr": "3",
-      "ad": "0.21",
+      "ad": "0.5",
       "mr": "1.35",
       "los": "5",
       "hp": "50",
@@ -1481,7 +1480,7 @@ $new_units_json = <<<JSON
       "cost": "35W 50F",
       "bt": "0:23",
       "fr": "3",
-      "ad": "0.21",
+      "ad": "0.5",
       "mr": "1.35",
       "los": "6",
       "hp": "55",
@@ -1560,7 +1559,7 @@ $new_units_json = <<<JSON
       "cost": "35W 25F",
       "bt": "0:22",
       "fr": "3",
-      "ad": "0.1",
+      "ad": "0.5",
       "mr": "0.96",
       "los": "7",
       "hp": "35",
@@ -1599,7 +1598,7 @@ $new_units_json = <<<JSON
       "ar": "1/2",
       "extra": {
         "attack bonus": "+7 all buildings, +7 stone defense",
-        "blast radius": "0.5"
+        "blast radius": "0.4"
       },
       "civb": {
         "Huns ally": "0:23.3 BT (20% faster stable)",
@@ -1627,7 +1626,7 @@ $new_units_json = <<<JSON
       "extra": {
         "attack bonus": "+10 all buildings, +10 stone defense",
         "search radius": "4",
-        "blast radius": "0.5"
+        "blast radius": "0.4"
       },
       "civb": {
         "Huns ally": "0:23.3 BT (20% faster stable)",
@@ -1646,7 +1645,7 @@ $new_units_json = <<<JSON
       "bt": "0:21",
       "fr": "2",
       "ad": "0.7",
-      "mr": "1.35",
+      "mr": "1.30",
       "los": "7",
       "hp": "60",
       "ra": "5",
@@ -1670,7 +1669,7 @@ $new_units_json = <<<JSON
       "bt": "0:21",
       "fr": "2",
       "ad": "0.7",
-      "mr": "1.35",
+      "mr": "1.30",
       "los": "7",
       "hp": "65",
       "ra": "5",
@@ -1678,7 +1677,7 @@ $new_units_json = <<<JSON
       "ar": "0/2",
       "extra": {
         "attack bonus": "+2 rams",
-        "armor bonus": "+0 cavalry, +2 cavalry archer, +0 archer",
+        "armor bonus": "+0 cavalry, +0 cavalry archer, +0 archer",
         "accuracy": "30%"
       },
       "civb": {},
@@ -1693,7 +1692,7 @@ $new_units_json = <<<JSON
       "cost": "100F 80G",
       "bt": "0:25",
       "fr": "2.5",
-      "ad": "0.28",
+      "ad": "0.394",
       "mr": "0.8",
       "los": "7",
       "hp": "250",
@@ -1719,7 +1718,7 @@ $new_units_json = <<<JSON
       "cost": "100F 80G",
       "bt": "0:25",
       "fr": "2.5",
-      "ad": "0.28",
+      "ad": "0.394",
       "mr": "0.8",
       "los": "7",
       "hp": "290",
@@ -1772,7 +1771,7 @@ $new_units_json = <<<JSON
       "los": "3",
       "hp": "40",
       "ra": "-",
-      "at": "8",
+      "at": "7",
       "ar": "1/1",
       "extra": {
         "attack bonus": "+2 eagles, +1 standard buildings"
@@ -1789,7 +1788,7 @@ $new_units_json = <<<JSON
       "cost": "50W 45G",
       "bt": "0:16",
       "fr": "2",
-      "ad": "0.35",
+      "ad": "0.675",
       "mr": "1.1",
       "los": "6",
       "hp": "35",
@@ -1815,7 +1814,7 @@ $new_units_json = <<<JSON
       "cost": "50W 45G",
       "bt": "0:16",
       "fr": "2",
-      "ad": "0.35",
+      "ad": "0.675",
       "mr": "1.1",
       "los": "6",
       "hp": "35",
