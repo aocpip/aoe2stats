@@ -44,7 +44,7 @@ $changes_json = <<<JSON
 	"Koreans": {
 		"ut": "Panokseon(Castle), Shinkichon(Imperial)",
 		"tb": "Mangonel line minimum range reduced to 1 (from 3)",
-		"bs": "<ul><li>Villagers have +3 line of sight.</li> <li>Stone miners work 20% faster.</li> <li>Guard Tower and Keep upgrades are free.</li> <li>Towers (except bombard towers) have +1 range in Castle Age, +2 in Imperial Age.</li><li>Fortifications (walls, gates, castles, towers) are built 25% faster</ul>",
+		"bs": "<ul><li>Villagers have +3 line of sight.</li> <li>Stone miners work 20% faster.</li> <li>Guard Tower and Keep upgrades are free.</li> <li>Towers (except bombard towers) have +1 range in Castle Age, +2 in Imperial Age.</li><li>Walls, gates, castles are built 25% faster, towers 5% faster</ul>",
 		"tt": "koreans"
 	},
 	"Mayans": {
@@ -120,7 +120,7 @@ $new_civs_json = <<<JSON
 		"uu": "Genoese Crossbowman,<br /> Condottiero(Barracks)",
 		"ut": "Pavise(Castle),<br /> Silk Road(Imperial)",
 		"tb": "Condottiero available in imperial barracks",
-		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships cost -15W</li><li>Gunpowder units cost -20%</li> </ul>",
+		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships cost -11W</li><li>Gunpowder units cost -20%</li> </ul>",
 		"tt": "italians"
 	},
 	{
@@ -220,7 +220,7 @@ $new_civs_json = <<<JSON
 		"uu": "Rattan Archer, Imperial Skirmisher(archery range)",
 		"ut": "Chatras(Castle),<br /> Paper Money(Imperial)",
 		"tb": "Access to Imperial Skirmisher upgrade",
-		"bs": "<ul> <li>Reveal enemy positions at game start</li> <li>Archery Range units +10% HP in Feudal, +15% in Castle, +20% in Imperial Age</li> <li>Free Conscription</li></ul>",
+		"bs": "<ul> <li>Reveal enemy positions at game start</li> <li>Archery Range units +20% HP</li> <li>Free Conscription</li></ul>",
 		"tt": "vietnamese"
 	}
 ]

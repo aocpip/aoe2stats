@@ -16,17 +16,19 @@ $changes_json = <<<JSON
 		}
 	},
 	"Coinage" : {
+		"age": "2",
 		"cost": "200F 100G",
 		"time": "1:10",
 		"civb": {
-			"Chinese": "Cost 180F 90G in Feudal, 170F 85G in Castle, 160F 80G in Imperial Age"
+			"Chinese": "Cost 170F 85G in Castle, 160F 80G in Imperial Age"
 		}
 	},
 	"Banking" : {
+		"age": "3",
 		"cost": "300F 200G",
 		"time": "1:10",
 		"civb": {
-			"Chinese": "Cost 255F 170G in Castle, 240F 160G in Imperial Age"
+			"Chinese": "Cost 240F 160G in Imperial Age"
 		}
 	},
 	"Town Patrol" : {
@@ -405,7 +407,7 @@ $new_technologies_json = <<<JSON
 		"name": "Couriers",
 		"ver": "f", 
 		"age": "3",
-		"cost": "400F 200G",
+		"cost": "600F 600G",
 		"for": "Incan Eagle Warriors, Kamayuks and Slingers +1/+2 armor (melee/pierce)",
 		"time": "0:40", 
 		"t": ""
