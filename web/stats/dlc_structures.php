@@ -172,7 +172,7 @@ $changes_json = <<<JSON
 	"Watch Tower": {
 		"cost": "125S 50W",
 		"civb": {
-			"Koreans": "BT 1:00 (-25%), +1 RA in Castle Age, +2 RA in Imperial Age",
+			"Koreans": "BT 1:16 (-5%), +1 RA in Castle Age, +2 RA in Imperial Age",
 			"Incas": "Cost 25W 106S",
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
@@ -183,7 +183,7 @@ $changes_json = <<<JSON
 		"cost": "125S 50W",
 		"at": "7",
 		"civb": {
-			"Koreans": "BT 1:00 (-25%), +1 RA in Castle Age, +2 RA in Imperial Age",
+			"Koreans": "BT 1:16 (-5%), +1 RA in Castle Age, +2 RA in Imperial Age",
 			"Incas": "Cost 25W 106S",
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
@@ -194,7 +194,7 @@ $changes_json = <<<JSON
 		"cost": "125S 50W",
 		"at": "8",
 		"civb": {
-			"Koreans": "BT 1:00 (-25%), +2 RA in Imperial Age",
+			"Koreans": "BT 1:16 (-5%), +2 RA in Imperial Age",
 			"Incas": "Cost 25W 106S",
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
@@ -212,7 +212,7 @@ $changes_json = <<<JSON
 	},
 	"Bombard Tower": {
 		"civb": {
-			"Koreans": "build time 1:00 (-25% bonus)",
+			"Koreans": "build time 1:16 (-5% bonus)",
 			"Ethiopians and allies": "+3 LOS"
 		},
     	"GA": "garrison 5 units, +40 damage vs ships, +1 vs camels, pierce attack"
