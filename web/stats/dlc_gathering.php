@@ -51,10 +51,6 @@ $changes_json = <<<JSON
 		"source": "Prey animals with Mongols",
 		"note": "Include deer, zebras and ostriches. Mongol hunters receive a bonus to gather food faster from these animals."
 	},
-	"Farming with Mayans" : {
-		"speed": "0.30 - 0.37 F/s",
-		"note": "0.30 F/s without upgrades, 0.34 F/s with Wheelbarrow+Heavy Plow, 0.37 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). <br />To offset their extra resource bonus, Mayan farmers work slower. This effect has become stronger in the expansions, with Mayan farmers working between 8-10% slower than other civilizations."
-	},
 	"Mining with Turks": {
 		"speed": "0.455 - 0.601 G/s",
 		"note": "Turks get 20 % gold mining bonus (gold mining work rate x 1.2). 0.523 G/s after Gold mining (x1.15) and 0.601 G/s after Gold Shaft Mining (x1.15)."
@@ -93,8 +89,8 @@ $new_gather_json = <<<JSON
 	{
 		"type": "Food",
 		"source": "Farming with slavs",
-		"speed": "0.39 - 0.41 F/s",
-		"note": "0.39 F/s without upgrades, 0.41 F/s with Wheelbarrow+Heavy Plow, 0.41 F/s after Hand Cart (<a href=\"https://1drv.ms/f/s!Ark-SUz3-qr5qROIwgp19j7Ml9-u\">Tests</a>). Slavs get a 15% bonus to their farming rate. After the Wheelbarrow research, the advantage over other civilizations is down to about 5% and almost vanishes when everyone has researched Hand Cart."
+		"speed": "0.39 - 0.46 F/s",
+		"note": "0.37 F/s without upgrades, 0.43 F/s with Wheelbarrow+Heavy Plow, 0.46 F/s after Hand Cart. Slavs get a 15% bonus to their farming rate. Values are estimated, not tested exactly."
 	},
 	{
 		"type": "Food",

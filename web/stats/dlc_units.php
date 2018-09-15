@@ -149,7 +149,7 @@ $changes_json = <<<JSON
       "Magyars and allies": "+2 LOS",
       "Portuguese": "Cost 25W 38G (-15% gold cost)",
       "Ethiopians": "1.7 RT (15% faster)",
-      "Vietnamese": "33 HP in Feudal (10%), 35 HP in Castle (15%) and 36 HP in Imperial Age (20%)"  
+      "Vietnamese": "36 HP (+20%)"  
     }
   },
   "Crossbowman": {
@@ -157,7 +157,7 @@ $changes_json = <<<JSON
       "Magyars and allies": "+2 LOS",
       "Portuguese": "Cost 25W 38G (-15% gold cost)",
       "Ethiopians": "1.7 RT (15% faster)",
-      "Vietnamese": "40 HP in Castle (15%) and 42 HP in Imperial Age (20%)"
+      "Vietnamese": "42 HP (+20%)"
     }
   },
   "Arbalest": {
@@ -165,7 +165,7 @@ $changes_json = <<<JSON
       "Magyars and allies": "+2 LOS",
       "Portuguese": "Cost 25W 38G (-15% gold cost)",
       "Ethiopians": "1.7 RT (15% faster)",
-      "Vietnamese": "48 HP in Imperial Age (20%)"
+      "Vietnamese": "48 HP (+20%)"
     }
   },
 	"Cavalry Archer": {
@@ -174,7 +174,7 @@ $changes_json = <<<JSON
 			"Huns": "Costs 36W 54G in Castle age (-10% bonus), 32W 48G in Imperial(-20% bonus)",
       "Portuguese": "Cost 40W 48G (-15% gold cost)",
       "Franks": "60 HP (+20%)",
-      "Vietnamese": "58 HP in Castle (15%) and 60 HP in Imperial Age (20%)"
+      "Vietnamese": "60 HP (+20%)"
 		}
 	},
 	"Heavy Cavalry Archer": {
@@ -182,7 +182,7 @@ $changes_json = <<<JSON
 		"civb": {
 			"Huns": "32W 48G in Imperial(-20% bonus)",
       "Franks": "72 HP (+20%)",
-      "Vietnamese": "72 HP in Imperial Age (20%)"
+      "Vietnamese": "72 HP (+20%)"
 		}
 	},
   "Knight": {
@@ -200,7 +200,7 @@ $changes_json = <<<JSON
 	"Camel": {
 		"at": "6",
 		"civb": {
-      "Indians": "AR +1/+1",
+      "Indians": "AR +0/+1",
       "Indians and allies": "+6 attack vs buildings",
       "Berbers": "Costs 47F 51G in Castle age (-15% cost), 44F 48G (-20% cost) in Imperial Age"
 		},
@@ -210,7 +210,7 @@ $changes_json = <<<JSON
 	},
 	"Heavy Camel": {
 		"civb": {
-      "Indians": "AR +1/+1",
+      "Indians": "AR +10/+1",
       "Indians and allies": "+6 attack vs buildings",
       "Berbers": "Costs 47F 51G in Castle age (-15% cost), 44F 48G (-20% cost) in Imperial Age"
 		},
@@ -495,8 +495,9 @@ $changes_json = <<<JSON
 		}
 	},
 	"Fishing Ship": {
+		"note" : "Fire Galleys will only deal 1 damage per hit",
 		"civb": {
-			"Italians": "Cost 60W (-15W)",
+			"Italians": "Cost 64W (-11W)",
       "Berbers": "1.386 movement rate (10% faster)",
       "Portuguese": "66 HP (10% bonus)"
 		}
@@ -572,6 +573,16 @@ $changes_json = <<<JSON
       "blast radius": "0.5"
     },
     "note": "Persian unique unit. Slow, powerful, strong, and well-armored cavalry. Does trample damage in a surrounding area (see blast radius)."
+  },
+  "Skirmisher": {
+    "civb": {
+      "Vietnamese": "36 HP (+20% bonus)"
+    }
+  },
+  "Elite Skirmisher": {
+    "civb": {
+       "Vietnamese": "42 HP (+20% bonus)"
+    }
   }
 }
 JSON;
@@ -824,7 +835,7 @@ $new_units_json = <<<JSON
       "ar": "0/3",
       "extra": {
         "attack bonus": "+3 standard buildings, +3 stone defense",
-        "armor bonus": "-2 archer armor",
+        "armor bonus": "-2 cavalry archer armor",
         "accuracy": "100",
         "search radius": "6"
       },
@@ -849,7 +860,7 @@ $new_units_json = <<<JSON
       "ar": "0/3",
       "extra": {
         "attack bonus": "+4 standard buildings, +4 stone defense",
-        "armor bonus": "-2 archer armor",
+        "armor bonus": "-2 cavalry archer armor",
         "accuracy": "100",
         "search radius": "6"
       },
@@ -878,10 +889,10 @@ $new_units_json = <<<JSON
       },
       "civb": {
         "Hun ally": "0:16.66 BT (20% faster stable)",
-        "Indians": "AR +1/+1",
+        "Indians": "AR +0/+1",
         "Indians and allies": "+6 attack vs buildings"
       },
-      "note": "Inly available to Indians. Stronger than Heavy Camel. Attack bonus vs. cavalry. (not classified as cavalry)",
+      "note": "Only available to Indians. Stronger than Heavy Camel. Attack bonus vs. cavalry. (not classified as cavalry)",
       "t": "camel cm2 cavalry melee"
     },
     {
@@ -1147,7 +1158,7 @@ $new_units_json = <<<JSON
       "ver": "f",
       "age": "2",
       "cost": "20F 50G",
-      "bt": "0:32",
+      "bt": "0:35",
       "fr": "2",
       "ad": "0",
       "mr": "1.1",
@@ -1467,7 +1478,8 @@ $new_units_json = <<<JSON
         "Aztec with Briton and Berber ally": "0:17.1 BT (25*0.85/1.2)",
         "Byzantine with Berber ally": "Genitour classified as cavalry archer, not as skirm, so no bonus",
         "Mongols with Berber ally": "RT 2.4 (-20% reload time)",
-        "Huns with Berber ally": "Costs 32W 45F in Castle age (-10% bonus), 28W 40F in Imperial(-20% bonus)"
+        "Huns with Berber ally": "Costs 32W 45F in Castle age (-10% bonus), 28W 40F in Imperial(-20% bonus)",
+        "Vietnamese with Berber ally": "60 HP (+20%)"
       },
       "note": "Berber unique unit. Mounted skirmisher. Effective against archers.",
       "t": "genitour genitour0 cavarcher cavalry archer pierce"
@@ -1498,7 +1510,8 @@ $new_units_json = <<<JSON
         "Aztec with Briton and Berber ally": "0:16.3 BT (23*0.85/1.2)",
         "Byzantine with Berber ally": "Genitour classified as cavalry archer, not as skirm, so no bonus",
         "Mongols with Berber ally": "RT 2.4 (-20% reload time)",
-        "Huns with Berber ally": "Costs 28W 40F in Imperial(-20% bonus)"
+        "Huns with Berber ally": "Costs 28W 40F in Imperial(-20% bonus)",
+        "Vietnamese with Berber ally": "66 HP (+20%)"
       },
       "note": "Berber elite unique unit.Stronger than Genitour.",
       "t": "genitour genitour1 cavarcher cavalry archer pierce"
@@ -1641,7 +1654,7 @@ $new_units_json = <<<JSON
       "name": "Arambai",
       "ver": "r", 
       "age": "2",
-      "cost": "50W 60G",
+      "cost": "80W 60G",
       "bt": "0:21",
       "fr": "2",
       "ad": "0.7",
@@ -1665,7 +1678,7 @@ $new_units_json = <<<JSON
       "name": "Elite Arambai",
       "ver": "r", 
       "age": "3",
-      "cost": "50W 60G",
+      "cost": "80W 60G",
       "bt": "0:21",
       "fr": "2",
       "ad": "0.7",
@@ -1741,7 +1754,7 @@ $new_units_json = <<<JSON
       "name": "Karambit Warrior",
       "ver": "r",
       "age": "2",
-      "cost": "25F 10G",
+      "cost": "30F 15G",
       "bt": "0:06",
       "fr": "2",
       "ad": "0",
@@ -1763,7 +1776,7 @@ $new_units_json = <<<JSON
       "name": "Elite Karambit Warrior",
       "ver": "r",
       "age": "3",
-      "cost": "25F 10G",
+      "cost": "30F 15G",
       "bt": "0:06",
       "fr": "2",
       "ad": "0",
@@ -1791,7 +1804,7 @@ $new_units_json = <<<JSON
       "ad": "0.675",
       "mr": "1.1",
       "los": "6",
-      "hp": "35",
+      "hp": "40",
       "ra": "4",
       "at": "6",
       "ar": "0/4",
@@ -1817,7 +1830,7 @@ $new_units_json = <<<JSON
       "ad": "0.675",
       "mr": "1.1",
       "los": "6",
-      "hp": "35",
+      "hp": "45",
       "ra": "5",
       "at": "7",
       "ar": "0/6",
