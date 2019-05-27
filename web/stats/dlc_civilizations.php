@@ -110,7 +110,7 @@ $new_civs_json = <<<JSON
 		"uu": "Elephant Archer,<br /> Imperial Camel(Stable)",
 		"ut": "Sultans(Castle),<br /> Shatagni(Imperial)",
 		"tb": "Camels +6 attack vs buildings,<br /> Mamelukes and Camel Archers +5 vs buildings",
-		"bs": "<ul> <li>Villagers Cost -10% in Dark, -15% in Feudal, -20% in Castle, -25% in Imperial</li><li>Fishermen(villagers) work 15% faster and carry +15</li><li>Camels +1/+1 armor</li> </ul>",
+		"bs": "<ul> <li>Villagers Cost -10% in Dark, -15% in Feudal, -20% in Castle, -25% in Imperial</li><li>Fishermen(villagers) work 15% faster and carry +15</li><li>Camels +0/+1 armor</li> </ul>",
 		"tt": "indians"
 	},
 	{
