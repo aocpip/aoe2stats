@@ -1368,7 +1368,7 @@
       "extra": {
         "attack bonus": "+2 spearmen +0 melee +0 rams",
         "accuracy": "85%",
-        "reload time": "3, but the multiple missiles for some reason cause roughly 0.6 delay"
+        "reload time": "3, but the multiple missiles cause roughly 0.6 delay"
       },
       "civb": {
         "Saracen ally": "+2 attack against buildings for first arrow"
@@ -1388,13 +1388,13 @@
       "mr": "0.96",
       "los": "6",
       "hp": "50",
-      "ra": "6",
+      "ra": "4",
       "at": "8",
       "ar": "0/0",
       "extra": {
         "attack bonus": "+2 spearmen +0 melee +0 rams",
         "accuracy": "85%",
-        "reload time": "3, but the multiple missiles for some reason cause roughly 0.75 delay"
+        "reload time": "3, but the multiple missiles cause roughly 0.75 delay"
       },
       "civb": {
         "Saracen ally": "+2 attack against buildings for first arrow"
@@ -1552,7 +1552,7 @@
       "cost": "60F 55G",
       "bt": "0:17",
       "fr": "3.45",
-      "ad": "0.28",
+      "ad": "0.4",
       "mr": "0.96",
       "los": "10",
       "hp": "44",
@@ -1602,7 +1602,7 @@
       "cost": "35W 40G",
       "bt": "0:19",
       "fr": "2",
-      "ad": "0.35",
+      "ad": "0.5",
       "mr": "0.96",
       "los": "8",
       "hp": "35",
@@ -1628,7 +1628,7 @@
       "cost": "35W 40G",
       "bt": "0:19",
       "fr": "2",
-      "ad": "0.35",
+      "ad": "0.5",
       "mr": "0.96",
       "los": "10",
       "hp": "40",

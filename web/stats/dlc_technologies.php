@@ -639,7 +639,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "3",
 		"cost": "1200F 500G",
-		"for": "Slav infantry damage adjecent units. Blast radius +0.5, 5 damage (same as Cataphracts wih Logistica)",
+		"for": "Slav infantry damage adjecent units. Blast radius +0.5, 5 damage (same as Cataphracts with Logistica)",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -659,7 +659,7 @@ $new_technologies_json = <<<JSON
 		"ver": "f", 
 		"age": "2",
 		"cost": "300G 100F",
-		"for": "Spanish monks convert faster. <br />(convert time? min/max -1/-1, convert building time? min/max -5/-5, <br />convert building chance +5 (25 -> 30)",
+		"for": "Spanish monks convert faster. <br />(min/max conversion time -1s/-1s, min/max building conversion time -6s/-6s, <br />building conversion chance +5 (25% -> 30%) per second",
 		"time": "0:40", 
 		"t": ""
 	},
@@ -709,7 +709,7 @@ $new_technologies_json = <<<JSON
 		"ver": "a", 
 		"age": "3",
 		"cost": "700F 400G",
-		"for": "Portuguese gunpowder units affected by Ballistics<br />Projectiles move tiles faster: <br />hand cannoneer/organ gun 5.5 -> 6.0, (elite) cannon galleon 1.95 -> 2.45<br />Bombard Cannon 4 -> 4.2, Bombard Tower 3 -> 3.2",
+		"for": "Ballistics effect for Portuguese gunpowder units<br />Projectiles move tiles faster: <br />hand cannoneer/organ gun 5.5 -> 6.0, (elite) cannon galleon 1.95 -> 2.45<br />Bombard Cannon 4 -> 4.2, Bombard Tower 3 -> 3.2",
 		"time": "0:40", 
 		"t": ""
 	},
