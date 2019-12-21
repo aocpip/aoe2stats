@@ -8,7 +8,8 @@ var LOGOS = {
 	'c': '<span class="version_icon icon_conquerors"><span>AoC</span></span>',
 	'f': '<span class="version_icon icon_forgotten"><span>AoF</span></span>',
 	'a': '<span class="version_icon icon_african"><span>AoAK</span></span>',
-	'r': '<span class="version_icon icon_rajas"><span>AoR</span></span>'
+	'r': '<span class="version_icon icon_rajas"><span>AoR</span></span>',
+	'd': '<span class="version_icon icon_de"><span>DE</span></span>'
 }
 
 var VERSION_FILTERS = {
@@ -17,7 +18,8 @@ var VERSION_FILTERS = {
 	'c': 'aoc',
 	'f': 'aof dlc',
 	'a': 'aoak dlc',
-	'r': 'aor ror rotr dlc'
+	'r': 'aor ror rotr dlc',
+	'd': 'de tlk khans'
 }
 
 var SLOW_SEARCH_TIMEOUT = 750;

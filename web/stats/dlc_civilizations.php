@@ -185,7 +185,7 @@ $new_civs_json = <<<JSON
 	},
 	{
 		"name": "Burmese",
-		"ver": "a", 
+		"ver": "r", 
 		"ct": "Monk and Elephant",
 		"uu": "Arambai",
 		"ut": "Howdah(Castle),<br /> Manipur Cavalry(Imperial)",
@@ -195,7 +195,7 @@ $new_civs_json = <<<JSON
 	},
 	{
 		"name": "Khmer",
-		"ver": "a", 
+		"ver": "r", 
 		"ct": "Siege and Elephant",
 		"uu": "Ballista Elephant",
 		"ut": "Tusk Swords(Castle),<br /> Double Crossbow(Imperial)",
@@ -205,7 +205,7 @@ $new_civs_json = <<<JSON
 	},
 	{
 		"name": "Malay",
-		"ver": "a", 
+		"ver": "r", 
 		"ct": "Naval",
 		"uu": "Karambit Warrior",
 		"ut": "Thalassocracy(Castle),<br /> Forced Levy(Imperial)",
@@ -215,7 +215,7 @@ $new_civs_json = <<<JSON
 	},
 	{
 		"name": "Vietnamese",
-		"ver": "a", 
+		"ver": "r", 
 		"ct": "Archer",
 		"uu": "Rattan Archer, Imperial Skirmisher(archery range)",
 		"ut": "Chatras(Castle),<br /> Paper Money(Imperial)",

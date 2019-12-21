@@ -22,6 +22,7 @@ include_once "inc/header.php";
 						<select id="aocversion">
 							<option value="aoc">The Conquerors</option>
 							<option value="dlc">HD DLC (AoFE, AoAK, AoR)</option>
+							<option value="de">Definitive Edition</option>
 						</select>
 			        </div>
 		        </form>
