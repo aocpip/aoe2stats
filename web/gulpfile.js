@@ -61,26 +61,21 @@ gulp.task('default', function() {
 });
 
 
-gulp.task('build', function() {
-    var options = {
-        cwd: 'stats',
-        silent: true
-      };
-    gulp.src(['stats/dlc_units.php',
-        'stats/dlc_structures.php',
-        'stats/dlc_technologies.php',
-        'stats/dlc_civilizations.php',
-        'stats/dlc_gathering.php',
-        'stats/aoc_units.php',
-        'stats/aoc_structures.php',
-        'stats/aoc_technologies.php',
-        'stats/aoc_civilizations.php',
-        'stats/aoc_gathering.php'])
-    .pipe(run('php ', options))
-    .pipe(rename(function (path) {
-        path.extname = ".json"
-    }))
-    .pipe(gulp.dest('stats/build/'));
+gulp.task('build', function(cb) {
+    var statsbuild = spawn('./build_stats.sh', [], {cwd: 'stats'});
+
+    statsbuild.stdout.on('data', function (data) {
+        console.log('stdout: ' + data.toString());
+    });
+
+    statsbuild.stderr.on('data', function (data) {
+        console.log('stderr: ' + data.toString());
+    });
+
+    statsbuild.on('exit', function (code) {
+        console.log("Exited " + code);
+        cb(null);
+    });
 });
 
 var create_tiles = function(version, cb) {

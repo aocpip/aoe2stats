@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:6.10.3
+FROM mhart/alpine-node:8
 
 LABEL authors="pip, galapon"
 

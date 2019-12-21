@@ -260,7 +260,7 @@ $new_civs_json = <<<JSON
 		"tb": "Cavalry Archers +2 LOS",
 		"bs": "<ul> <li>Herdables contain +50% food.</li> <li>Units deal +25% damage when fighting from higher elevation.</li> <li>Parthian Tactics is free.</li>",
 		"tt": "bulgarians"
-	},
+	}
 ]
 JSON;
 $new_civs = json_decode($new_civs_json);
