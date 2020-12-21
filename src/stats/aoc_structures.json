@@ -1,0 +1,1180 @@
+{
+  "data": [
+    {
+      "type": "Buildings",
+      "name": "Barracks",
+      "ver": "k",
+      "age": "0",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "1200",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/7",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "1320 HP in Dark Age (HP bonus)",
+        "Goths and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Barracks",
+      "ver": "k",
+      "age": "1",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "1500",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "1800 HP in Feudal (HP bonus)",
+        "Goths and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Barracks",
+      "ver": "k",
+      "age": "2",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "1800",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2340 HP in Castle Age (HP bonus)",
+        "Goths and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Barracks",
+      "ver": "k",
+      "age": "3",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2940 HP in Imperial Age (HP bonus)",
+        "Goths and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Dock",
+      "ver": "k",
+      "age": "0",
+      "cost": "150W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1800",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/7",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "1980 HP in Dark Age",
+        "Persians": "3600 HP",
+        "Vikings and allies": "Cost 113W (-25% cost)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Dock",
+      "ver": "k",
+      "age": "1",
+      "cost": "150W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1800",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2160 HP in Feudal (HP bonus)",
+        "Persians": "3600 HP; work rate 1.1 in Feudal Age",
+        "Vikings and allies": "Cost 113W (-25% cost)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Dock",
+      "ver": "k",
+      "age": "2",
+      "cost": "150W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1800",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2340 HP in Castle Age (HP bonus)",
+        "Persians": "3600 HP; work rate 1.15 in Castle Age",
+        "Vikings and allies": "Cost 113W (-25% cost)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Dock",
+      "ver": "k",
+      "age": "3",
+      "cost": "150W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1800",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2520 HP in Imperial (HP bonus)",
+        "Persians": "3600 HP; work rate 1.2 in Imperial Age",
+        "Vikings and allies": "Cost 113W (-25% cost)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Farm",
+      "ver": "k",
+      "age": "0",
+      "cost": "60W",
+      "bt": "0:15",
+      "fr": "-",
+      "los": "0",
+      "hp": "480",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/0",
+      "GA": "Standard=175F<br />Horse Collar=250F<br />Heavy Plow=375F<br />Crop Rotation=550F",
+      "civb": {
+        "Byzantines": "528 HP in Dark, 576 HP in Feudal, 624 HP in Castle, 672 HP in Imperial (HP bonus)",
+        "Chinese allies": "Standard=220F<br />Horse Collar=295F<br />Heavy Plow=420F<br />Crop Rotation=595F",
+        "Teutons": "Cost 40W (33% cheaper)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "House",
+      "ver": "k",
+      "age": "0",
+      "cost": "30W",
+      "bt": "0:25",
+      "fr": "-",
+      "los": "1",
+      "hp": "900",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/7",
+      "GA": "Supports 5 population",
+      "civb": {
+        "Byzantines": "990 HP in Dark (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "House",
+      "ver": "k",
+      "age": "1",
+      "cost": "30W",
+      "bt": "0:25",
+      "fr": "-",
+      "los": "1",
+      "hp": "900",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "Supports 5 population",
+      "civb": {
+        "Byzantines": "1080 HP in Feudal (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "House",
+      "ver": "k",
+      "age": "2",
+      "cost": "30W",
+      "bt": "0:25",
+      "fr": "-",
+      "los": "1",
+      "hp": "900",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "Supports 5 population",
+      "civb": {
+        "Byzantines": "1170 HP in Castle (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "House",
+      "ver": "k",
+      "age": "3",
+      "cost": "30W",
+      "bt": "0:25",
+      "fr": "-",
+      "los": "1",
+      "hp": "900",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "Supports 5 population",
+      "civb": {
+        "Byzantines": "1260 HP in Imperial (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Lumber Camp",
+      "age": "0",
+      "ver": "k",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/7",
+      "GA": "",
+      "civb": {
+        "Byzantines": "1100 HP in Dark Age (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Lumber Camp",
+      "ver": "k",
+      "age": "1",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "",
+      "civb": {
+        "Byzantines": "1200 HP in Feudal Age (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Lumber Camp",
+      "ver": "k",
+      "age": "2",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "",
+      "civb": {
+        "Byzantines": "1300 HP in Castle (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Lumber Camp",
+      "ver": "k",
+      "age": "3",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "",
+      "civb": {
+        "Byzantines": "1400 HP in Imperial (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Mill",
+      "ver": "k",
+      "age": "0",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/7",
+      "GA": "Max 40 farms queued",
+      "civb": {
+        "Byzantines": "1100 HP in Dark (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Mill",
+      "ver": "k",
+      "age": "1",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "Max 40 farms queued",
+      "civb": {
+        "Byzantines": "1200 HP in Feudal (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Mill",
+      "ver": "k",
+      "age": "2",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "Max 40 farms queued",
+      "civb": {
+        "Byzantines": "1300 HP in Castle (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Mill",
+      "ver": "k",
+      "age": "3",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "Max 40 farms queued",
+      "civb": {
+        "Byzantines": "1400 HP in Imperial (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Mining Camp",
+      "ver": "k",
+      "age": "0",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/7",
+      "GA": "",
+      "civb": {
+        "Byzantines": "1100 HP in Dark (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Mining Camp",
+      "ver": "k",
+      "age": "1",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "",
+      "civb": {
+        "Byzantines": "1200 HP in Feudal (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Mining Camp",
+      "ver": "k",
+      "age": "2",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "",
+      "civb": {
+        "Byzantines": "1300 HP in Castle (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Mining Camp",
+      "ver": "k",
+      "age": "3",
+      "cost": "100W",
+      "bt": "0:35",
+      "fr": "-",
+      "los": "5",
+      "hp": "1000",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "",
+      "civb": {
+        "Byzantines": "1400 HP in Imperial (HP bonus)",
+        "Japanese": "Cost 50W"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Archery Range",
+      "ver": "k",
+      "age": "1",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "1500",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "1800 HP in Feudal (HP bonus)",
+        "Britons and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Archery Range",
+      "ver": "k",
+      "age": "2",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "1800",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2340 HP in Castle (HP bonus)",
+        "Britons and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Archery Range",
+      "ver": "k",
+      "age": "3",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2940 HP in Imperial (HP bonus)",
+        "Britons and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Blacksmith",
+      "ver": "k",
+      "age": "1",
+      "cost": "150W",
+      "bt": "0:40",
+      "fr": "-",
+      "los": "5",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "",
+      "civb": {
+        "Byzantines": "2520 HP in Feudal (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Blacksmith",
+      "ver": "k",
+      "age": "2",
+      "cost": "150W",
+      "bt": "0:40",
+      "fr": "-",
+      "los": "5",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "",
+      "civb": {
+        "Byzantines": "2730 HP in Castle (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Blacksmith",
+      "ver": "k",
+      "age": "3",
+      "cost": "150W",
+      "bt": "0:40",
+      "fr": "-",
+      "los": "5",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "",
+      "civb": {
+        "Byzantines": "2940 HP in Imperial (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Fish Trap",
+      "ver": "k",
+      "age": "0",
+      "cost": "100W",
+      "bt": "0:53",
+      "fr": "-",
+      "los": "1",
+      "hp": "50",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/0",
+      "GA": "715 food",
+      "civb": {
+        "Byzantines": "55 HP in Dark, 60 HP in Feudal, 65 HP in Castle, 70 HP in Imperial (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Market",
+      "ver": "k",
+      "age": "1",
+      "cost": "175W",
+      "bt": "1:00",
+      "fr": "-",
+      "los": "4",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "-",
+      "civb": {
+        "Byzantines": "2520 HP in Feudal (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Market",
+      "ver": "k",
+      "age": "2",
+      "cost": "175W",
+      "bt": "1:00",
+      "fr": "-",
+      "los": "4",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "-",
+      "civb": {
+        "Byzantines": "2730 HP in Castle (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Market",
+      "ver": "k",
+      "age": "3",
+      "cost": "175W",
+      "bt": "1:00",
+      "fr": "-",
+      "los": "4",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "-",
+      "civb": {
+        "Byzantines": "2940 HP in Imperial (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Stable",
+      "ver": "k",
+      "age": "1",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "1500",
+      "ra": "-",
+      "at": "-",
+      "ar": "1/8",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "1800 HP in Feudal (HP bonus)",
+        "Huns and allies": "work rate 1.2 (20% faster)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Stable",
+      "ver": "k",
+      "age": "2",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "1800",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2340 HP in Castle (HP bonus)",
+        "Huns and allies": "work rate 1.2 (20% faster)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Stable",
+      "ver": "k",
+      "age": "3",
+      "cost": "175W",
+      "bt": "0:50",
+      "fr": "-",
+      "los": "5",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2940 HP in Imperial (HP bonus)",
+        "Huns and allies": "work rate 1.2 (20% faster)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Castle",
+      "ver": "k",
+      "age": "2",
+      "cost": "650S",
+      "bt": "3:20",
+      "fr": "2",
+      "los": "10",
+      "hp": "4800",
+      "ra": "1-8",
+      "at": "11/arrow",
+      "ar": "8/11",
+      "GA": "20 units (support 20 population), max 21 arrows, <br /> 1st arrow +2 against spearmen <br /> From 2nd arrow +11 damage vs ships/camels, +11 vs stone defense",
+      "civb": {
+        "Byzantines": "6240 HP in Castle, 6720 HP in Imperial (HP bonus)",
+        "Franks": "Cost 488S (0.75*cost 25% cheaper)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Monastery",
+      "ver": "k",
+      "age": "2",
+      "cost": "175W",
+      "bt": "0:40",
+      "fr": "-",
+      "los": "5",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2730 HP in Castle (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Monastery",
+      "ver": "k",
+      "age": "3",
+      "cost": "175W",
+      "bt": "0:40",
+      "fr": "-",
+      "los": "5",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2940 HP in Imperial (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Siege Workshop",
+      "ver": "k",
+      "age": "2",
+      "cost": "200W",
+      "bt": "0:40",
+      "fr": "-",
+      "los": "4",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2730 HP in Castle (HP bonus)",
+        "Celts and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Siege Workshop",
+      "ver": "k",
+      "age": "3",
+      "cost": "200W",
+      "bt": "0:40",
+      "fr": "-",
+      "los": "4",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "10 created units",
+      "civb": {
+        "Byzantines": "2940 HP in Imperial (HP bonus)",
+        "Celts and allies": "work rate 1.2"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Town Center",
+      "ver": "k",
+      "age": "0",
+      "cost": "275W 100S",
+      "bt": "2:30",
+      "fr": "2.0",
+      "los": "7",
+      "hp": "2400",
+      "ra": "6",
+      "at": "5/arrow",
+      "ar": "3/5",
+      "civb": {
+        "Byzantines": "2640 HP in Dark Age (HP bonus)",
+        "Chinese": "Supports 10 population",
+        "Persians": "4800 HP (2x HP)",
+        "Teutons": "12 LOS and search radius (+5); +1 pierce attack per arrow"
+      },
+      "GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships/camels",
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Town Center",
+      "ver": "k",
+      "age": "1",
+      "cost": "275W 100S",
+      "bt": "2:30",
+      "fr": "2.0",
+      "los": "7",
+      "hp": "2400",
+      "ra": "6",
+      "at": "5/arrow",
+      "ar": "4/6",
+      "civb": {
+        "Byzantines": "2880 HP in Feudal (HP bonus)",
+        "Chinese": "Supports 10 population",
+        "Persians": "4800 HP (2x HP); work rate 1.1 in Feudal",
+        "Teutons": "12 LOS and search radius (+5); +1 pierce attack per arrow"
+      },
+      "GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships/camels",
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Town Center",
+      "ver": "k",
+      "age": "2",
+      "cost": "275W 100S",
+      "bt": "2:30",
+      "fr": "2.0",
+      "los": "7",
+      "hp": "2400",
+      "ra": "6",
+      "at": "5/arrow",
+      "ar": "5/7",
+      "civb": {
+        "Britons": "cost 138W 100S",
+        "Byzantines": "3120 HP in Castle Age (HP bonus)",
+        "Chinese": "Supports 10 population",
+        "Persians": "4800 HP (2x HP); work rate 1.15 in Castle Age",
+        "Teutons": "12 LOS and search radius (+5); +1 pierce attack per arrow"
+      },
+      "GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships/camels",
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Town Center",
+      "ver": "k",
+      "age": "3",
+      "cost": "275W 100S",
+      "bt": "2:30",
+      "fr": "2.0",
+      "los": "7",
+      "hp": "2400",
+      "ra": "6",
+      "at": "5/arrow",
+      "ar": "6/8",
+      "civb": {
+        "Britons": "cost 138W 100S",
+        "Byzantines": "3360 HP in Imperial (HP bonus)",
+        "Chinese": "Supports 10 population",
+        "Persians": "4800 HP (2x HP); work rate 1.2 in Imperial Age",
+        "Teutons": "12 LOS and search radius (+5); +1 pierce attack per arrow"
+      },
+      "GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships/camels",
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "University",
+      "ver": "k",
+      "age": "2",
+      "cost": "200W",
+      "bt": "1:00",
+      "fr": "-",
+      "los": "4",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/9",
+      "GA": "",
+      "civb": {
+        "Byzantines": "2730 HP in Castle(HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "University",
+      "ver": "k",
+      "age": "3",
+      "cost": "200W",
+      "bt": "1:00",
+      "fr": "-",
+      "los": "4",
+      "hp": "2100",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "",
+      "civb": {
+        "Byzantines": "2940 HP in Imperial (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Buildings",
+      "name": "Wonder",
+      "ver": "k",
+      "age": "3",
+      "cost": "1000WSG",
+      "bt": "58:23",
+      "fr": "-",
+      "los": "6",
+      "hp": "4800",
+      "ra": "-",
+      "at": "-",
+      "ar": "3/10",
+      "GA": "",
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Outpost",
+      "ver": "k",
+      "age": "0",
+      "cost": "25W 10S",
+      "bt": "0:15",
+      "fr": "-",
+      "los": "6",
+      "hp": "500",
+      "ra": "-",
+      "at": "-",
+      "ar": "0/0",
+      "GA": "+2 LOS per age",
+      "civb": {
+        "Byzantines": "550 HP in Dark, 600 HP in Feudal, 650 HP in Castle, 700 HP in Imperial (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Watch Tower",
+      "ver": "k",
+      "age": "1",
+      "cost": "25W 125S",
+      "bt": "1:20",
+      "fr": "2.0",
+      "los": "10",
+      "hp": "1020",
+      "ra": "1-8",
+      "at": "5",
+      "ar": "1/7",
+      "GA": "garrison 5 units, +2 vs spearmen line, +7 damage vs ships/camels, max 5 arrows",
+      "civb": {
+        "Byzantines": "1122 HP in Dark, 1224 HP in Feudal, 1326 HP in Castle, 1428 HP in Imperial (HP bonus)",
+        "Koreans": "+1 RA in Castle Age, +2 RA in Imperial Age",
+        "Teutons": "+5 garrison, max 9 arrows"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Guard Tower",
+      "ver": "k",
+      "age": "2",
+      "cost": "25W 125S",
+      "bt": "1:20",
+      "fr": "2.0",
+      "los": "10",
+      "hp": "1500",
+      "ra": "1-8",
+      "at": "6",
+      "ar": "2/8",
+      "GA": "garrison 5 units, +2 vs spearmen line, +9 damage vs ships/camels, max 5 arrows",
+      "civb": {
+        "Byzantines": "1950 HP in Castle, 2100 HP in Imperial (HP bonus)",
+        "Koreans": "+1 RA in Castle Age, +2 RA in Imperial Age",
+        "Teutons": "+5 garrison, max 9 arrows"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Keep",
+      "ver": "k",
+      "age": "3",
+      "cost": "25W 125S",
+      "bt": "1:20",
+      "fr": "2.0",
+      "los": "10",
+      "hp": "2250",
+      "ra": "1-8",
+      "at": "7",
+      "ar": "3/9",
+      "GA": "garrison 5 units, +2 vs spearmen line, +10 damage vs ships/camels, max 5 arrows",
+      "civb": {
+        "Byzantines": "3108 HP in Imperial (HP bonus)",
+        "Koreans": "+1 RA in Castle Age, +2 RA in Imperial Age",
+        "Teutons": "+5 garrison, max 9 arrows"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Bombard Tower",
+      "ver": "k",
+      "age": "3",
+      "cost": "100G 125S",
+      "bt": "1:20",
+      "fr": "6.0",
+      "los": "10",
+      "hp": "2220",
+      "ra": "1-8",
+      "at": "120",
+      "ar": "3/9",
+      "GA": "garrison 5 units, +40 damage vs ships/camels, pierce attack",
+      "civb": {
+        "Byzantines": "3108 HP in Imperial (HP bonus)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Palisade Wall",
+      "ver": "k",
+      "age": "0",
+      "cost": "2W",
+      "bt": "0:05",
+      "fr": "-",
+      "los": "2",
+      "hp": "250",
+      "ra": "-",
+      "at": "-",
+      "ar": "2/5",
+      "GA": "",
+      "civb": {
+        "Byzantines": "275 HP in Dark, 300 HP in Feudal, 325 HP in Castle, 350 HP in Imperial (HP bonus)",
+        "Mayans and allies": "Cost 1W (50% cheaper)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Stone Wall",
+      "ver": "k",
+      "age": "1",
+      "cost": "5S",
+      "bt": "0:08",
+      "fr": "-",
+      "los": "2",
+      "hp": "1800",
+      "ra": "-",
+      "at": "-",
+      "ar": "8/10",
+      "GA": "",
+      "civb": {
+        "Byzantines": "2160 HP in Feudal, 2340 HP in Castle, 2520 HP in Imperial (HP bonus)",
+        "Mayans and allies": "Cost 3S (50% cheaper)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Fortified Wall",
+      "ver": "k",
+      "age": "2",
+      "cost": "5S",
+      "bt": "0:08",
+      "fr": "-",
+      "los": "2",
+      "hp": "3000",
+      "ra": "-",
+      "at": "-",
+      "ar": "12/12",
+      "GA": "",
+      "civb": {
+        "Byzantines": "3900 HP in Castle, 4200 HP in Imperial (HP bonus)",
+        "Mayans and allies": "Cost 3S (50% cheaper)"
+      },
+      "t" : ""
+    },
+    {
+      "type": "Defensive",
+      "name": "Gate",
+      "ver": "k",
+      "age": "1",
+      "cost": "30S",
+      "bt": "0:70",
+      "fr": "-",
+      "los": "6",
+      "hp": "2750",
+      "ra": "-",
+      "at": "-",
+      "ar": "6/6",
+      "GA": "+1250 HP with Fortified Wall<br />(Gates parallel to the bottom right edge have 0:30 bt)",
+      "civb": {
+        "Mayans and allies": "Cost 15S (50% cheaper, only for gates parallel to the bottom right edge)"
+      },
+      "t" : ""
+    }
+  ]
+}

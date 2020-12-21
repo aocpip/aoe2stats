@@ -1,0 +1,416 @@
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #e9ece5;
+	color: #3b3a36;
+}
+
+.searchable{
+	cursor: pointer;
+	color: #337ab7;
+}
+
+.searchbox {
+	float: right;
+	display: inline-block;
+
+	margin: 2px;
+	margin-right: 24px;
+
+	font-size: 24px;
+}
+
+.searchbox input {
+	color: black;
+}
+
+/*
+.anchors, .title {
+	float: left;
+	display: inline-block;
+}
+*/
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -132px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	right: 0;
+	left: 0;
+}
+
+#header-push {
+	float: left;
+}
+
+span.clear{
+	clear: both;
+	display: block;
+}
+
+.header {
+	display: block;
+	padding: 8px;
+	background-color: #1d2120;
+	color: white;
+}
+
+span.title {
+	color: white;
+	font-size: 20px;
+	margin: 0px 16px;
+	padding-top: 8px;
+	display: inline-block;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #080808;
+    font-weight: bold;
+}
+
+.navbar-header a, .navbar-nav a{
+	cursor: pointer;
+}
+
+.version-switcher {
+	display: inline-block;
+	float: left;
+}
+
+.anchors {
+	margin: 8px;
+}
+
+.anchors a{
+	font-weight: bold;
+	color: rgba(179, 194, 191, 0.5);
+	font-size: 20px;
+	margin: 0px 8px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.anchors .title-active{
+	color: white;
+}
+
+.header a:hover {
+	color: #C4B5B1;
+}
+
+.footer a {
+	color: #4D6762;
+	font-weight: bold;
+}
+
+.footer a:hover {
+	color: #736862;
+}
+
+
+.footer, .push {
+    width: 100%;
+    height: 124px;
+}
+
+#content {
+	width: 100%;
+	padding-top: 16px;
+}
+
+
+@media screen and (min-width: 1280px) {
+	#content {
+		width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+#logos {
+	margin: 4px auto;
+	position: relative;
+	display: block;
+	min-height: 72px;
+	max-width: 800px;
+	padding: 4px 20px;
+	background: none;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#logos div {
+	vertical-align: middle;
+}
+
+#logos > div {
+	display: block;
+}
+
+#logos .box-background {
+	-moz-border-radius: 50px  / 32px ;
+	-webkit-border-radius: 50px  / 32px;
+	border-radius: 50px  / 32px;
+}
+
+
+#logos img {
+  position: relative;
+  top: 50%;
+  /*
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);*/
+}
+
+.right-aligned div{
+	float:right;
+	text-align: right;
+}
+
+.left-aligned div{
+	float:left;
+	text-align: left;
+}
+
+.aocversion > span{
+	min-width: 260px;
+}
+
+.select2-container .select2-selection--single {
+	height: 32px;
+	margin-top: 4px;
+}
+
+.version-item {
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.version-item img {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 2px 0px;
+}
+
+.version-item .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 4px;
+}
+
+.section {
+	margin: 8px;
+	margin-left: 16px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#voobly-logo img {
+	background-color: rgba(0,0,0,0.54);
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.54);
+	-moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.54);
+	box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.54);
+}
+
+a {
+	text-decoration: none;
+}
+
+.bold-cell {
+	font-weight: bold;
+}
+
+table.dataTable tbody tr.group {
+	background-color: #b3c2bf;
+	color: white;
+}
+
+table.dataTable tbody tr.group td.group-title {
+	font-size: 18px;
+	cursor: pointer;
+}
+
+table.dataTable tbody tr.group:hover {
+	background-color: #C1CDCB;
+}
+
+table.dataTable tbody tr.group-collapsed {
+	background-color: #7A958F;
+}
+
+.section {
+	display: inline-block;
+	margin-top: 16px;
+}
+
+.dataTables_filter, .dataTables_info { display: none; }
+
+#content > div {
+	padding-top: 50px;
+}
+
+#legend {
+	padding-top: 0px !important;
+}
+
+#legend table td {
+	padding: 4px;
+}
+
+#empty {
+	text-align: center;
+	font-size: 24px;
+}
+
+table.fixedHeader-floating {
+
+	background-color: #e9ece5 !important;
+
+}
+
+.detail-head {
+	font-style: italic;
+	font-size: 16px;
+}
+
+table.detail-table, table.detail-table tr, table.detail-table tbody tr{
+	background-color: #e9ece5;
+}
+
+.table td.child {
+	padding: 0;
+}
+
+.table td.child div {
+	padding: 8px;
+	background-color: white;
+}
+
+td.child tr > td:first-child {
+	font-weight: bold;
+}
+
+.version_icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+
+.version_icon span {
+	display: none;
+}
+
+.icon_dlc {
+	background-image: url('../images/aocversion/dlc_16.png');
+}
+
+.icon_kings {
+	background-image: url('../images/aocversion/aok_16.png');
+}
+
+.icon_conquerors {
+	background-image: url('../images/aocversion/aoc_16.png');
+}
+
+.icon_forgotten {
+	background-image: url('../images/aocversion/aof_16.png');
+}
+
+.icon_african {
+	background-image: url('../images/aocversion/aoa_16.png');
+}
+
+.icon_rajas {
+	background-image: url('../images/aocversion/aor_16.png');
+}
+
+.icon_de {
+	background-image: url('../images/aocversion/de_16.png');
+}
+
+div.availability span {
+	display: inline-block;
+	margin: 2px;
+	border-radius: 2px;
+	padding: 4px;
+}
+
+div.availability span.civ-avail {
+	background-color: #A1DBA1;
+	font-size: 12px;
+}
+
+div.availability span.civ-noavail {
+	background-color: #E4ACAC;
+	font-size: 10px;
+}
+
+.group .group-title:before {
+
+	font-size: 14px;
+    height: 16px;
+    width: 16px;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 3px #444;
+    box-sizing: content-box;
+    font-family: 'Courier New',Courier,monospace;
+    text-indent: 4px;
+    line-height: 16px;
+    content: '+';
+    background-color: #337ab7;
+}
+
+.parent .group-title:before {
+	content: '-';
+    background-color: #d33333;
+}
+
+#compare-clear:hover {
+	color: #111;
+}
+
+/*
+.navbar-fixed-top .navbar-right {
+	margin-right: 0;
+}
+
+.navbar-fixed-top div.container-fluid {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left:;
+}
+*/
+
+table.stickyHeader thead, th.inverse{
+	background-color: #3b3a36;
+	color: #e9ece5;
+}
