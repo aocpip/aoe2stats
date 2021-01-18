@@ -272,7 +272,7 @@ function updateComparisons() {
 
 	var version = Cookies.get("aocversion") || $("#aocversion").val();
 
-	var redirect_url =  "compare.php?v="+version+"&c="+get_comparison_query();
+	var redirect_url =  "compare.html?v="+version+"&c="+get_comparison_query();
 	$("#compare").attr("href", redirect_url);
 }
 
