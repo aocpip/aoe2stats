@@ -1,6 +1,6 @@
 {
   "name": "aoe2stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Age of Empires II statistics [website](http://aoe2stats.net).",
   "main": "",
   "scripts": {
