@@ -45,6 +45,7 @@
     "select2": "^4.0.3",
     "sticky-table-headers": "^0.1.19",
     "through2": "^4.0.2",
-    "tooltipster": "^4.1.6"
+    "tooltipster": "^4.1.6",
+    "vue": "^2.6.12"
   }
 }

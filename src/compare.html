@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/vendor.min.%VERSION%.css">
+    <link rel="stylesheet" type="text/css" href="css/style.%VERSION%.css">
+    <script src="js/vendor.%VERSION%.js"></script>
+    <title>AoCStats: Age of Empires 2 Statistics</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <script>
+        if (typeof Cookies.get("version") === "undefined" || Cookies.get("version") != '%VERSION%') {
+            Cookies.set("version", '%VERSION%');
+            // avoid reload loop if cookies are disabled
+            if (typeof Cookies.get("version") !== "undefined") {
+                document.location.reload(true);
+            }
+        }
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-66185262-1', 'auto');
+        ga('send', 'pageview');
+
+        var resizeId = null;
+    </script>
+
+</head>
+
+<body>
+
+    <div class="wrapper clearfix">
+        <!-- CONTENT -->
+        <script src="js/compare.%VERSION%.js"></script>
+
+        <nav class="navbar navbar-inverse" id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">AoC Stats</a>
+                    <p class="navbar-text navbar-left">Comparison</p>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1>Re-write work in progress. Thank you for your patience.</h1> 
+        <!-- FOOTER -->
+        <div class="push"></div>
+    </div> <!-- wrapper -->
+    <div class="footer">
+        <div style="text-align: center" class="light-glow">
+            Created by <a href="https://github.com/aocpip/aoe2stats">pip</a> (2015-2017) Contributors: Jineapple, HSZemi
+        </div>
+    </div>
+</body>
+
+</html>

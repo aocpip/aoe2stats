@@ -41,11 +41,18 @@ function buildAll(cb) {
     gulp.src('src/index.html', { base: 'src' })
         .pipe(replace(/%VERSION%/g, version))
         .pipe(gulp.dest(`${releaseDir}`))
+    gulp.src('src/compare.html', { base: 'src' })
+        .pipe(replace(/%VERSION%/g, version))
+        .pipe(gulp.dest(`${releaseDir}`))
     gulp.src('src/favicon.png', { base: 'src' })
         .pipe(gulp.dest(`${releaseDir}`))
 
     gulp.src('src/js/main.js', { base: 'src' })
         .pipe(rename(`main.${version}.js`))
+        .pipe(gulp.dest(`${releaseDir}/js`))
+
+    gulp.src('src/js/compare.js', { base: 'src' })
+        .pipe(rename(`compare.${version}.js`))
         .pipe(gulp.dest(`${releaseDir}/js`))
 
     gulp.src('src/css/style.css', { base: 'src' })
@@ -91,7 +98,9 @@ function buildAll(cb) {
     nodeDir + 'select2/dist/js/select2.min.js',
     nodeDir + 'js-cookie/src/js.cookie.js',
     nodeDir + 'tooltipster/dist/js/tooltipster.bundle.min.js',
-    nodeDir + 'sticky-table-headers/js/jquery.stickytableheaders.min.js'],
+    nodeDir + 'sticky-table-headers/js/jquery.stickytableheaders.min.js',
+    nodeDir + 'vue/dist/vue.min.js'
+    ],
         { base: nodeDir })
         .pipe(concat(`vendor.${version}.js`))
         .pipe(stripDebug())
